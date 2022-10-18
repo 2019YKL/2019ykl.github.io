@@ -8,7 +8,7 @@
     <link href="/2022/10/18/Hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
     <url>/2022/10/18/Hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>输入<code>hexo clean</code>清除现有配置</li><li>输入<code>hexo g -d</code>更新现有配置并用Git推送</li></ol><figure class="highlight plaintext"><figcaption><span>[html] [url] [link text] [additional options]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs [language]">hexo clean<br></code></pre></td></tr></table></figure>]]></content>
     
     
     
