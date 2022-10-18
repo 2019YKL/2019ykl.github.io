@@ -17,11 +17,11 @@
   
   
   <entry>
-    <title>小谈图床 第二期</title>
+    <title>Github图床配置</title>
     <link href="/2022/10/18/%E5%B0%8F%E8%B0%88%E5%9B%BE%E5%BA%8A%20%E7%AC%AC%E4%BA%8C%E6%9C%9F/"/>
     <url>/2022/10/18/%E5%B0%8F%E8%B0%88%E5%9B%BE%E5%BA%8A%20%E7%AC%AC%E4%BA%8C%E6%9C%9F/</url>
     
-    <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>一年前，我曾写下《小谈图床》这篇文章。</p><p>近期正巧在部署静态博客Hexo，于是决定重新研究一番，也根据我现有的知识来进行一番优化。</p><h2 id="GitHub图床搭建"><a href="#GitHub图床搭建" class="headerlink" title="GitHub图床搭建"></a>GitHub图床搭建</h2><p>其实网上这类教程早已多如牛毛，这里仅简单记载作为作者自身备忘。</p><ol><li>右上角创建一个<strong>公开</strong>仓库</li><li>Github个人设置选择<strong>Developer setting</strong>创建一个密钥，这里密钥最好单独记载一下，否则每次使用都得重新生成。</li><li>依次将仓库名、分支名main、上述生成的密钥Token填入Picgo即可。</li><li>可以设定<code>https://cdn.jsdelivr.net/gh</code> +仓库名的形式来提升访问速度。</li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="GitHub图床搭建"><a href="#GitHub图床搭建" class="headerlink" title="GitHub图床搭建"></a>GitHub图床搭建</h2><p>其实网上这类教程早已多如牛毛，这里仅简单记载作为作者自身备忘。</p><ol><li>右上角创建一个<strong>公开</strong>仓库</li><li>Github个人设置选择<strong>Developer setting</strong>创建一个密钥，这里密钥最好单独记载一下，否则每次使用都得重新生成。</li><li>依次将仓库名、分支名main、上述生成的密钥Token填入Picgo即可。</li><li>可以设定<code>https://cdn.jsdelivr.net/gh</code> +仓库名的形式来提升访问速度。</li></ol>]]></content>
     
     
     
