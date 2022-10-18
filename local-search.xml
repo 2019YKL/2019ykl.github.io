@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Hexo使用笔记</title>
+    <link href="/2022/10/18/Hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
+    <url>/2022/10/18/Hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>小谈图床</title>
     <link href="/2022/10/18/%E5%B0%8F%E8%B0%88%E5%9B%BE%E5%BA%8A/"/>
     <url>/2022/10/18/%E5%B0%8F%E8%B0%88%E5%9B%BE%E5%BA%8A/</url>
@@ -63,25 +76,6 @@
     <content type="html"><![CDATA[<p>目前，我的博客网站使用的是Wordpress系统，选择Wordpress的理由有很多，它开源、有较为简单的前后端管理方案，丰富的插件也便于实现一些所需功能。</p><p>本篇文章记载了一些个人优化网站时所遇到的问题以及对应解决方案。</p><p>当然，在网站优化方面笔者亦为新手，下文所记载的要点，除了抛砖引玉一说，也作为日后自身回顾备忘所用。</p><h2 id="网站测试"><a href="#网站测试" class="headerlink" title="网站测试"></a>网站测试</h2><p>首先，要想了解目前网站有什么不足之处，可以使用网页性能优化工具进行测试。</p><p>这是我目前常用测试网站：<a href="https://pagespeed.web.dev/">PageSpeed Insights</a></p><p>只需要输入你自己的网站，稍后它会提供一系列性能问题，并提出建议可行优化方案。</p><p><img src="https://s2.loli.net/2022/10/06/fMaXBDR8iPQA3nO.png" alt="image-20221006223819755"></p><p>类似的网站还有挺多，下方罗列</p><ul><li><a href="https://web.dev/measure/">web.dev</a></li><li><a href="https://www.webpagetest.org/">webpagetest</a></li></ul><p>除了测试网站，还可以使用Wordpress上的插件，例如<a href="https://wordpress.org/plugins/jetpack-boost/">Jetpack Boost</a>, 他们对应的Jetpack也是较为出名的Wordpress优化插件，在之后的文章我会有所介绍。</p><h2 id="图片大小优化"><a href="#图片大小优化" class="headerlink" title="图片大小优化"></a>图片大小优化</h2><p>一般而言，对图片的处理对于提升网站速度感受最为明显，作为一名年少无知的博主，心想既然是自己的小站，那图就必须讲究一个清晰。</p><p>所以刚开始我的文章配图动辄就是5Mb以上的大小，<strong>于是不出意料，我的小破站有时半分钟都没能加载完全</strong>。</p><p>在意识到了这个问题后，我开始设法优化图片来提升网页加载速度。</p><p><img src="https://s2.loli.net/2022/10/06/yHixgeBu3s6OUhk.png" alt="image-20221006223803369"></p><p>首先，在保持图片清晰的前提下，尽量缩小图片的文件大小。</p><p>你可以使用类似<a href="https://tinypng.com/">TinyPNG – Compress WebP, PNG and JPEG images intelligently</a></p><p>这种在线图片压缩网站，不过它仅支持5MB以内的文件压缩，并且不支持自定义压缩程度，因此在一些场合下显得有些鸡肋。</p><p>于是我找到了<a href="https://github.com/meowtec/Imagine">Imagin</a>这款软件，它支持Png、Jpeg、Webp格式自定义等级压缩与格式互转，最后呈现的效果也较为不错。</p><p><img src="https://s2.loli.net/2022/10/06/4vgUxiHsrS6Dlz5.png" alt="image-20221006223834774"></p><p>上文提及图片格式有Png、Jpeg、Webp，其中Webp格式在保持同等图片清晰度的情况下，压缩效果最好。</p><p>不过值得注意的是，Webp格式并非所有浏览器都支持，具体支持情况可以查看：<a href="https://caniuse.com/webp">WebP image format | Can I use… Support tables for HTML5, CSS3, etc</a></p><p>因此目前直接采用Webp的图片格式，是较为激进的做法。Wordpress也在较长的一段时间内并不支持Webp。</p><p>如果在建站的过程中，你发现自己的Wordpress无法上传、使用Webp格式的图片，请参考以下文章。</p><ul><li><a href="https://cloud.tencent.com/developer/article/1866519">在Php中安装ImageMagick扩展</a></li><li><a href="https://www.atdevin.com/3132.html">在function主题中添加部分代码获取支持</a></li></ul><h2 id="图片加载优化"><a href="#图片加载优化" class="headerlink" title="图片加载优化"></a>图片加载优化</h2><p>说完了图片格式、大小的处理后，之后需要考虑的就是如何在网站上呈现他们了。</p><p>我使用的服务器远在美国，倘若采用直连的方式，效果并不太理想。</p><p>当然，你可以将网站托管给Cloudflare，这样部分地区访问速度会有所提升，不过若是在某些特定时期，CF的表现也有些堪忧。</p><p>博客所用的图片一般有两种：只能本地上传的与能够使用图床的。</p><p>对于能使用图床的图片，可以查看我的往期博文了解：<a href="https://jk2333.com/image/">小谈图床 – JKblog (jk2333.com)</a></p><p>对于只能本地上传的图片，目前我尝试了两种方案：</p><ul><li><p>插件Jetpack自带的cdn图片加速</p></li><li><p>Github+cdn.jsdelivr.net 静态托管</p></li></ul><p>第一种方案非常简单，你只需在Wordpress的插件市场中，搜索Jetpack，勾选图片加速即可，在清理缓存后，使用F12查看图片元素对应链接是否带上类似i0.wp.com的前缀即可。</p><p><img src="https://s2.loli.net/2022/10/06/PEw5GR1WJu7Oinf.png" alt="image-20221006223922670"></p><p>第二种方案较为复杂，你需要将你的Wp下的静态资源存放到Github上，然后通过jsdelivr提供的cdn加速，最后用插件将你的原链接进行替换。这个方案在更新博文时，需要操作的步骤也较为繁琐。你可以查看<a href="https://sleele.com/2020/05/09/wordpressjsdelivr-%E4%BC%AA%E5%85%A8%E7%AB%99cdn/">WordPress+jsDelivr开启伪全站CDN</a>这篇博文来了解，里面的教程非常详细。</p><p>不过值得一提的是，写这篇博客的博主，最后也还是迁回了国内…</p><p>在选择具体方案前，使用这个<a href="https://tool.chinaz.com/speedcom/">国内网站测速对比</a>工具，可以对加速的cdn有较为初步的判断。</p><p><img src="https://s2.loli.net/2022/10/06/BiAGtVln5K7oUWc.png" alt="Snipaste_2022-10-06_22-46-42"></p><p>不过测试结果也是仅供参考，实际两种方案都尝试以后，也并没有感觉到更丝滑了多少… 甚至如Jetpack据说并没有国内的cdn，因此如果贸然套上，有可能还造成了减速的效果…</p><p>以上便是我个人关于图片格式、加载的优化方案了，如果对博文有不明白的地方或是持有更好的见解，欢迎在评论区里留言。</p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul><li><a href="https://limbopro.com/archives/1959.html">3个网页性能（速度&#x2F;TTFB）优化工具（SEO）及6个网站测速工具 </a></li><li><a href="https://sleele.com/2020/05/09/wordpressjsdelivr-%E4%BC%AA%E5%85%A8%E7%AB%99cdn/">WordPress+jsDelivr开启伪全站CDN</a></li></ul>]]></content>
     
     
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>hexo使用笔记</title>
-    <link href="/2022/10/17/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
-    <url>/2022/10/17/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
-    
-    <content type="html"><![CDATA[<h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>输入<code>hexo clean</code>清除现有配置</li><li>输入<code>hexo g -d</code>更新现有配置并用Git推送</li></ol><figure class="highlight plaintext"><figcaption><span>[html] [url] [link text] [additional options]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs [language]">hexo clean<br></code></pre></td></tr></table></figure>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>hexo</tag>
-      
-    </tags>
     
   </entry>
   
