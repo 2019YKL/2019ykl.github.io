@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://gcore.jsdelivr.net/gh/2019YKL/hexo-imag/2022/%E5%B0%8F%E8%B0%88%E5%9B%BE%E5%BA%8A.jpg">
 <meta property="article:published_time" content="2022-10-18T08:06:04.000Z">
-<meta property="article:modified_time" content="2022-10-18T09:29:00.638Z">
+<meta property="article:modified_time" content="2022-10-20T07:13:14.224Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://gcore.jsdelivr.net/gh/2019YKL/hexo-imag/2022/%E5%B0%8F%E8%B0%88%E5%9B%BE%E5%BA%8A.jpg">
@@ -220,7 +220,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.4k 字
+          1.6k 字
         
       </span>
     
@@ -231,7 +231,7 @@
         
         
         
-          12 分钟
+          14 分钟
         
       </span>
     
@@ -287,7 +287,14 @@
 <h3 id="图床选择"><a href="#图床选择" class="headerlink" title="图床选择"></a>图床选择</h3><p>那么根据以上几点标准，大致选出了一下几种方案：</p>
 <h4 id="sm-ms-图床"><a href="#sm-ms-图床" class="headerlink" title="sm.ms 图床"></a>sm.ms 图床</h4><p>免费用户有5GB空间，但文件大小限制5MB，由于提供现成API，配置较为简单，但免费就意味着，随着用户增多，平台质量有待考量。</p>
 <p><strong>2022年10月18日更新</strong>：SM关闭游客上传后，访问速度有所提升，不过现如今sm.ms域名已被封禁。</p>
-<h4 id="GitHub-图床"><a href="#GitHub-图床" class="headerlink" title="GitHub 图床"></a>GitHub 图床</h4><p>本质上，GitHub能做图床一开始笔者也甚是意外，GitHub貌似在文件大小超过50MB时会发送邮件，但不影响使用。关于如何搭建GitHub图床，该篇教程已讲得十分详细，文中不再赘述。</p>
+<h4 id="GitHub-图床"><a href="#GitHub-图床" class="headerlink" title="GitHub 图床"></a>GitHub 图床</h4><p>本质上，GitHub能做图床一开始笔者也甚是意外，GitHub貌似在文件大小超过50MB时会发送邮件，但不影响使用。</p>
+<h6 id="GitHub图床搭建"><a href="#GitHub图床搭建" class="headerlink" title="GitHub图床搭建"></a>GitHub图床搭建</h6><p>其实网上这类教程早已多如牛毛，这里仅简单记载作为作者自身备忘，具体可以参考<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/353775844">该篇教程</a>。</p>
+<ol>
+<li>右上角创建一个<strong>公开</strong>仓库</li>
+<li>Github个人设置选择<strong>Developer setting</strong>创建一个密钥，这里密钥最好单独记载一下，否则每次使用都得重新生成。</li>
+<li>依次将仓库名、分支名main、上述生成的密钥Token填入Picgo即可。</li>
+<li>可以设定<code>https://cdn.jsdelivr.net/gh</code> +仓库名的形式来提升访问速度。</li>
+</ol>
 <h4 id="七牛云"><a href="#七牛云" class="headerlink" title="七牛云"></a>七牛云</h4><p>七牛云提供的服务有很多，这也是笔者在摸索过程中，第一次接触到<strong>对象存储</strong>这一概念。</p>
 <p>七牛云的优势在于免费用户有10GB的存储空间，听起来较为不错，但下载流量另算（也是每月10G免费），希望笔者这小小站能多嫖一段时间。</p>
 <p>七牛云的配置最为繁琐，在注册时需要实名认证，不过所幸笔者是个正人君子。不搞一些奇怪的东西也就无所畏惧，话虽如此，在当天下午接到七牛云客服回访时，提桶跑路的想法依旧凌越而上。</p>
