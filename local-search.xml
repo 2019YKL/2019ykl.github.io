@@ -27,7 +27,7 @@
     <link href="/2022/10/18/Hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
     <url>/2022/10/18/Hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[<h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>清除Hexo现有配置：<code>hexo clean</code></li><li>更新并推送现有配置：<code>hexo g -d</code></li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li><p>清除Hexo现有配置：<code>hexo clean</code></p></li><li><p>更新并推送现有配置：<code>hexo g -d</code> ，depoly本地的Public文件夹。</p></li></ol>]]></content>
     
     
     
