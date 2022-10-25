@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Hugo 搭建博客</title>
+    <link href="/posts/5c83b0d3/"/>
+    <url>/posts/5c83b0d3/</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><ol><li><p>前往Hugo Github项目，找到自己运行环境对应的包，以笔者Win11为例，这里选择下载 <a href="https://github.com/gohugoio/hugo/releases/download/v0.104.3/hugo_0.104.3_windows-amd64.zip">hugo_0.104.3_windows-amd64.zip</a></p></li><li><p>下载解压，里面有三个文件，其中有一个<strong>Hugo.exe</strong>.</p></li><li><p>想要运行<strong>Hugo.exe</strong>，必须先添加环境变量。</p><ol><li>新建一个文件夹，例如命名为<strong>hugo</strong>，创建子级文件夹，命名为<strong>bin</strong>，把<strong>Hugo.exe</strong>放进去。</li><li>找到<strong>此电脑</strong>右键<strong>属性</strong>，选择<strong>高级系统设置</strong>，找到<strong>环境变量</strong>这一选项。</li><li>找到<strong>path</strong>这一变量，编辑-新建环境变量<br> <img src="https://s2.loli.net/2022/10/25/G2Vdm6MO38uZnLv.png" alt="path"></li><li>将上述exe文件所在位置添加到系统变量当中，如下图 👇<br> <img src="https://s2.loli.net/2022/10/25/DtBL7s4WNU3r6eM.png" alt="具体路径演示"></li></ol></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>博客搭建</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hexo源文件 简单备份</title>
     <link href="/posts/5a8a6c8d/"/>
     <url>/posts/5a8a6c8d/</url>
@@ -59,7 +78,7 @@
     <link href="/posts/3279/"/>
     <url>/posts/3279/</url>
     
-    <content type="html"><![CDATA[<h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>清除Hexo现有配置：<code>hexo clean</code></li><li>更新并推送现有配置：<code>hexo g -d</code> ，depoly本地的Public文件夹。</li><li>本地查看： <code>hexo server -p</code> <strong>默认4000端口</strong>，<code>-p</code>后可自定义端口。</li></ol><h3 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h3><p>模板位于<strong>scaffolds</strong>文件夹，可以添加额外参数来使后面生成的文件自带对应参数。<br>这是我目前的模板：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> &#123;&#123; <span class="hljs-string">title</span> &#125;&#125;  <span class="hljs-string">//标题</span><br><span class="hljs-attr">date:</span> &#123;&#123; <span class="hljs-string">date</span> &#125;&#125; <span class="hljs-string">//写作日期</span><br><span class="hljs-attr">author:</span> <span class="hljs-string">jk2333</span> <span class="hljs-string">//作者</span><br><span class="hljs-attr">index_img:</span>  <span class="hljs-string">//首页文章缩略图</span><br><span class="hljs-attr">banner_img:</span> <span class="hljs-string">//文章详情封面图</span><br><span class="hljs-attr">excerpt:</span>  <span class="hljs-string">//摘要</span><br><span class="hljs-attr">tags:</span> <span class="hljs-string">//标签</span><br><span class="hljs-meta">---</span><br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>清除Hexo现有配置：<code>hexo clean</code></li><li>更新并推送现有配置：<code>hexo g -d</code> ，depoly本地的Public文件夹。</li><li>本地查看： <code>hexo server -p</code> <strong>默认4000端口</strong>，<code>-p</code>后可自定义端口。</li></ol><h3 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h3><p>模板位于<strong>scaffolds</strong>文件夹，可以添加额外参数来使后面生成的文件自带对应参数。<br>这是我目前的模板：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> &#123;&#123; <span class="hljs-string">title</span> &#125;&#125;  <span class="hljs-string">//标题</span><br><span class="hljs-attr">date:</span> &#123;&#123; <span class="hljs-string">date</span> &#125;&#125; <span class="hljs-string">//写作日期</span><br><span class="hljs-attr">author:</span> <span class="hljs-string">jk2333</span> <span class="hljs-string">//作者</span><br><span class="hljs-attr">index_img:</span>  <span class="hljs-string">//首页文章缩略图</span><br><span class="hljs-attr">banner_img:</span> <span class="hljs-string">//文章详情封面图</span><br><span class="hljs-attr">excerpt:</span>  <span class="hljs-string">//摘要</span><br><span class="hljs-attr">tags:</span> <span class="hljs-string">//标签</span><br><span class="hljs-meta">---</span><br></code></pre></td></tr></table></figure><blockquote><p>这种方式会导致abbrlink插件失效，因为判定Post不再是默认的Post了，这多少有点匪夷所思，目前也没找到更好的解决方案，遂放弃。</p></blockquote>]]></content>
     
     
     
