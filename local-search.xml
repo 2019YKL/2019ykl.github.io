@@ -4,25 +4,6 @@
   
   
   <entry>
-    <title>今夕月明</title>
-    <link href="/posts/bc6c44c3/"/>
-    <url>/posts/bc6c44c3/</url>
-    
-    <content type="html"><![CDATA[<p>不知不觉，返回小镇已有一年。</p><p>游历在外的景色日渐模糊，久居故里的厌倦一再侵袭。</p><p>每有烦心之事，常是孤身一人徘徊广场，独赏明月，随后往事逐页翻卷，固望月抒情之事，千古如一。</p><p>皓月当空，时代的喧嚣得以暂抛眼后，晚风的微凉重新扑面而至，至于其余的琐事，无关风月。</p><p>只是良辰常有，美景时故，但少闲人如吾一人。</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>所述浮生</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>2022 人间难忘张丽君</title>
     <link href="/posts/c02e8e7d/"/>
     <url>/posts/c02e8e7d/</url>
@@ -33,9 +14,9 @@
     
     <tags>
       
-      <tag>所诉浮生</tag>
-      
       <tag>影音书摘</tag>
+      
+      <tag>所诉浮生</tag>
       
     </tags>
     
@@ -152,19 +133,6 @@
   
   
   <entry>
-    <title>检测网站状况汇总</title>
-    <link href="/posts/65467/"/>
-    <url>/posts/65467/</url>
-    
-    <content type="html"><![CDATA[<h2 id="网站测速"><a href="#网站测速" class="headerlink" title="网站测速"></a>网站测速</h2><h3 id="站长测速"><a href="#站长测速" class="headerlink" title="站长测速"></a>站长测速</h3><p>可以大致了解各个区域打开你网站的速度：<a href="https://tool.chinaz.com/speedtest">chinaz</a></p><h3 id="IT-Dog"><a href="#IT-Dog" class="headerlink" title="IT Dog"></a>IT Dog</h3><p>同类型网站，貌似他们测试的服务器比较多，可以参考着看看。 <a href="https://www.itdog.cn/">itdog</a></p><h3 id="被墙检测"><a href="#被墙检测" class="headerlink" title="被墙检测"></a>被墙检测</h3><p>可以检测你的网站是否被墙，当然，这有时候真的很玄学：<a href="https://www.checkgfw.com/">checkgfw</a></p><h3 id="域名归属"><a href="#域名归属" class="headerlink" title="域名归属"></a>域名归属</h3><p>这里可以查看某个1·域名的各种信息，例如续期情况，归属之类的 <a href="https://ip.sb/">ip.sb</a></p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>搏击俱乐部</title>
     <link href="/posts/56401/"/>
     <url>/posts/56401/</url>
@@ -196,7 +164,22 @@
       
       <tag>博客相关</tag>
       
+      <tag>工具学习</tag>
+      
     </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>检测网站状况汇总</title>
+    <link href="/posts/65467/"/>
+    <url>/posts/65467/</url>
+    
+    <content type="html"><![CDATA[<h2 id="网站测速"><a href="#网站测速" class="headerlink" title="网站测速"></a>网站测速</h2><h3 id="站长测速"><a href="#站长测速" class="headerlink" title="站长测速"></a>站长测速</h3><p>可以大致了解各个区域打开你网站的速度：<a href="https://tool.chinaz.com/speedtest">chinaz</a></p><h3 id="IT-Dog"><a href="#IT-Dog" class="headerlink" title="IT Dog"></a>IT Dog</h3><p>同类型网站，貌似他们测试的服务器比较多，可以参考着看看。 <a href="https://www.itdog.cn/">itdog</a></p><h3 id="被墙检测"><a href="#被墙检测" class="headerlink" title="被墙检测"></a>被墙检测</h3><p>可以检测你的网站是否被墙，当然，这有时候真的很玄学：<a href="https://www.checkgfw.com/">checkgfw</a></p><h3 id="域名归属"><a href="#域名归属" class="headerlink" title="域名归属"></a>域名归属</h3><p>这里可以查看某个1·域名的各种信息，例如续期情况，归属之类的 <a href="https://ip.sb/">ip.sb</a></p>]]></content>
+    
+    
     
   </entry>
   
@@ -207,7 +190,7 @@
     <link href="/posts/3635646c/"/>
     <url>/posts/3635646c/</url>
     
-    <content type="html"><![CDATA[<p>在Steam上，游戏厂商在各地区定价有高有低，所以实际上，你可以跑去低价区去买游戏（例如土耳其），然后共享给国区的自己，部分游戏售价甚至仅为国区的十分之一。</p><p>以下教程简单记录了如何较为方便地获取Steam土区余额。</p><p><img src="https://s2.loli.net/2022/10/25/kSYxCBP4hj1VUab.png" alt="具体流程"></p><h2 id="参考步骤"><a href="#参考步骤" class="headerlink" title="参考步骤"></a>参考步骤</h2><h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol><li>注册一个网易Buff账号</li><li>Steam绑定验证器<ol><li>已绑邮箱满七天的，再绑定手机令牌，只需要七天期。</li><li>未绑定过邮箱的，绑定手机令牌，需要十五天冷却期。</li></ol></li><li>开放Steam个人信息权限，具体查看这里👇<ol><li><a href="https://buff.163.com/help#before_trade">交易前的准备工作</a></li></ol></li></ol><h3 id="网易buff"><a href="#网易buff" class="headerlink" title="网易buff"></a>网易buff</h3><p>一般正常倒余额，差率大概在0.8折左右，也就是说100R的现金，最后能获得125R等额的对应地区货币。</p><p>在此基础上，有人开发了两个实时对比插件 👇</p><ol><li><a href="https://greasyfork.org/zh-CN/scripts/35597-%E9%A5%B0%E5%93%81%E6%AF%94%E4%BE%8B%E8%AE%A1%E7%AE%97%E8%84%9A%E6%9C%AC">饰品比例计算脚本</a></li><li><a href="https://greasyfork.org/zh-CN/scripts/410137-%E7%BD%91%E6%98%93buff%E4%BB%B7%E6%A0%BC%E6%AF%94%E4%BE%8B-%E6%89%BE%E6%8C%82%E5%88%80-%E6%8F%92%E4%BB%B6">网易buff比例计算</a><br>图中所框选即为交易比率，<strong>0.85</strong> 代表着最终所获余额八五折的差价。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/card.png"></li></ol><p>通常来说，在比率较为合理的情况下，选择交易人数越多的，越不容易翻车。</p><p>如果买了那种几千的饰品，而成交量长期为零的，那就要做好砸在手里做传家宝的准备。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/Ak-47.png"><br>在网页确定下单后，网易Buff会要求你去手机端提交报价，注意时长只有五分钟，如果多次不报价，可能导致账号被限制使用。</p><p>正常来说，长则数小时，短则几分钟，对方同意报价之后，饰品将直接入库你的Steam。</p><h3 id="Steam-售卖"><a href="#Steam-售卖" class="headerlink" title="Steam 售卖"></a>Steam 售卖</h3><p>来到Steam，如果已完成上述交易流程，你会发现Steam右上角有新信件提示，多了一件库存中的新物品，就是我们之前在网易Buff求购的饰品。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/gift.png"></p><p>选择对应饰品，点击出售即可，具体售价可以点击查看交易市场 了解平均的正常交易售价（有人急着获取余额，会压低价格甩卖）<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/list.png"></p><p>不过Steam需要抽成交额14%左右，所以建议新手计算一下买入与最后实际所得比例，是否与你在网易Buff上看到的比率一致。</p><p>之后等待有人来买，交易完成后就可以获得对应余额了。</p>]]></content>
+    <content type="html"><![CDATA[<p>在Steam上，游戏厂商在各地区定价有高有低，所以实际上，你可以跑去低价区去买游戏（例如土耳其），然后共享给国区的自己，部分游戏售价甚至仅为国区的十分之一。</p><p>以下教程简单记录了如何较为方便地获取Steam土区余额。</p><p><img src="https://s2.loli.net/2022/10/25/kSYxCBP4hj1VUab.png" alt="具体流程"></p><h2 id="参考步骤"><a href="#参考步骤" class="headerlink" title="参考步骤"></a>参考步骤</h2><h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol><li>注册一个网易Buff账号</li><li>Steam绑定验证器<ol><li>已绑邮箱满七天的，再绑定手机令牌，只需要七天期。</li><li>未绑定过邮箱的，绑定手机令牌，需要十五天冷却期。</li></ol></li><li>开放Steam个人信息权限，具体查看这里👇<ol><li><a href="https://buff.163.com/help#before_trade">交易前的准备工作</a></li></ol></li></ol><h3 id="网易buff"><a href="#网易buff" class="headerlink" title="网易buff"></a>网易buff</h3><p>一般正常倒余额，差率大概在0.8折左右，也就是说100R的现金，最后能获得125R等额的对应地区货币。</p><p>在此基础上，有人开发了两个实时对比插件 👇</p><ol><li><a href="https://greasyfork.org/zh-CN/scripts/35597-%E9%A5%B0%E5%93%81%E6%AF%94%E4%BE%8B%E8%AE%A1%E7%AE%97%E8%84%9A%E6%9C%AC">饰品比例计算脚本</a></li><li><a href="https://greasyfork.org/zh-CN/scripts/410137-%E7%BD%91%E6%98%93buff%E4%BB%B7%E6%A0%BC%E6%AF%94%E4%BE%8B-%E6%89%BE%E6%8C%82%E5%88%80-%E6%8F%92%E4%BB%B6">网易buff比例计算</a></li></ol><p>图中所框选即为交易比率，<strong>0.85</strong> 代表着最终所获余额八五折的差价。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/card.png"></p><p>通常来说，在比率较为合理的情况下，选择交易人数越多的，越不容易翻车。</p><p>如果买了那种几千的饰品，而成交量长期为零的，那就要做好砸在手里做传家宝的准备。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/Ak-47.png"><br>在网页确定下单后，网易Buff会要求你去手机端提交报价，注意时长只有五分钟，如果多次不报价，可能导致账号被限制使用。</p><p>正常来说，长则数小时，短则几分钟，对方同意报价之后，饰品将直接入库你的Steam。</p><h3 id="Steam-售卖"><a href="#Steam-售卖" class="headerlink" title="Steam 售卖"></a>Steam 售卖</h3><p>来到Steam，如果已完成上述交易流程，你会发现Steam右上角有新信件提示，多了一件库存中的新物品，就是我们之前在网易Buff求购的饰品。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/gift.png"></p><p>选择对应饰品，点击出售即可，具体售价可以点击查看交易市场 了解平均的正常交易售价（有人急着获取余额，会压低价格甩卖）<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/list.png"></p><p>不过Steam需要抽成交额14%左右，所以建议新手计算一下买入与最后实际所得比例，是否与你在网易Buff上看到的比率一致。</p><p>之后等待有人来买，交易完成后就可以获得对应余额了。</p>]]></content>
     
     
     
@@ -224,11 +207,30 @@
   
   
   <entry>
+    <title>今夕月明</title>
+    <link href="/posts/bc6c44c3/"/>
+    <url>/posts/bc6c44c3/</url>
+    
+    <content type="html"><![CDATA[<p>不知不觉，返回小镇已有一年。</p><p>游历在外的景色日渐模糊，久居故里的厌倦一再侵袭。</p><p>每有烦心之事，常是孤身一人徘徊广场，独赏明月，随后往事逐页翻卷，固望月抒情之事，千古如一。</p><p>皓月当空，时代的喧嚣得以暂抛眼后，晚风的微凉重新扑面而至，至于其余的琐事，无关风月。</p><p>只是良辰常有，美景时故，但少闲人如吾一人。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>所述浮生</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>空洞骑士</title>
     <link href="/posts/957c52d5/"/>
     <url>/posts/957c52d5/</url>
     
-    <content type="html"><![CDATA[<p>近日，笔者重拾两年前购入的空洞骑士(对于一个手残路痴玩家，属实不算友好)。<br>但本着对游戏的喜欢。（以及听闻续作丝之歌近日将出，硬着头皮玩了下去）</p><p>游戏本身十分出色，无论是从游戏世界观、配乐画风都无可挑剔。<br>作为极具代表的硬核游戏之一，它不会像《死亡细胞》一样告诉玩家“菜就多练练”，也不会像《只狼》一般“让全世界学会中文”。<br>有的仅是形单影只，犹如泪水之城淅淅沥沥的雨声，是独往内心的孤独，是无可与人言说的空洞。</p><center><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=90% height=86 src="//music.163.com/outchain/player?type=2&id=1309394512&auto=0&height=66"></iframe></center><p>主角本应是空无一物的容器，在玩家手中最终成为从未畏强欺弱、直面黑暗出身、背负全境过往的勇士。<br>愿你我的生活皆可如此。<br><img src="https://s2.loli.net/2022/01/03/teNZ2KiF7bL5Vzd.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<p>近日，笔者重拾两年前购入的空洞骑士(对于一个手残路痴玩家，属实不算友好)。<br>但本着对游戏的喜欢。（以及听闻续作丝之歌近日将出，硬着头皮玩了下去）</p><p>游戏本身十分出色，无论是从游戏世界观、配乐画风都无可挑剔。</p><p>作为极具代表的硬核游戏之一，它不会像《死亡细胞》一样告诉玩家“菜就多练练”，也不会像《只狼》一般“让全世界学会中文”。</p><p>有的仅是形单影只，犹如泪水之城淅淅沥沥的雨声，是独往内心的孤独，是无可与人言说的空洞。</p><center><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=90% height=86 src="//music.163.com/outchain/player?type=2&id=1309394512&auto=0&height=66"></iframe></center><p>主角本应是空无一物的容器，在玩家手中最终成为从未畏强欺弱、直面黑暗出身、背负全境过往的勇士。<br>愿你我的生活皆可如此。<br><img src="https://s2.loli.net/2022/01/03/teNZ2KiF7bL5Vzd.jpg"></p>]]></content>
     
     
     
