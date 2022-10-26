@@ -4,19 +4,6 @@
   
   
   <entry>
-    <title>文本配音方案</title>
-    <link href="/posts/551bbe47/"/>
-    <url>/posts/551bbe47/</url>
-    
-    <content type="html"><![CDATA[<p>如果你有需要配音的使用场景，但自己录音又存在声音不好听、收音效果差、步骤繁琐易出错等难题，不妨试试下文所提的Ai配音吧。</p><h2 id="实现效果"><a href="#实现效果" class="headerlink" title="实现效果"></a>实现效果</h2><p>[audio wav&#x3D;”<a href="https://jk2333.com/wp-content/uploads/2022/08/%E5%BE%AE%E8%BD%AF%E8%AF%AD%E9%9F%B3%E5%8A%A9%E6%89%8B%E8%8C%83%E4%BE%8B.wav&quot;][/audio]">https://jk2333.com/wp-content/uploads/2022/08/微软语音助手范例.wav&quot;][/audio]</a></p><h2 id="Azure-认知服务"><a href="#Azure-认知服务" class="headerlink" title="Azure 认知服务"></a>Azure 认知服务</h2><p>认知服务使每个开发人员和数据科学家都能接触到 AI。借助领先模型，可以解锁各种用例。只需进行 API 调用，即可将查看、收听、朗读、搜索、理解和加速高级决策的功能嵌入到应用中。让所有技能级别的开发人员和数据科学家都能够轻松地向其应用添加 AI 功能。</p><p>简而言之，这里使用他们旗下的AI语音合成方案，作为配音的工具。</p><h2 id="具体使用限制"><a href="#具体使用限制" class="headerlink" title="具体使用限制"></a>具体使用限制</h2><p>学生教育优惠账号每月享有50万字的免费额度，单篇限幅3000字符，正常足够使用。不少国内的配音软件都是调用微软接口来使用的。不过，使用尽量规避投递国外平台，例如Youtube。</p><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><p>一个可以通过Github学生认证的教育邮箱。</p><h2 id="开通步骤"><a href="#开通步骤" class="headerlink" title="开通步骤"></a>开通步骤</h2><ol><li>首先，你需要使用上述的学生教育邮箱，向Github申请学生认证，之后用该学生凭证去申请微软的教育工具包。具体开通流程可以参考这篇帖子：<a href="https://zbttl-github-io.vercel.app/github-xue-sheng-bao-he-azure-yang-mao/?highlight=azure" title="github 学生包和 azure 羊毛">github 学生包和 azure 羊毛</a></li><li>之后用相关的微软账号登录 <a href="https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices">创建语音服务 - Microsoft Azure</a> ，继续完成以下步骤<ol><li>创建语音服务 ：区域就近选择日本，定价层选择Free F0即可<img src="https://s2.loli.net/2022/08/18/zPExvZ1XAqHn3Yo.png" alt="定价.png"></li><li>登录 <a href="https://speech.microsoft.com/portal" title="Speech Studio - Microsoft Azure">Speech Studio - Microsoft Azure</a> ，首次使用会让你选择资源名，选取上文创建好的语音服务资源即可。然后选择有声内容创作<img src="https://s2.loli.net/2022/08/18/C1d3GWsXvPrY7op.png" alt="Untitled1.png"></li><li>创建文本文件，之后在页面中输入你需要音频的相关文本即可。<img src="https://s2.loli.net/2022/08/18/Onkr1Qi6y5p83dL.png" alt="Untitled.png"></li><li>根据使用场景的需求不同，你可以选取不同的讲述人，对其音量、语调、风格、停顿单独修改，使其更加贴近真人朗读的效果。</li></ol></li></ol><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>最后可以实现类似相近人声的机器朗读，效果差强人意，50w的免费额度也足够低频使用，作为暂行方案还是不错的。</p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>2022 人间难忘张丽君</title>
     <link href="/posts/c02e8e7d/"/>
     <url>/posts/c02e8e7d/</url>
@@ -112,7 +99,7 @@
     <link href="/posts/3279/"/>
     <url>/posts/3279/</url>
     
-    <content type="html"><![CDATA[<h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>清除Hexo现有配置：<code>hexo clean</code></li><li>更新并推送现有配置：<code>hexo g -d</code> ，depoly本地的Public文件夹。</li><li>本地查看： <code>hexo server -p</code> <strong>默认4000端口</strong>，<code>-p</code>后可自定义端口。</li></ol><h3 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h3><p>模板位于<strong>scaffolds</strong>文件夹，可以添加额外参数来使后面生成的文件自带对应参数。<br>这是我目前的模板：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> &#123;&#123; <span class="hljs-string">title</span> &#125;&#125;  <span class="hljs-string">//标题</span><br><span class="hljs-attr">date:</span> &#123;&#123; <span class="hljs-string">date</span> &#125;&#125; <span class="hljs-string">//写作日期</span><br><span class="hljs-attr">author:</span> <span class="hljs-string">jk2333</span> <span class="hljs-string">//作者</span><br><span class="hljs-attr">index_img:</span>  <span class="hljs-string">//首页文章缩略图</span><br><span class="hljs-attr">banner_img:</span> <span class="hljs-string">//文章详情封面图</span><br><span class="hljs-attr">excerpt:</span>  <span class="hljs-string">//摘要</span><br><span class="hljs-attr">tags:</span> <span class="hljs-string">//标签</span><br><span class="hljs-meta">---</span><br></code></pre></td></tr></table></figure><blockquote><p>这种方式会导致abbrlink插件失效，因为判定Post不再是默认的Post了，这多少有点匪夷所思，目前也没找到更好的解决方案，遂放弃。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>清除Hexo现有配置：<code>hexo clean</code></li><li>更新并推送现有配置：<code>hexo g -d</code> ，depoly本地的Public文件夹。</li><li>本地查看： <code>hexo server -p</code> <strong>默认4000端口</strong>，<code>-p</code>后可自定义端口。</li></ol><h3 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h3><p>模板位于<strong>scaffolds</strong>文件夹，可以添加额外参数来使后面生成的文件自带对应参数。<br>这是我目前的模板：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> &#123;&#123; <span class="hljs-string">title</span> &#125;&#125;  <span class="hljs-string">//标题</span><br><span class="hljs-attr">date:</span> &#123;&#123; <span class="hljs-string">date</span> &#125;&#125; <span class="hljs-string">//写作日期</span><br><span class="hljs-attr">author:</span> <span class="hljs-string">jk2333</span> <span class="hljs-string">//作者</span><br><span class="hljs-attr">index_img:</span>  <span class="hljs-string">//首页文章缩略图</span><br><span class="hljs-attr">banner_img:</span> <span class="hljs-string">//文章详情封面图</span><br><span class="hljs-attr">excerpt:</span>  <span class="hljs-string">//摘要</span><br><span class="hljs-attr">tags:</span> <span class="hljs-string">//标签</span><br><span class="hljs-meta">---</span><br></code></pre></td></tr></table></figure><blockquote><p>这种方式会导致abbrlink插件失效，因为判定Post不再是默认的Post了，这多少有点匪夷所思，目前也没找到更好的解决方案，遂放弃。</p></blockquote><h3 id="图片存放"><a href="#图片存放" class="headerlink" title="图片存放"></a>图片存放</h3><p>Hexo现可用标签来索引本地文件夹图片，方法如下👇</p><ol><li><p>打开Hexo每次生成新文章就生成对应资源文件夹的配置，<code>_config.yml</code> 更改</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">post_asset_folder:</span> <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure></li><li><p>使用他们的标签语言来调用图片</p>   <figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs maxima">&#123;<span class="hljs-symbol">%</span> asset_img <span class="hljs-built_in">example</span>.jpg This <span class="hljs-built_in">is</span> an <span class="hljs-built_in">example</span> <span class="hljs-built_in">image</span> <span class="hljs-symbol">%</span>&#125; <br>// <span class="hljs-built_in">example</span>.jpg 为你所调用的图片名字，This <span class="hljs-built_in">is</span> an <span class="hljs-built_in">example</span> <span class="hljs-built_in">image</span> 是图片失效后显示的文字。<br></code></pre></td></tr></table></figure></li></ol><p>然而，采用这种办法调用，文件必须和资源文件夹同级，而且还必须是默认位置同级，一旦你修改了文件位置导致相对路径发生变化，Hexo运行编译就会跳过这个文件夹，在参考了其他人的博客后，该方案废弃。</p>]]></content>
     
     
     
@@ -194,6 +181,12 @@
     
     
     
+    <tags>
+      
+      <tag>工具学习</tag>
+      
+    </tags>
+    
   </entry>
   
   
@@ -212,6 +205,25 @@
       <tag>游戏世界</tag>
       
       <tag>攻略教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>文本配音方案</title>
+    <link href="/posts/551bbe47/"/>
+    <url>/posts/551bbe47/</url>
+    
+    <content type="html"><![CDATA[<p>如果你有需要配音的使用场景，但自己录音又存在声音不好听、收音效果差、步骤繁琐易出错等难题，不妨试试下文所提的Ai配音吧。</p><h2 id="Azure-认知服务"><a href="#Azure-认知服务" class="headerlink" title="Azure 认知服务"></a>Azure 认知服务</h2><p>认知服务使每个开发人员和数据科学家都能接触到 AI。借助领先模型，可以解锁各种用例。只需进行 API 调用，即可将查看、收听、朗读、搜索、理解和加速高级决策的功能嵌入到应用中。让所有技能级别的开发人员和数据科学家都能够轻松地向其应用添加 AI 功能。</p><p>简而言之，这里使用他们旗下的AI语音合成方案，作为配音的工具。</p><h2 id="具体使用限制"><a href="#具体使用限制" class="headerlink" title="具体使用限制"></a>具体使用限制</h2><p>学生教育优惠账号每月享有50万字的免费额度，单篇限幅3000字符，正常足够使用。不少国内的配音软件都是调用微软接口来使用的。不过，使用尽量规避投递国外平台，例如Youtube。</p><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><p>一个可以通过Github学生认证的教育邮箱。</p><h2 id="开通步骤"><a href="#开通步骤" class="headerlink" title="开通步骤"></a>开通步骤</h2><ol><li>首先，你需要使用上述的学生教育邮箱，向Github申请学生认证，之后用该学生凭证去申请微软的教育工具包。具体开通流程可以参考这篇帖子：<a href="https://zbttl-github-io.vercel.app/github-xue-sheng-bao-he-azure-yang-mao/?highlight=azure" title="github 学生包和 azure 羊毛">github 学生包和 azure 羊毛</a></li><li>之后用相关的微软账号登录 <a href="https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices">创建语音服务 - Microsoft Azure</a> ，继续完成以下步骤<ol><li>创建语音服务 ：区域就近选择日本，定价层选择Free F0即可<img src="https://s2.loli.net/2022/08/18/zPExvZ1XAqHn3Yo.png" alt="定价.png"></li><li>登录 <a href="https://speech.microsoft.com/portal" title="Speech Studio - Microsoft Azure">Speech Studio - Microsoft Azure</a> ，首次使用会让你选择资源名，选取上文创建好的语音服务资源即可。然后选择有声内容创作<img src="https://s2.loli.net/2022/08/18/C1d3GWsXvPrY7op.png"></li><li>创建文本文件，之后在页面中输入你需要音频的相关文本即可。<img src="https://s2.loli.net/2022/08/18/Onkr1Qi6y5p83dL.png"></li><li>根据使用场景的需求不同，你可以选取不同的讲述人，对其音量、语调、风格、停顿单独修改，使其更加贴近真人朗读的效果。<br><img src="https://s2.loli.net/2022/08/18/aADKLx7oJRgbSGH.png"></li></ol></li></ol><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>最后可以实现类似相近人声的机器朗读，效果差强人意，50w的免费额度也足够低频使用，作为暂行方案还是不错的。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>工具推荐</tag>
       
     </tags>
     
