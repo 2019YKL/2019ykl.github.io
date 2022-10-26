@@ -4,32 +4,11 @@
   
   
   <entry>
-    <title>2022 人间难忘张丽君</title>
-    <link href="/posts/c02e8e7d/"/>
-    <url>/posts/c02e8e7d/</url>
-    
-    <content type="html"><![CDATA[<p>先前观看《人生第一次》时，在生老病死一集弹幕评论多次提及《人间世》。</p><p>于是我怀揣着溯源的想法，去观看了这部纪录片。</p><p>《人间世》是一部以医疗为主题的纪录片，片中也多次呈现了医患双方互信、谅解、猜疑、矛盾等多种复杂关系。</p><p>虽然笔者观看过的纪录片寥寥可数，但也大致明白纪录二字，意味着纵然拍摄者参杂再多情感，呈现在镜头前的，往往只能是无动于衷。但在这里，摄影师们却无法让双手止住颤抖，微颤的画面伴着病人的采访，记录下了人间世最真实的写照。</p><p><strong>26岁</strong>，妈妈、患癌、死亡。</p><p>本应毫不相干的四个词，就这样被26岁的患癌妈妈张丽君联系了起来。</p><p>这是人间世的第九集。</p><p><strong>26岁</strong>，正值芳年。有些人研究生刚刚毕业，就如王小波所言正是一生的黄金时代。本应与死亡隔着一座山。</p><p><strong>26岁</strong>，身为妈妈 ，育子侍夫本是平常不过的人生旅途，在张丽君这里成了遥不可及的奢望。</p><p>我无从、不敢、不忍揣度当生命将作风中残烛时，还要故作坚强鼓励丈夫，为襁褓的孩子拍下十八年生日祝福的张丽君，应有多大的勇气。<br><img src="https://s2.loli.net/2022/09/22/gOSRepa26bGWtTv.png"></p><br><blockquote><p>偶尔治愈，常常帮助，总是安慰。</p></blockquote><p>这是特鲁多医生的墓志铭，也是大多数医生的信条。他们脱去战袍后，只是平凡不过的普通人。他们往往无法为生命的逝去留步太久，因为他们清楚明白，前方还有更多病人需要被拯救。</p><p>自观看《人间世》后，每当遭得无妄之灾，我都不经回想——这个如此令人埋汰的今日，却是一位26岁患癌妈妈热爱却无可到达的明天。</p><p>这位妈妈，叫张丽君。</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>影音书摘</tag>
-      
-      <tag>所诉浮生</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Hugo 搭建博客</title>
     <link href="/posts/5c83b0d3/"/>
     <url>/posts/5c83b0d3/</url>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>听说hugo渲染效果速度飞快，这里简单尝试了一下如何部署 hugo .</p><h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><ol><li><p>前往Hugo Github项目，找到自己运行环境对应的包，以笔者Win11为例，这里选择下载 <a href="https://github.com/gohugoio/hugo/releases/download/v0.104.3/hugo_0.104.3_windows-amd64.zip">hugo_0.104.3_windows-amd64.zip</a></p></li><li><p>下载解压，里面有三个文件，其中有一个<strong>Hugo.exe</strong>.</p></li><li><p>想要运行<strong>Hugo.exe</strong>，必须先添加环境变量。</p><ol><li>新建一个文件夹，例如命名为<strong>hugo</strong>，创建子级文件夹，命名为<strong>bin</strong>，把<strong>Hugo.exe</strong>放进去。</li><li>找到<strong>此电脑</strong>右键<strong>属性</strong>，选择<strong>高级系统设置</strong>，找到<strong>环境变量</strong>这一选项。</li><li>找到<strong>path</strong>这一变量，编辑-新建环境变量<br> <img src="https://s2.loli.net/2022/10/25/G2Vdm6MO38uZnLv.png" alt="path"></li><li>将上述exe文件所在位置添加到系统变量当中，如下图 👇<br> <img src="https://s2.loli.net/2022/10/25/DtBL7s4WNU3r6eM.png" alt="具体路径演示"></li></ol></li><li><p>测试路径是否正确添加，运行查看</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hugo <span class="hljs-built_in">help</span><br></code></pre></td></tr></table></figure></li><li><p>创建一个名为 blog 的新站点</p><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs haxe">hugo <span class="hljs-keyword">new</span> <span class="hljs-type">site</span> blog<br></code></pre></td></tr></table></figure></li><li><p>从Hugo当中挑选一个主题，并用以下指令安装</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk">cd blog<br>git inin<br>git submodule add https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/CaiJimmy/</span>hugo-theme-stack.git<br></code></pre></td></tr></table></figure></li><li><p>将下载后的主题文件夹移动到博客根目录theme文件夹里，并运行以下指令</p> <figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs abnf">echo theme <span class="hljs-operator">=</span> <span class="hljs-string">&quot;你的主题文件夹名字&quot;</span> &gt;&gt; config.toml<br></code></pre></td></tr></table></figure><p> 可以打开博客站点根目录 config.toml 文件中已写入主题</p><p> <img src="https://s2.loli.net/2022/10/25/DIwMbiPA68psuBF.png"></p></li><li><p>发布一篇新文章测试</p><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver">hugo <span class="hljs-built_in">new</span> <span class="hljs-built_in">post</span>/my-<span class="hljs-keyword">first</span>-<span class="hljs-built_in">post</span>.md<br></code></pre></td></tr></table></figure></li><li><p>本地部署，查看指令</p> <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs axapta">hugo <span class="hljs-keyword">server</span><br></code></pre></td></tr></table></figure></li></ol>]]></content>
+    <content type="html"><![CDATA[<div class="note note-info">            <p>本文持续更新中</p>          </div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>听说hugo渲染效果速度飞快，这里简单尝试了一下如何部署 hugo .</p><h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><ol><li><p>前往Hugo Github项目，找到自己运行环境对应的包，以笔者Win11为例，这里选择下载 <a href="https://github.com/gohugoio/hugo/releases/download/v0.104.3/hugo_0.104.3_windows-amd64.zip">hugo_0.104.3_windows-amd64.zip</a></p></li><li><p>下载解压，里面有三个文件，其中有一个<strong>Hugo.exe</strong>.</p></li><li><p>想要运行<strong>Hugo.exe</strong>，必须先添加环境变量。</p><ol><li>新建一个文件夹，例如命名为<strong>hugo</strong>，创建子级文件夹，命名为<strong>bin</strong>，把<strong>Hugo.exe</strong>放进去。</li><li>找到<strong>此电脑</strong>右键<strong>属性</strong>，选择<strong>高级系统设置</strong>，找到<strong>环境变量</strong>这一选项。</li><li>找到<strong>path</strong>这一变量，编辑-新建环境变量<br> <img src="https://s2.loli.net/2022/10/25/G2Vdm6MO38uZnLv.png" alt="path"></li><li>将上述exe文件所在位置添加到系统变量当中，如下图 👇<br> <img src="https://s2.loli.net/2022/10/25/DtBL7s4WNU3r6eM.png" alt="具体路径演示"></li></ol></li><li><p>测试路径是否正确添加，运行查看</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hugo <span class="hljs-built_in">help</span><br></code></pre></td></tr></table></figure></li><li><p>创建一个名为 blog 的新站点</p><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs haxe">hugo <span class="hljs-keyword">new</span> <span class="hljs-type">site</span> blog<br></code></pre></td></tr></table></figure></li><li><p>从Hugo当中挑选一个主题，并用以下指令安装</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk">cd blog<br>git inin<br>git submodule add https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/CaiJimmy/</span>hugo-theme-stack.git<br></code></pre></td></tr></table></figure></li><li><p>将下载后的主题文件夹移动到博客根目录theme文件夹里，并运行以下指令</p> <figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs abnf">echo theme <span class="hljs-operator">=</span> <span class="hljs-string">&quot;你的主题文件夹名字&quot;</span> &gt;&gt; config.toml<br></code></pre></td></tr></table></figure><p> 可以打开博客站点根目录 config.toml 文件中已写入主题</p><p> <img src="https://s2.loli.net/2022/10/25/DIwMbiPA68psuBF.png"></p></li><li><p>发布一篇新文章测试</p><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver">hugo <span class="hljs-built_in">new</span> <span class="hljs-built_in">post</span>/my-<span class="hljs-keyword">first</span>-<span class="hljs-built_in">post</span>.md<br></code></pre></td></tr></table></figure></li><li><p>本地部署，输入指令</p> <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs axapta">hugo <span class="hljs-keyword">server</span><br></code></pre></td></tr></table></figure></li></ol>]]></content>
     
     
     
@@ -57,74 +36,17 @@
   
   
   <entry>
-    <title>又见 2077赛博朋克</title>
-    <link href="/posts/3153/"/>
-    <url>/posts/3153/</url>
-    
-    <content type="html"><![CDATA[<p>20年，《赛博朋克》刚发售时，虽然那时的我仅有一台MX150、i5-8250U小米工作笔记本，望着那光华夺目的宣发片，即使每帧都卡成PPT，也还是硬着头皮去试着玩了玩。</p><p>但不论是硬件限制带来的极端割裂感，还是那时游戏发售与宣发相差甚远，Bug又满天飞的缘故，很快我便兴致索然了。</p><p>倒是我那位不看剧情、喜欢见人突突突的舍友玩得有滋有味。</p><p>一晃两年过去，他们出了新的衍生作。基于游戏初期发布的劣迹而言，我亦难以相信衍生动漫能有什么好的表现。</p><p>但不得不说，全剧看完一洗我对这部衍生作的刻板印象，甚至有种想去游戏内圣地打卡的冲动。</p><center><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=90% height=86 src="//music.163.com/outchain/player?type=2&id=1979375472&auto=0&height=66"></iframe></center><p>剧中配乐、配乐都十分优秀，引用网友的话就是：CDPR高层应该给扳机社磕一个头。</p><p><img src="https://s2.loli.net/2022/10/03/qO2w1V9juksrgZe.jpg"></p><p>剧中的大卫身为底层人物，事事如履薄冰，以命相搏希望实现阶级跃迁，最后发现一切努力都称不上蜉蝣撼树。</p><p>或许，这才是赛博朋克吧。</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>影音书摘</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>心有猛虎</title>
-    <link href="/posts/31407/"/>
-    <url>/posts/31407/</url>
-    
-    <content type="html"><![CDATA[<blockquote><p>我心里有猛虎，在细嗅着蔷薇，审视我的心灵吧，亲爱的朋友，你应战栗，因为那里才是你本来的面目。</p></blockquote><p>先前，笔者一直在看豆瓣250这一排行榜上的电影。</p><p>唯独跳过了两部电影，一部是《乱世佳人》，一部便是今日的主题——少年派的奇妙漂流。</p><p>电影本身开头并不艳丽。</p><p>至少起初笔者还多次揣摩一些镜头，毕竟得找寻一些理由来安慰自己，所谓:”这不愧是豆瓣Top250排名41的电影。”</p><p>当然，直到最后故事结尾，笔者也不知所以然，直到去参寻了他人的影评。</p><p>故事开头讲述少年名字由来，再到举家移民遭遇海难，主人公幸逃一难，最后与老虎只船共处了237天成功生还的故事。故事若到这，便和之前《多力特的奇幻冒险》一般，除了特效之外，并未有什么惊人之处，最多对主人公难以置信的求生信念感到叹服。</p><p>但直到故事结尾，主人公讲述了这个故事的另一个版本——此次漂流的现实版。当童话不再是童话，照应进现实，这部电影前面的种种反常理伏笔才逐渐清晰了起来。</p><p>原来老虎对应主人公的兽性，斑马对应一开始食素的中国船员，鬣狗对应凶神恶煞的厨师，而护住主人公的猩猩自然暗喻着母亲。</p><p>第二个故事是对于第一个故事的隐喻，它更为现实，也更符合常理来解释为何能存活下来。</p><p>只是往往，比起残酷的现实而言，笔者更如剧中最终调查报告的日本人一番，选择去相信不太真实的童话。</p><p>期间首个故事有一段插曲，少年漂浮到绿岛上，笔者原以为故事走向会如《鲁滨逊漂流记》，主人公荒岛求生，最终为人所救。</p><p>显然，导演要告诉我们的，是人生的另一个道理——小岛就如捕蝇草，白日赐予无尽的食物，晚上便全部收回。所谓生于忧患，死于安乐，若迷恋孤岛安于乐命，定如前人化为尸骨。</p><p>最后，直至获救之时，老虎帕克头也不回地走向丛林深处了。此处对应主人公未能于与身边亲人好好告别，也对应故事另个一版本的隐喻：“兽性总在危难之时席卷而来，又在安命之处悄然离开”，也许人兽两性注定相违，但他们各有意义，彼此相托。</p><p><img src="https://gcore.jsdelivr.net/gh/2019YKL/hexo-imag/2022/N1plLmaqoK3C7Ow.webp" alt="心有猛虎"></p><p>故事本身与<a href="https://movie.douban.com/subject/1296141/">《控方证人》</a>相似，结尾隐藏了众多巧妙之处，令人联想非常。无论选择相信命运，或是怀疑生活都有所获。</p><p>至此，该篇电影为何得以名居榜首，笔者已有答案。</p><p>“我心里有猛虎，在细嗅着蔷薇，审视我的心灵吧，亲爱的朋友，你应战栗，因为那里才是你本来的面目。”——西格夫里·萨松</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>影音书摘</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Hexo使用笔记</title>
     <link href="/posts/3279/"/>
     <url>/posts/3279/</url>
     
-    <content type="html"><![CDATA[<h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>清除Hexo现有配置：<code>hexo clean</code></li><li>更新并推送现有配置：<code>hexo g -d</code> ，depoly本地的Public文件夹。</li><li>本地查看： <code>hexo server -p</code> <strong>默认4000端口</strong>，<code>-p</code>后可自定义端口。</li></ol><h3 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h3><p>模板位于<strong>scaffolds</strong>文件夹，可以添加额外参数来使后面生成的文件自带对应参数。<br>这是我目前的模板：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> &#123;&#123; <span class="hljs-string">title</span> &#125;&#125;  <span class="hljs-string">//标题</span><br><span class="hljs-attr">date:</span> &#123;&#123; <span class="hljs-string">date</span> &#125;&#125; <span class="hljs-string">//写作日期</span><br><span class="hljs-attr">author:</span> <span class="hljs-string">jk2333</span> <span class="hljs-string">//作者</span><br><span class="hljs-attr">index_img:</span>  <span class="hljs-string">//首页文章缩略图</span><br><span class="hljs-attr">banner_img:</span> <span class="hljs-string">//文章详情封面图</span><br><span class="hljs-attr">excerpt:</span>  <span class="hljs-string">//摘要</span><br><span class="hljs-attr">tags:</span> <span class="hljs-string">//标签</span><br><span class="hljs-meta">---</span><br></code></pre></td></tr></table></figure><blockquote><p>这种方式会导致abbrlink插件失效，因为判定Post不再是默认的Post了，这多少有点匪夷所思，目前也没找到更好的解决方案，遂放弃。</p></blockquote><h3 id="图片存放"><a href="#图片存放" class="headerlink" title="图片存放"></a>图片存放</h3><p>Hexo现可用标签来索引本地文件夹图片，方法如下👇</p><ol><li><p>打开Hexo每次生成新文章就生成对应资源文件夹的配置，<code>_config.yml</code> 更改</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">post_asset_folder:</span> <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure></li><li><p>使用他们的标签语言来调用图片</p>   <figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs maxima">&#123;<span class="hljs-symbol">%</span> asset_img <span class="hljs-built_in">example</span>.jpg This <span class="hljs-built_in">is</span> an <span class="hljs-built_in">example</span> <span class="hljs-built_in">image</span> <span class="hljs-symbol">%</span>&#125; <br>// <span class="hljs-built_in">example</span>.jpg 为你所调用的图片名字，This <span class="hljs-built_in">is</span> an <span class="hljs-built_in">example</span> <span class="hljs-built_in">image</span> 是图片失效后显示的文字。<br></code></pre></td></tr></table></figure></li></ol><p>然而，采用这种办法调用，文件必须和资源文件夹同级，而且还必须是默认位置同级。</p><p>一旦你修改了文件位置导致相对路径发生变化，Hexo运行编译就会跳过这个文件夹，在参考了其他人的博客后，该方案废弃。</p>]]></content>
+    <content type="html"><![CDATA[<div class="note note-info">            <p>本文持续更新中</p>          </div><h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>清除Hexo现有配置：<code>hexo clean</code></li><li>更新并推送现有配置：<code>hexo g -d</code> ，depoly本地的Public文件夹。</li><li>本地查看： <code>hexo server -p</code> <strong>默认4000端口</strong>，<code>-p</code>后可自定义端口。</li></ol><h3 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h3><p>模板位于<strong>scaffolds</strong>文件夹，可以添加额外参数来使后面生成的文件自带对应参数。<br>这是我目前的模板：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> &#123;&#123; <span class="hljs-string">title</span> &#125;&#125;  <span class="hljs-string">//标题</span><br><span class="hljs-attr">date:</span> &#123;&#123; <span class="hljs-string">date</span> &#125;&#125; <span class="hljs-string">//写作日期</span><br><span class="hljs-attr">author:</span> <span class="hljs-string">jk2333</span> <span class="hljs-string">//作者</span><br><span class="hljs-attr">index_img:</span>  <span class="hljs-string">//首页文章缩略图</span><br><span class="hljs-attr">banner_img:</span> <span class="hljs-string">//文章详情封面图</span><br><span class="hljs-attr">excerpt:</span>  <span class="hljs-string">//摘要</span><br><span class="hljs-attr">tags:</span> <span class="hljs-string">//标签</span><br><span class="hljs-meta">---</span><br></code></pre></td></tr></table></figure><blockquote><p>这种方式会导致abbrlink插件失效，因为判定Post不再是默认的Post了，这多少有点匪夷所思，目前也没找到更好的解决方案，遂放弃。</p></blockquote><h3 id="图片存放"><a href="#图片存放" class="headerlink" title="图片存放"></a>图片存放</h3><p>Hexo现可用标签来索引本地文件夹图片，方法如下👇</p><ol><li><p>打开Hexo每次生成新文章就生成对应资源文件夹的配置，<code>_config.yml</code> 更改</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">post_asset_folder:</span> <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure></li><li><p>使用他们的标签语言来调用图片</p>   <figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs maxima">&#123;<span class="hljs-symbol">%</span> asset_img <span class="hljs-built_in">example</span>.jpg This <span class="hljs-built_in">is</span> an <span class="hljs-built_in">example</span> <span class="hljs-built_in">image</span> <span class="hljs-symbol">%</span>&#125; <br>// <span class="hljs-built_in">example</span>.jpg 为你所调用的图片名字，This <span class="hljs-built_in">is</span> an <span class="hljs-built_in">example</span> <span class="hljs-built_in">image</span> 是图片失效后显示的文字。<br></code></pre></td></tr></table></figure></li></ol><p>然而，采用这种办法调用，文件必须和资源文件夹同级，而且还必须是默认位置同级。</p><p>一旦你修改了文件位置导致相对路径发生变化，Hexo运行编译就会跳过这个文件夹，在参考了其他人的博客后，该方案废弃。</p>]]></content>
     
     
     
     <tags>
       
       <tag>博客相关</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>小谈图床</title>
-    <link href="/posts/25078/"/>
-    <url>/posts/25078/</url>
-    
-    <content type="html"><![CDATA[<h2 id="起因由来"><a href="#起因由来" class="headerlink" title="起因由来"></a>起因由来</h2><p>众所周知，对于笔者而言，能薅羊毛的总要去探一探头试试。</p><p>在接触了Markdown这种小白友好语言时，便难以自拔了。也正是在接触Markdown语言时，笔者知晓可以采用图床，来解决多平台发布时，图片繁杂处理的情况。当然，能够抠搜一点存储空间出来，更好不过了。</p><h2 id="图床介绍"><a href="#图床介绍" class="headerlink" title="图床介绍"></a>图床介绍</h2><p>简单来说，图床大致就是一个存图的地方，然后会生成一段链接，如果你在浏览器输入打开，就能看到对应图像了。</p><h3 id="图床要求"><a href="#图床要求" class="headerlink" title="图床要求"></a>图床要求</h3><p>市面上图床五花八门，但是在挑选图床上，显然要有所要求。<br>对于笔者而言，大致有如下标准：</p><ul><li>足够稳定 若用野鸡图床，三两天关门不干了，意味着数据也随人家跑路了。</li><li>价格合理 做为笔者个人自娱自乐，若是太贵便只是叹而观止了。</li><li>访问较快 图片加载速度对于平时访问网站体验而言，甚为重要。</li><li>空间较大 虽说一般市面上的图床轻度使用都足以，但本着一步到位的心态，还是希望上个好的。</li></ul><h3 id="图床选择"><a href="#图床选择" class="headerlink" title="图床选择"></a>图床选择</h3><p>那么根据以上几点标准，大致选出了一下几种方案：</p><h4 id="sm-ms-图床"><a href="#sm-ms-图床" class="headerlink" title="sm.ms 图床"></a>sm.ms 图床</h4><p>免费用户有5GB空间，但文件大小限制5MB，由于提供现成API，配置较为简单，但免费就意味着，随着用户增多，平台质量有待考量。</p><p><strong>2022年10月18日更新</strong>：SM关闭游客上传后，访问速度有所提升，不过现如今sm.ms域名已被封禁。</p><h4 id="GitHub-图床"><a href="#GitHub-图床" class="headerlink" title="GitHub 图床"></a>GitHub 图床</h4><p>本质上，GitHub能做图床一开始笔者也甚是意外，GitHub貌似在文件大小超过50MB时会发送邮件，但不影响使用。</p><h6 id="GitHub图床搭建"><a href="#GitHub图床搭建" class="headerlink" title="GitHub图床搭建"></a>GitHub图床搭建</h6><p>其实网上这类教程早已多如牛毛，这里仅简单记载作为作者自身备忘，具体可以参考<a href="https://zhuanlan.zhihu.com/p/353775844">该篇教程</a>。</p><ol><li>右上角创建一个<strong>公开</strong>仓库</li><li>Github个人设置选择<strong>Developer setting</strong>创建一个密钥，这里密钥最好单独记载一下，否则每次使用都得重新生成。</li><li>依次将仓库名、分支名main、上述生成的密钥Token填入Picgo即可。</li><li>可以设定<code>https://cdn.jsdelivr.net/gh</code> +仓库名的形式来提升访问速度。</li></ol><h4 id="七牛云"><a href="#七牛云" class="headerlink" title="七牛云"></a>七牛云</h4><p>七牛云提供的服务有很多，这也是笔者在摸索过程中，第一次接触到<strong>对象存储</strong>这一概念。</p><p>七牛云的优势在于免费用户有10GB的存储空间，听起来较为不错，但下载流量另算（也是每月10G免费），希望笔者这小小站能多嫖一段时间。</p><p>七牛云的配置最为繁琐，在注册时需要实名认证，不过所幸笔者是个正人君子。不搞一些奇怪的东西也就无所畏惧，话虽如此，在当天下午接到七牛云客服回访时，提桶跑路的想法依旧凌越而上。</p><p>在例行友好地表示了自己白嫖的用途后，笔者与对方同时会心一笑。虽说，对缓解彼此的尴尬貌似并无益处。</p><h4 id="图床配置"><a href="#图床配置" class="headerlink" title="图床配置"></a>图床配置</h4><p>虽说事后摸索也未觉有啥太难之处，但初始配置之时还是遇到了不少挫折。</p><h4 id="存储地区选择"><a href="#存储地区选择" class="headerlink" title="存储地区选择"></a>存储地区选择</h4><ol><li><p>由于笔者VPS地处国外，在配置对象存储时会有所限制，例如地区仅能选择海外，目前仅有北美和东南亚两个选择。</p></li><li><p>在配置域名时，由于笔者套了一层cf来解析dns，在<a href="https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name">CNAME配置</a>的时候竟不知要开启仅限DNS，由此多走了许多坑。</p></li></ol><p>虽不知其所以然，但能跑的程序不去再动是作为一只菜鸟的传统默契。<br>具体教程参考： <a href="https://www.bilibili.com/read/cv10067940">七牛云对象存储免费图床</a></p><h4 id="图形工具"><a href="#图形工具" class="headerlink" title="图形工具"></a>图形工具</h4><p>在配置完图床后，有时需要对图片再次处理，由此就需要图形化工具。</p><p>当然，PicGo在此方面可以说是佼佼者了，出色的图像预览模式很是友好。</p><p>但如果你和笔者一样有多端同步的操作，PicGo无法方便读取所有数据的话，就需要另寻办法了。<br>笔者在找到七牛云开发教程中找到<a href="https://developer.qiniu.com/kodo/5972/kodo-browser">Kodo Browser</a>这一工具，但貌似未能找到直接图像预览。（大致预览就要流量吧，也是一种取舍）</p><h3 id="配置Mweb"><a href="#配置Mweb" class="headerlink" title="配置Mweb"></a>配置Mweb</h3><p>其中配置Mweb开发者已在其官网列出了<a href="https://zh.mweb.im/how_to_use_qiniu_url.html">七牛云配置详细教程</a>，可惜的是，目前尚不直接支持GitHub图床，网上搜到该篇教程提供了一些思路，通过Vercel云端跑Node.js可以实现，或许日后心血来潮，笔者会再去折腾折腾。</p><h2 id="尾声已至"><a href="#尾声已至" class="headerlink" title="尾声已至"></a>尾声已至</h2><p>虽说，图床一定程度上提供了数据分享的便利，且选择较大平台很有可能人没了图还在的情况，但像笔者这种对数据控制有着浓烈的执念，还是是平日勤做备份吧。</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>工具推荐</tag>
       
     </tags>
     
@@ -192,6 +114,25 @@
   
   
   <entry>
+    <title>又见 2077赛博朋克</title>
+    <link href="/posts/3153/"/>
+    <url>/posts/3153/</url>
+    
+    <content type="html"><![CDATA[<p>20年，《赛博朋克》刚发售时，虽然那时的我仅有一台MX150、i5-8250U小米工作笔记本，望着那光华夺目的宣发片，即使每帧都卡成PPT，也还是硬着头皮去试着玩了玩。</p><p>但不论是硬件限制带来的极端割裂感，还是那时游戏发售与宣发相差甚远，Bug又满天飞的缘故，很快我便兴致索然了。</p><p>倒是我那位不看剧情、喜欢见人突突突的舍友玩得有滋有味。</p><p>一晃两年过去，他们出了新的衍生作。基于游戏初期发布的劣迹而言，我亦难以相信衍生动漫能有什么好的表现。</p><p>但不得不说，全剧看完一洗我对这部衍生作的刻板印象，甚至有种想去游戏内圣地打卡的冲动。</p><center><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=90% height=86 src="//music.163.com/outchain/player?type=2&id=1979375472&auto=0&height=66"></iframe></center><p>剧中配乐、配乐都十分优秀，引用网友的话就是：CDPR高层应该给扳机社磕一个头。</p><p><img src="https://s2.loli.net/2022/10/03/qO2w1V9juksrgZe.jpg"></p><p>剧中的大卫身为底层人物，事事如履薄冰，以命相搏希望实现阶级跃迁，最后发现一切努力都称不上蜉蝣撼树。</p><p>或许，这才是赛博朋克吧。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>影音书摘</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>简易获取Steam余额</title>
     <link href="/posts/3635646c/"/>
     <url>/posts/3635646c/</url>
@@ -205,6 +146,27 @@
       <tag>游戏世界</tag>
       
       <tag>攻略教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2022 人间难忘张丽君</title>
+    <link href="/posts/c02e8e7d/"/>
+    <url>/posts/c02e8e7d/</url>
+    
+    <content type="html"><![CDATA[<p>先前观看《人生第一次》时，在生老病死一集弹幕评论多次提及《人间世》。</p><p>于是我怀揣着溯源的想法，去观看了这部纪录片。</p><p>《人间世》是一部以医疗为主题的纪录片，片中也多次呈现了医患双方互信、谅解、猜疑、矛盾等多种复杂关系。</p><p>虽然笔者观看过的纪录片寥寥可数，但也大致明白纪录二字，意味着纵然拍摄者参杂再多情感，呈现在镜头前的，往往只能是无动于衷。但在这里，摄影师们却无法让双手止住颤抖，微颤的画面伴着病人的采访，记录下了人间世最真实的写照。</p><p><strong>26岁</strong>，妈妈、患癌、死亡。</p><p>本应毫不相干的四个词，就这样被26岁的患癌妈妈张丽君联系了起来。</p><p>这是人间世的第九集。</p><p><strong>26岁</strong>，正值芳年。有些人研究生刚刚毕业，就如王小波所言正是一生的黄金时代。本应与死亡隔着一座山。</p><p><strong>26岁</strong>，身为妈妈 ，育子侍夫本是平常不过的人生旅途，在张丽君这里成了遥不可及的奢望。</p><p>我无从、不敢、不忍揣度当生命将作风中残烛时，还要故作坚强鼓励丈夫，为襁褓的孩子拍下十八年生日祝福的张丽君，应有多大的勇气。<br><img src="https://s2.loli.net/2022/09/22/gOSRepa26bGWtTv.png"></p><br><blockquote><p>偶尔治愈，常常帮助，总是安慰。</p></blockquote><p>这是特鲁多医生的墓志铭，也是大多数医生的信条。他们脱去战袍后，只是平凡不过的普通人。他们往往无法为生命的逝去留步太久，因为他们清楚明白，前方还有更多病人需要被拯救。</p><p>自观看《人间世》后，每当遭得无妄之灾，我都不经回想——这个如此令人埋汰的今日，却是一位26岁患癌妈妈热爱却无可到达的明天。</p><p>这位妈妈，叫张丽君。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>所诉浮生</tag>
+      
+      <tag>影音书摘</tag>
       
     </tags>
     
@@ -242,9 +204,28 @@
     
     <tags>
       
+      <tag>影音书摘</tag>
+      
       <tag>所述浮生</tag>
       
-      <tag>影音书摘</tag>
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>写作小助手</title>
+    <link href="/posts/6c4e6f1c/"/>
+    <url>/posts/6c4e6f1c/</url>
+    
+    <content type="html"><![CDATA[<p>不知读者是否有像我一样，时常如鲠在喉，却因词不达意无从说起。而针对这一情况，清华大学自然语言处理实验室开发了一款用户模糊描述词意，凭借深度学习算法匹配相似词汇的工具———<a href="https://wantwords.net/">万词王</a>。</p><p>虽然，文章的好坏优劣不能单由辞藻优美与否评判，但适当的修饰能使文章锦上添花，而贴切的用词往往能更好地拉近与读者的距离。<br><img src="https://s2.loli.net/2022/07/29/SYb3jOmrgqDWaGn.png"></p><p>通过多版本的迭代，在查找词汇的同时还可以通过词性、字数、韵脚、词形进行筛选，可以说是覆盖了大部分的用词需求。</p><p>而根据类似的需求，他们团队在近日又推出了一款更为重磅的利器——<a href="https://wantquotes.net/">据意查句</a>。（至少，这次不用为谐音梗扣钱了）</p><p>据意查句可以通过模糊的描述来匹配用户想表达的句子，其中包含的类别不仅是文学、诗歌，甚至还可以匹配动漫、影视剧、综艺。这意味着仅作为垂直搜索工具，它也足够好用。以下是笔者测试的两张示例图：</p><p><img src="https://s2.loli.net/2022/07/29/4hAotpZU2HrxPKb.png"></p><p><img src="https://s2.loli.net/2022/07/29/zseXYaTCFhr89WM.png"></p><p>从搜索结果而言还算差强人意，并且团队也表示会不断优化算法增强匹配程度。</p><p>综上所言，这两款码文利器推荐给大家~</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>工具推荐</tag>
       
     </tags>
     
@@ -272,6 +253,27 @@
   
   
   <entry>
+    <title>泰拉瑞亚 私服搭建</title>
+    <link href="/posts/632d12ec/"/>
+    <url>/posts/632d12ec/</url>
+    
+    <content type="html"><![CDATA[<p>自先前游玩Minecraft之后 ，笔者又顺藤摸瓜接触了Terraria，作为双胞胎沙盒游戏，Terraria同样支持玩家自行搭建服务器，方便多人随时游玩。</p><p>与MC相同的是，在Terraria世界中，没有强制的任务指引，玩家可以在游戏天马行空般发挥自己的想象力，只不过这次的世界是2D的。</p><p>本篇文章将简单记载如何搭建一个泰拉瑞亚私服。</p><h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><blockquote><p>《泰拉瑞亚》是一款2D沙盒模拟游戏，其游戏特色是在一个随机生成的2D世界裡探索、创造、建筑，并与各种生物战斗，其沙盒元素颇受好评。</p></blockquote><p>Terraria与MC同为沙盒游戏，虽然不如MC普及，但在沙盒游戏中同样广受好评。<br>由于Terraria官方提供了各端的服务器版本，玩家开盒即用，本期的笔记相较于上期Minecraft搭建较为简单。</p><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><ol><li>Terraria默认游戏内服务端口为<strong>7777</strong>，因此需要在服务器后台打开相应端口。</li><li>下载官方提供的服务端压缩包，下载链接见下方，选择对应版本即可，这里笔者选择    <a href="https://terraria.fandom.com/wiki/Server#Downloads">Terraria Server 1.4.3.6 </a>.</li></ol><h2 id="具体部署"><a href="#具体部署" class="headerlink" title="具体部署"></a>具体部署</h2><ol><li>解压上文下载的压缩包解压，重命名Linux端的文件，上传至服务器 </li><li>在文件夹内对应存放位置直接运行 <code>./TerrariaServer.bin.x86_64</code>  ，发现提示 <code>Permission denied</code> ，输入 <code>chmod -R 777 /&lt;当前根目录&gt;</code> 赋权，例如：<code>chmod -R 777 /root</code></li><li>由于需要服务器24小时运行Terraria，我们需要将其运行在Screen窗口中，以下是具体步骤<ol><li>安装screen ： <code>apt install screen</code></li><li>新建一个窗口：<code>screen -S &lt;窗口名&gt;</code></li></ol></li><li>在Screen窗口中运行 <code>./TerrariaServer.bin.x86_64</code> 即可</li></ol><h2 id="Terraria-世界参数设定"><a href="#Terraria-世界参数设定" class="headerlink" title="Terraria 世界参数设定"></a>Terraria 世界参数设定</h2><p>服务器搭建完后，可对要生成的世界进行设置，具体参数介绍如下。</p><ol><li>Choose size ： 选择世界大小，输入具体序列号即可</li><li>Choose difficulty ：选择难度，一般选择经典</li><li>Enter world name : 输入世界名称，随后连接服务器会显示</li><li>Enter Seed (Leave Blank For Random) :   输入世界种子，否则随机生成</li><li>Max players (press enter for 16)：选择最大连接人数</li><li>Server port (press enter for 7777) ：设置连接端口，默认为7777</li><li>Automatically forward port? (y&#x2F;n) ：自动转发端口，选是</li><li>Server password (press enter for none) ：是否设置密码</li><li>当看到 Server started 时，便可在客户端连接</li></ol><h2 id="用户端连接"><a href="#用户端连接" class="headerlink" title="用户端连接"></a>用户端连接</h2><ol><li><p>选择多人游戏，之后通过IP加入，输入服务器公网IP与端口即可</p><p> <img src="https://s2.loli.net/2022/10/26/DKtYF16W97dq3VM.webp"></p></li></ol><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>做为一款十年前诞生的游戏，泰拉瑞亚的成功除了优秀的游戏机制之外，也离不开创作团队十年来从未间断的迭代更新，也正因如此，该作获得了Steam21年”爱的付出“奖项。<br><img src="https://s2.loli.net/2022/10/26/kLrsQm7NKGwzgAB.png"></p><h2 id="相关连接"><a href="#相关连接" class="headerlink" title="相关连接"></a>相关连接</h2><ol><li><a href="https://terraria.wiki.gg/zh/wiki/Terraria_Wiki?variant=zh">Terraria 游戏维基百科</a>：你可以在这里找到一切游戏中遇到的难题</li><li>教程参考视频：<a href="https://www.bilibili.com/video/BV17A411G7cX">小白也能10分钟轻松开服</a></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>游戏世界</tag>
+      
+      <tag>攻略教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>空洞骑士</title>
     <link href="/posts/957c52d5/"/>
     <url>/posts/957c52d5/</url>
@@ -285,6 +287,44 @@
       <tag>影音书摘</tag>
       
       <tag>游戏世界</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>小谈图床</title>
+    <link href="/posts/25078/"/>
+    <url>/posts/25078/</url>
+    
+    <content type="html"><![CDATA[<h2 id="起因由来"><a href="#起因由来" class="headerlink" title="起因由来"></a>起因由来</h2><p>众所周知，对于笔者而言，能薅羊毛的总要去探一探头试试。</p><p>在接触了Markdown这种小白友好语言时，便难以自拔了。也正是在接触Markdown语言时，笔者知晓可以采用图床，来解决多平台发布时，图片繁杂处理的情况。当然，能够抠搜一点存储空间出来，更好不过了。</p><h2 id="图床介绍"><a href="#图床介绍" class="headerlink" title="图床介绍"></a>图床介绍</h2><p>简单来说，图床大致就是一个存图的地方，然后会生成一段链接，如果你在浏览器输入打开，就能看到对应图像了。</p><h3 id="图床要求"><a href="#图床要求" class="headerlink" title="图床要求"></a>图床要求</h3><p>市面上图床五花八门，但是在挑选图床上，显然要有所要求。<br>对于笔者而言，大致有如下标准：</p><ul><li>足够稳定 若用野鸡图床，三两天关门不干了，意味着数据也随人家跑路了。</li><li>价格合理 做为笔者个人自娱自乐，若是太贵便只是叹而观止了。</li><li>访问较快 图片加载速度对于平时访问网站体验而言，甚为重要。</li><li>空间较大 虽说一般市面上的图床轻度使用都足以，但本着一步到位的心态，还是希望上个好的。</li></ul><h3 id="图床选择"><a href="#图床选择" class="headerlink" title="图床选择"></a>图床选择</h3><p>那么根据以上几点标准，大致选出了一下几种方案：</p><h4 id="sm-ms-图床"><a href="#sm-ms-图床" class="headerlink" title="sm.ms 图床"></a>sm.ms 图床</h4><p>免费用户有5GB空间，但文件大小限制5MB，由于提供现成API，配置较为简单，但免费就意味着，随着用户增多，平台质量有待考量。</p><p><strong>2022年10月18日更新</strong>：SM关闭游客上传后，访问速度有所提升，不过现如今sm.ms域名已被封禁。</p><h4 id="GitHub-图床"><a href="#GitHub-图床" class="headerlink" title="GitHub 图床"></a>GitHub 图床</h4><p>本质上，GitHub能做图床一开始笔者也甚是意外，GitHub貌似在文件大小超过50MB时会发送邮件，但不影响使用。</p><h6 id="GitHub图床搭建"><a href="#GitHub图床搭建" class="headerlink" title="GitHub图床搭建"></a>GitHub图床搭建</h6><p>其实网上这类教程早已多如牛毛，这里仅简单记载作为作者自身备忘，具体可以参考<a href="https://zhuanlan.zhihu.com/p/353775844">该篇教程</a>。</p><ol><li>右上角创建一个<strong>公开</strong>仓库</li><li>Github个人设置选择<strong>Developer setting</strong>创建一个密钥，这里密钥最好单独记载一下，否则每次使用都得重新生成。</li><li>依次将仓库名、分支名main、上述生成的密钥Token填入Picgo即可。</li><li>可以设定<code>https://cdn.jsdelivr.net/gh</code> +仓库名的形式来提升访问速度。</li></ol><h4 id="七牛云"><a href="#七牛云" class="headerlink" title="七牛云"></a>七牛云</h4><p>七牛云提供的服务有很多，这也是笔者在摸索过程中，第一次接触到<strong>对象存储</strong>这一概念。</p><p>七牛云的优势在于免费用户有10GB的存储空间，听起来较为不错，但下载流量另算（也是每月10G免费），希望笔者这小小站能多嫖一段时间。</p><p>七牛云的配置最为繁琐，在注册时需要实名认证，不过所幸笔者是个正人君子。不搞一些奇怪的东西也就无所畏惧，话虽如此，在当天下午接到七牛云客服回访时，提桶跑路的想法依旧凌越而上。</p><p>在例行友好地表示了自己白嫖的用途后，笔者与对方同时会心一笑。虽说，对缓解彼此的尴尬貌似并无益处。</p><h4 id="图床配置"><a href="#图床配置" class="headerlink" title="图床配置"></a>图床配置</h4><p>虽说事后摸索也未觉有啥太难之处，但初始配置之时还是遇到了不少挫折。</p><h4 id="存储地区选择"><a href="#存储地区选择" class="headerlink" title="存储地区选择"></a>存储地区选择</h4><ol><li><p>由于笔者VPS地处国外，在配置对象存储时会有所限制，例如地区仅能选择海外，目前仅有北美和东南亚两个选择。</p></li><li><p>在配置域名时，由于笔者套了一层cf来解析dns，在<a href="https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name">CNAME配置</a>的时候竟不知要开启仅限DNS，由此多走了许多坑。</p></li></ol><p>虽不知其所以然，但能跑的程序不去再动是作为一只菜鸟的传统默契。<br>具体教程参考： <a href="https://www.bilibili.com/read/cv10067940">七牛云对象存储免费图床</a></p><h4 id="图形工具"><a href="#图形工具" class="headerlink" title="图形工具"></a>图形工具</h4><p>在配置完图床后，有时需要对图片再次处理，由此就需要图形化工具。</p><p>当然，PicGo在此方面可以说是佼佼者了，出色的图像预览模式很是友好。</p><p>但如果你和笔者一样有多端同步的操作，PicGo无法方便读取所有数据的话，就需要另寻办法了。<br>笔者在找到七牛云开发教程中找到<a href="https://developer.qiniu.com/kodo/5972/kodo-browser">Kodo Browser</a>这一工具，但貌似未能找到直接图像预览。（大致预览就要流量吧，也是一种取舍）</p><h3 id="配置Mweb"><a href="#配置Mweb" class="headerlink" title="配置Mweb"></a>配置Mweb</h3><p>其中配置Mweb开发者已在其官网列出了<a href="https://zh.mweb.im/how_to_use_qiniu_url.html">七牛云配置详细教程</a>，可惜的是，目前尚不直接支持GitHub图床，网上搜到该篇教程提供了一些思路，通过Vercel云端跑Node.js可以实现，或许日后心血来潮，笔者会再去折腾折腾。</p><h2 id="尾声已至"><a href="#尾声已至" class="headerlink" title="尾声已至"></a>尾声已至</h2><p>虽说，图床一定程度上提供了数据分享的便利，且选择较大平台很有可能人没了图还在的情况，但像笔者这种对数据控制有着浓烈的执念，还是是平日勤做备份吧。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>工具推荐</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>心有猛虎</title>
+    <link href="/posts/31407/"/>
+    <url>/posts/31407/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>我心里有猛虎，在细嗅着蔷薇，审视我的心灵吧，亲爱的朋友，你应战栗，因为那里才是你本来的面目。</p></blockquote><p>先前，笔者一直在看豆瓣250这一排行榜上的电影。</p><p>唯独跳过了两部电影，一部是《乱世佳人》，一部便是今日的主题——少年派的奇妙漂流。</p><p>电影本身开头并不艳丽。</p><p>至少起初笔者还多次揣摩一些镜头，毕竟得找寻一些理由来安慰自己，所谓:”这不愧是豆瓣Top250排名41的电影。”</p><p>当然，直到最后故事结尾，笔者也不知所以然，直到去参寻了他人的影评。</p><p>故事开头讲述少年名字由来，再到举家移民遭遇海难，主人公幸逃一难，最后与老虎只船共处了237天成功生还的故事。故事若到这，便和之前《多力特的奇幻冒险》一般，除了特效之外，并未有什么惊人之处，最多对主人公难以置信的求生信念感到叹服。</p><p>但直到故事结尾，主人公讲述了这个故事的另一个版本——此次漂流的现实版。当童话不再是童话，照应进现实，这部电影前面的种种反常理伏笔才逐渐清晰了起来。</p><p>原来老虎对应主人公的兽性，斑马对应一开始食素的中国船员，鬣狗对应凶神恶煞的厨师，而护住主人公的猩猩自然暗喻着母亲。</p><p>第二个故事是对于第一个故事的隐喻，它更为现实，也更符合常理来解释为何能存活下来。</p><p>只是往往，比起残酷的现实而言，笔者更如剧中最终调查报告的日本人一番，选择去相信不太真实的童话。</p><p>期间首个故事有一段插曲，少年漂浮到绿岛上，笔者原以为故事走向会如《鲁滨逊漂流记》，主人公荒岛求生，最终为人所救。</p><p>显然，导演要告诉我们的，是人生的另一个道理——小岛就如捕蝇草，白日赐予无尽的食物，晚上便全部收回。所谓生于忧患，死于安乐，若迷恋孤岛安于乐命，定如前人化为尸骨。</p><p>最后，直至获救之时，老虎帕克头也不回地走向丛林深处了。此处对应主人公未能于与身边亲人好好告别，也对应故事另个一版本的隐喻：“兽性总在危难之时席卷而来，又在安命之处悄然离开”，也许人兽两性注定相违，但他们各有意义，彼此相托。</p><p><img src="https://gcore.jsdelivr.net/gh/2019YKL/hexo-imag/2022/N1plLmaqoK3C7Ow.webp" alt="心有猛虎"></p><p>故事本身与<a href="https://movie.douban.com/subject/1296141/">《控方证人》</a>相似，结尾隐藏了众多巧妙之处，令人联想非常。无论选择相信命运，或是怀疑生活都有所获。</p><p>至此，该篇电影为何得以名居榜首，笔者已有答案。</p><p>“我心里有猛虎，在细嗅着蔷薇，审视我的心灵吧，亲爱的朋友，你应战栗，因为那里才是你本来的面目。”——西格夫里·萨松</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>影音书摘</tag>
       
     </tags>
     
