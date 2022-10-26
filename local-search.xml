@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>文本配音方案</title>
+    <link href="/posts/551bbe47/"/>
+    <url>/posts/551bbe47/</url>
+    
+    <content type="html"><![CDATA[<p>如果你有需要配音的使用场景，但自己录音又存在声音不好听、收音效果差、步骤繁琐易出错等难题，不妨试试下文所提的Ai配音吧。</p><h2 id="实现效果"><a href="#实现效果" class="headerlink" title="实现效果"></a>实现效果</h2><p>[audio wav&#x3D;”<a href="https://jk2333.com/wp-content/uploads/2022/08/%E5%BE%AE%E8%BD%AF%E8%AF%AD%E9%9F%B3%E5%8A%A9%E6%89%8B%E8%8C%83%E4%BE%8B.wav&quot;][/audio]">https://jk2333.com/wp-content/uploads/2022/08/微软语音助手范例.wav&quot;][/audio]</a></p><h2 id="Azure-认知服务"><a href="#Azure-认知服务" class="headerlink" title="Azure 认知服务"></a>Azure 认知服务</h2><p>认知服务使每个开发人员和数据科学家都能接触到 AI。借助领先模型，可以解锁各种用例。只需进行 API 调用，即可将查看、收听、朗读、搜索、理解和加速高级决策的功能嵌入到应用中。让所有技能级别的开发人员和数据科学家都能够轻松地向其应用添加 AI 功能。</p><p>简而言之，这里使用他们旗下的AI语音合成方案，作为配音的工具。</p><h2 id="具体使用限制"><a href="#具体使用限制" class="headerlink" title="具体使用限制"></a>具体使用限制</h2><p>学生教育优惠账号每月享有50万字的免费额度，单篇限幅3000字符，正常足够使用。不少国内的配音软件都是调用微软接口来使用的。不过，使用尽量规避投递国外平台，例如Youtube。</p><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><p>一个可以通过Github学生认证的教育邮箱。</p><h2 id="开通步骤"><a href="#开通步骤" class="headerlink" title="开通步骤"></a>开通步骤</h2><ol><li>首先，你需要使用上述的学生教育邮箱，向Github申请学生认证，之后用该学生凭证去申请微软的教育工具包。具体开通流程可以参考这篇帖子：<a href="https://zbttl-github-io.vercel.app/github-xue-sheng-bao-he-azure-yang-mao/?highlight=azure" title="github 学生包和 azure 羊毛">github 学生包和 azure 羊毛</a></li><li>之后用相关的微软账号登录 <a href="https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices">创建语音服务 - Microsoft Azure</a> ，继续完成以下步骤<ol><li>创建语音服务 ：区域就近选择日本，定价层选择Free F0即可<img src="https://s2.loli.net/2022/08/18/zPExvZ1XAqHn3Yo.png" alt="定价.png"></li><li>登录 <a href="https://speech.microsoft.com/portal" title="Speech Studio - Microsoft Azure">Speech Studio - Microsoft Azure</a> ，首次使用会让你选择资源名，选取上文创建好的语音服务资源即可。然后选择有声内容创作<img src="https://s2.loli.net/2022/08/18/C1d3GWsXvPrY7op.png" alt="Untitled1.png"></li><li>创建文本文件，之后在页面中输入你需要音频的相关文本即可。<img src="https://s2.loli.net/2022/08/18/Onkr1Qi6y5p83dL.png" alt="Untitled.png"></li><li>根据使用场景的需求不同，你可以选取不同的讲述人，对其音量、语调、风格、停顿单独修改，使其更加贴近真人朗读的效果。</li></ol></li></ol><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>最后可以实现类似相近人声的机器朗读，效果差强人意，50w的免费额度也足够低频使用，作为暂行方案还是不错的。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2022 人间难忘张丽君</title>
     <link href="/posts/c02e8e7d/"/>
     <url>/posts/c02e8e7d/</url>
@@ -14,9 +27,9 @@
     
     <tags>
       
-      <tag>影音书摘</tag>
-      
       <tag>所诉浮生</tag>
+      
+      <tag>影音书摘</tag>
       
     </tags>
     
