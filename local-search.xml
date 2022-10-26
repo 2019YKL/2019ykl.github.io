@@ -5,8 +5,8 @@
   
   <entry>
     <title>Hugo 搭建博客</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/hugo-build/"/>
+    <url>/posts/hugo-build/</url>
     
     <content type="html"><![CDATA[<div class="note note-info">            <p>本文持续更新中</p>          </div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>听说hugo渲染效果速度飞快，这里简单尝试了一下如何部署 hugo .</p><h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><ol><li><p>前往Hugo Github项目，找到自己运行环境对应的包，以笔者Win11为例，这里选择下载 <a href="https://github.com/gohugoio/hugo/releases/download/v0.104.3/hugo_0.104.3_windows-amd64.zip">hugo_0.104.3_windows-amd64.zip</a></p></li><li><p>下载解压，里面有三个文件，其中有一个<strong>Hugo.exe</strong>.</p></li><li><p>想要运行<strong>Hugo.exe</strong>，必须先添加环境变量。</p><ol><li>新建一个文件夹，例如命名为<strong>hugo</strong>，创建子级文件夹，命名为<strong>bin</strong>，把<strong>Hugo.exe</strong>放进去。</li><li>找到<strong>此电脑</strong>右键<strong>属性</strong>，选择<strong>高级系统设置</strong>，找到<strong>环境变量</strong>这一选项。</li><li>找到<strong>path</strong>这一变量，编辑-新建环境变量<br> <img src="https://s2.loli.net/2022/10/25/G2Vdm6MO38uZnLv.png" alt="path"></li><li>将上述exe文件所在位置添加到系统变量当中，如下图 👇<br> <img src="https://s2.loli.net/2022/10/25/DtBL7s4WNU3r6eM.png" alt="具体路径演示"></li></ol></li><li><p>测试路径是否正确添加，运行查看</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hugo <span class="hljs-built_in">help</span><br></code></pre></td></tr></table></figure></li><li><p>创建一个名为 blog 的新站点</p><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs haxe">hugo <span class="hljs-keyword">new</span> <span class="hljs-type">site</span> blog<br></code></pre></td></tr></table></figure></li><li><p>从Hugo当中挑选一个主题，并用以下指令安装</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk">cd blog<br>git inin<br>git submodule add https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/CaiJimmy/</span>hugo-theme-stack.git<br></code></pre></td></tr></table></figure></li><li><p>将下载后的主题文件夹移动到博客根目录theme文件夹里，并运行以下指令</p> <figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs abnf">echo theme <span class="hljs-operator">=</span> <span class="hljs-string">&quot;你的主题文件夹名字&quot;</span> &gt;&gt; config.toml<br></code></pre></td></tr></table></figure><p> 可以打开博客站点根目录 config.toml 文件中已写入主题</p><p> <img src="https://s2.loli.net/2022/10/25/DIwMbiPA68psuBF.png"></p></li><li><p>发布一篇新文章测试</p><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver">hugo <span class="hljs-built_in">new</span> <span class="hljs-built_in">post</span>/my-<span class="hljs-keyword">first</span>-<span class="hljs-built_in">post</span>.md<br></code></pre></td></tr></table></figure></li><li><p>本地部署，输入指令</p> <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs axapta">hugo <span class="hljs-keyword">server</span><br></code></pre></td></tr></table></figure></li></ol>]]></content>
     
@@ -24,8 +24,8 @@
   
   <entry>
     <title>Hexo源文件 简单备份</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/hexo-back/"/>
+    <url>/posts/hexo-back/</url>
     
     <content type="html"><![CDATA[<blockquote><p>Hexo的<strong>deploy</strong>推送产生的是编译后的文件，这意味着源文件一旦丢失，想要恢复会非常困难，在查询了相关的教程后，有了如下的笔记。</p></blockquote><p>既然是想要备份源文件，那么使用现行的工具Git肯定是一种不错的方案。</p><p>虽说Hexo也有现成的备份插件<a href="https://github.com/coneycode/hexo-git-backup">hexo-git-backup</a>，但笔者进行权衡后，选择直接使用Git推送，以下是一些简单的记录。</p><h2 id="源码推送"><a href="#源码推送" class="headerlink" title="源码推送"></a>源码推送</h2><ol><li><p>创建一个新的私有库</p><p> 网上的教程有使用仓库分支的方式来备份，不过总觉得博客源码公开多少奇怪，遂采取另一种办法。</p></li><li><p>进入你的博客根目录，生成一个Git初始仓库。</p> <figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs csharp">git <span class="hljs-keyword">init</span><br></code></pre></td></tr></table></figure></li><li><p>设置远程仓库的地址，更新。</p> <figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs dockerfile">git remote <span class="hljs-keyword">add</span><span class="language-bash"> orgin git@github.com/xxxxxxx.git</span><br>git pull origin master<br></code></pre></td></tr></table></figure><p> 这里可能会提示你mster分支不存在，去创建一个就行。</p></li><li><p>提交源码</p> <figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs armasm"><span class="hljs-symbol">git</span> <span class="hljs-keyword">add</span> . <span class="hljs-comment">// 提交当前路径下的源码</span><br><span class="hljs-symbol">git</span> commit -m <span class="hljs-string">&quot;备份更新&quot;</span><br></code></pre></td></tr></table></figure></li><li><p>推送到远程仓库</p> <figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs maxima">git <span class="hljs-built_in">push</span> <span class="hljs-built_in">origin</span> master<br></code></pre></td></tr></table></figure></li></ol><h2 id="自动更新"><a href="#自动更新" class="headerlink" title="自动更新"></a>自动更新</h2><p>上述方案虽然可以实现备份，不过每次文章更新完多少有些麻烦，这里网友给出了更自动化的办法，安装<code>shelljs</code>模块，检测每次 <code>Hexo deploy</code>来实现自动 push 源码。</p><ol><li><p>安装 <code>shelljs</code> 模块</p><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ada">npm install <span class="hljs-comment">--save shelljs</span><br></code></pre></td></tr></table></figure></li><li><p>在博客根目录下创建一个名为<strong>scripts</strong>的文件夹</p><p> <img src="https://s2.loli.net/2022/10/24/wmkaUKCjxRDrPZE.png" alt="目录示意"></p></li><li><p>添加一个 js 文件，自定义命名，写入以下内容 👇，并修改脚本中的博客源码路径。</p> <figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs php"><span class="hljs-keyword">require</span>(<span class="hljs-string">&#x27;shelljs/global&#x27;</span>);<br><br><span class="hljs-keyword">try</span> &#123;<br>    hexo.<span class="hljs-title function_ invoke__">on</span>(<span class="hljs-string">&#x27;deployAfter&#x27;</span>, function() &#123;<br>        <span class="hljs-title function_ invoke__">run</span>();<br>    &#125;);<br>&#125; <span class="hljs-keyword">catch</span> (e) &#123;<br>    console.<span class="hljs-title function_ invoke__">log</span>(<span class="hljs-string">&quot;产生了一个错误&lt;(￣3￣)&gt; !，错误详情为：&quot;</span> + e.<span class="hljs-title function_ invoke__">toString</span>());<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">run</span>(<span class="hljs-params"></span>) </span>&#123;<br>    <span class="hljs-keyword">if</span> (!<span class="hljs-title function_ invoke__">which</span>(<span class="hljs-string">&#x27;git&#x27;</span>)) &#123;<br>        <span class="hljs-keyword">echo</span>(<span class="hljs-string">&#x27;Sorry, this script requires git&#x27;</span>);<br>        <span class="hljs-keyword">exit</span>(<span class="hljs-number">1</span>);<br>    &#125; <span class="hljs-keyword">else</span> &#123;<br>        <span class="hljs-keyword">echo</span>(<span class="hljs-string">&quot;======================Auto Backup Begin===========================&quot;</span>);<br>        <span class="hljs-title function_ invoke__">cd</span>(<span class="hljs-string">&#x27;K:\Github\Hexo\&#x27;);      // 这里要换成你自己博客源码路径</span><br><span class="hljs-string">        if (exec(&#x27;</span>git add --all<span class="hljs-string">&#x27;).code !== 0) &#123;</span><br><span class="hljs-string">            echo(&#x27;</span><span class="hljs-attr">Error</span>: Git add failed<span class="hljs-string">&#x27;);</span><br><span class="hljs-string">            exit(1);</span><br><span class="hljs-string"></span><br><span class="hljs-string">        &#125;</span><br><span class="hljs-string">        if (exec(&#x27;</span>git commit -am <span class="hljs-string">&quot;Form auto backup script&#x27;s commit&quot;</span><span class="hljs-string">&#x27;).code !== 0) &#123;</span><br><span class="hljs-string">            echo(&#x27;</span><span class="hljs-attr">Error</span>: Git commit failed<span class="hljs-string">&#x27;);</span><br><span class="hljs-string">            exit(1);</span><br><span class="hljs-string"></span><br><span class="hljs-string">        &#125;</span><br><span class="hljs-string">        if (exec(&#x27;</span>git push origin master<span class="hljs-string">&#x27;).code !== 0) &#123;</span><br><span class="hljs-string">            echo(&#x27;</span><span class="hljs-attr">Error</span>: Git push failed<span class="hljs-string">&#x27;);</span><br><span class="hljs-string">            exit(1);</span><br><span class="hljs-string"></span><br><span class="hljs-string">        &#125;</span><br><span class="hljs-string">        echo(&quot;==================Auto Backup Complete============================&quot;)</span><br><span class="hljs-string">    &#125;</span><br><span class="hljs-string">&#125;</span><br></code></pre></td></tr></table></figure></li><li><p>输入 <code>hexo clean</code> 然后 <code>hexo d</code> 验证结果。</p></li></ol><br>全文完。]]></content>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>Hexo使用笔记</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/hexo-note/"/>
+    <url>/posts/hexo-note/</url>
     
     <content type="html"><![CDATA[<div class="note note-info">            <p>本文持续更新中</p>          </div><h2 id="Hexo-简单命令"><a href="#Hexo-简单命令" class="headerlink" title="Hexo 简单命令"></a>Hexo 简单命令</h2><h3 id="Hexo推送命令"><a href="#Hexo推送命令" class="headerlink" title="Hexo推送命令"></a>Hexo推送命令</h3><ol><li>清除Hexo现有配置：<code>hexo clean</code></li><li>更新并推送现有配置：<code>hexo g -d</code> ，depoly本地的Public文件夹。</li><li>本地查看： <code>hexo server -p</code> <strong>默认4000端口</strong>，<code>-p</code>后可自定义端口。</li></ol><h3 id="修改模板"><a href="#修改模板" class="headerlink" title="修改模板"></a>修改模板</h3><p>模板位于<strong>scaffolds</strong>文件夹，可以添加额外参数来使后面生成的文件自带对应参数。<br>这是我目前的模板：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> &#123;&#123; <span class="hljs-string">title</span> &#125;&#125;  <span class="hljs-string">//标题</span><br><span class="hljs-attr">date:</span> &#123;&#123; <span class="hljs-string">date</span> &#125;&#125; <span class="hljs-string">//写作日期</span><br><span class="hljs-attr">author:</span> <span class="hljs-string">jk2333</span> <span class="hljs-string">//作者</span><br><span class="hljs-attr">index_img:</span>  <span class="hljs-string">//首页文章缩略图</span><br><span class="hljs-attr">banner_img:</span> <span class="hljs-string">//文章详情封面图</span><br><span class="hljs-attr">excerpt:</span>  <span class="hljs-string">//摘要</span><br><span class="hljs-attr">tags:</span> <span class="hljs-string">//标签</span><br><span class="hljs-meta">---</span><br></code></pre></td></tr></table></figure><blockquote><p>这种方式会导致abbrlink插件失效，因为判定Post不再是默认的Post了，这多少有点匪夷所思，目前也没找到更好的解决方案，遂放弃。</p></blockquote><h3 id="图片存放"><a href="#图片存放" class="headerlink" title="图片存放"></a>图片存放</h3><p>Hexo现可用标签来索引本地文件夹图片，方法如下👇</p><ol><li><p>打开Hexo每次生成新文章就生成对应资源文件夹的配置，<code>_config.yml</code> 更改</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">post_asset_folder:</span> <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure></li><li><p>使用他们的标签语言来调用图片</p>   <figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs maxima">&#123;<span class="hljs-symbol">%</span> asset_img <span class="hljs-built_in">example</span>.jpg This <span class="hljs-built_in">is</span> an <span class="hljs-built_in">example</span> <span class="hljs-built_in">image</span> <span class="hljs-symbol">%</span>&#125; <br>// <span class="hljs-built_in">example</span>.jpg 为你所调用的图片名字，This <span class="hljs-built_in">is</span> an <span class="hljs-built_in">example</span> <span class="hljs-built_in">image</span> 是图片失效后显示的文字。<br></code></pre></td></tr></table></figure></li></ol><p>然而，采用这种办法调用，文件必须和资源文件夹同级，而且还必须是默认位置同级。</p><p>一旦你修改了文件位置导致相对路径发生变化，Hexo运行编译就会跳过这个文件夹，在参考了其他人的博客后，该方案废弃。</p>]]></content>
     
@@ -56,8 +56,8 @@
   
   <entry>
     <title>搏击俱乐部</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/fight-club/"/>
+    <url>/posts/fight-club/</url>
     
     <content type="html"><![CDATA[<blockquote><p>垂垂老矣之时，望着究其一生所换来的车、房，想起自己一生都在为此拼搏，但它们都不是你，甚至不能代表你。</p></blockquote><p><img src="https://s2.loli.net/2022/10/09/h7iqjURGPMsa9dy.webp"></p><p>影片由大卫·芬奇执导，他善于将不同时间、视角的画面穿插参差错落，使得片段看似荒诞不经，又随剧情推进逐渐清晰明朗。</p><p>若读者有兴趣，可以观看同为他所执导的 <a href="https://movie.douban.com/subject/1485260/">《本杰明·巴顿奇事》</a>。</p><p>正如泰戈尔曾在《飞鸟集》中写下：“有一个夜晚我烧毁了所有的记忆，从此我的梦就透明了。有一个早晨我扔掉了所有的昨天，从此我的脚步就轻盈了”，剧中的主人公因家中意外被毁，开始了一段与先前人生截然不同的路途。</p><p>影中诸多剧情耐人深省，例如Narrator不停收集特定的家具，企图藉此来对抗嚼蜡般的工作；倾听他人的不幸无助于自身实际困境，却能从中得以安慰；学生直至性命攸关才敢放手一搏，去追逐自身志向所在；搏击成员自以为逃脱了社会的枷锁，却转而陷入更深的牢笼。</p><p>他们痛恨碌碌无为的一生、憎恶成为他人祭品，却成为构建纸醉金迷社会的一员；他们面对物欲横流的社会无所适从，却又次次为无用之物慷慨解囊，他们跳入精心制作的信用卡陷阱，却又不愿陷身任人摆布的困境。</p><p>影片上映至今虽已时隔多年，但不幸的是——<strong>这样的问题仍旧存在，且成为了多数人的缩影，成为了这个时代的通病。</strong></p>]]></content>
     
@@ -75,8 +75,8 @@
   
   <entry>
     <title>我的博客 图片优化方案</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/wordpress-speed/"/>
+    <url>/posts/wordpress-speed/</url>
     
     <content type="html"><![CDATA[<p>目前，我的博客网站使用的是Wordpress系统，选择Wordpress的理由有很多，它开源、有较为简单的前后端管理方案，丰富的插件也便于实现一些所需功能。</p><p>本篇文章记载了一些个人优化网站时所遇到的问题以及对应解决方案。</p><p>当然，在网站优化方面笔者亦为新手，下文所记载的要点，除了抛砖引玉一说，也作为日后自身回顾备忘所用。</p><h2 id="网站测试"><a href="#网站测试" class="headerlink" title="网站测试"></a>网站测试</h2><p>首先，要想了解目前网站有什么不足之处，可以使用网页性能优化工具进行测试。</p><p>这是我目前常用测试网站：<a href="https://pagespeed.web.dev/">PageSpeed Insights</a></p><p>只需要输入你自己的网站，稍后它会提供一系列性能问题，并提出建议可行优化方案。</p><p><img src="https://s2.loli.net/2022/10/06/fMaXBDR8iPQA3nO.png" alt="image-20221006223819755"></p><p>类似的网站还有挺多，下方罗列</p><ul><li><a href="https://web.dev/measure/">web.dev</a></li><li><a href="https://www.webpagetest.org/">webpagetest</a></li></ul><p>除了测试网站，还可以使用Wordpress上的插件，例如<a href="https://wordpress.org/plugins/jetpack-boost/">Jetpack Boost</a>, 他们对应的Jetpack也是较为出名的Wordpress优化插件，在之后的文章我会有所介绍。</p><h2 id="图片大小优化"><a href="#图片大小优化" class="headerlink" title="图片大小优化"></a>图片大小优化</h2><p>一般而言，对图片的处理对于提升网站速度感受最为明显，作为一名年少无知的博主，心想既然是自己的小站，那图就必须讲究一个清晰。</p><p>所以刚开始我的文章配图动辄就是5Mb以上的大小，<strong>于是不出意料，我的小破站有时半分钟都没能加载完全</strong>。</p><p>在意识到了这个问题后，我开始设法优化图片来提升网页加载速度。</p><p><img src="https://s2.loli.net/2022/10/06/yHixgeBu3s6OUhk.png" alt="image-20221006223803369"></p><p>首先，在保持图片清晰的前提下，尽量缩小图片的文件大小。</p><p>你可以使用类似<a href="https://tinypng.com/">TinyPNG – Compress WebP, PNG and JPEG images intelligently</a></p><p>这种在线图片压缩网站，不过它仅支持5MB以内的文件压缩，并且不支持自定义压缩程度，因此在一些场合下显得有些鸡肋。</p><p>于是我找到了<a href="https://github.com/meowtec/Imagine">Imagin</a>这款软件，它支持Png、Jpeg、Webp格式自定义等级压缩与格式互转，最后呈现的效果也较为不错。</p><p><img src="https://s2.loli.net/2022/10/06/4vgUxiHsrS6Dlz5.png" alt="image-20221006223834774"></p><p>上文提及图片格式有Png、Jpeg、Webp，其中Webp格式在保持同等图片清晰度的情况下，压缩效果最好。</p><p>不过值得注意的是，Webp格式并非所有浏览器都支持，具体支持情况可以查看：<a href="https://caniuse.com/webp">WebP image format | Can I use… Support tables for HTML5, CSS3, etc</a></p><p>因此目前直接采用Webp的图片格式，是较为激进的做法。Wordpress也在较长的一段时间内并不支持Webp。</p><p>如果在建站的过程中，你发现自己的Wordpress无法上传、使用Webp格式的图片，请参考以下文章。</p><ul><li><a href="https://cloud.tencent.com/developer/article/1866519">在Php中安装ImageMagick扩展</a></li><li><a href="https://www.atdevin.com/3132.html">在function主题中添加部分代码获取支持</a></li></ul><h2 id="图片加载优化"><a href="#图片加载优化" class="headerlink" title="图片加载优化"></a>图片加载优化</h2><p>说完了图片格式、大小的处理后，之后需要考虑的就是如何在网站上呈现他们了。</p><p>我使用的服务器远在美国，倘若采用直连的方式，效果并不太理想。</p><p>当然，你可以将网站托管给Cloudflare，这样部分地区访问速度会有所提升，不过若是在某些特定时期，CF的表现也有些堪忧。</p><p>博客所用的图片一般有两种：只能本地上传的与能够使用图床的。</p><p>对于能使用图床的图片，可以查看我的往期博文了解：<a href="https://jk2333.com/image/">小谈图床 – JKblog (jk2333.com)</a></p><p>对于只能本地上传的图片，目前我尝试了两种方案：</p><ul><li><p>插件Jetpack自带的cdn图片加速</p></li><li><p>Github+cdn.jsdelivr.net 静态托管</p></li></ul><p>第一种方案非常简单，你只需在Wordpress的插件市场中，搜索Jetpack，勾选图片加速即可，在清理缓存后，使用F12查看图片元素对应链接是否带上类似i0.wp.com的前缀即可。</p><p><img src="https://s2.loli.net/2022/10/06/PEw5GR1WJu7Oinf.png" alt="image-20221006223922670"></p><p>第二种方案较为复杂，你需要将你的Wp下的静态资源存放到Github上，然后通过jsdelivr提供的cdn加速，最后用插件将你的原链接进行替换。这个方案在更新博文时，需要操作的步骤也较为繁琐。你可以查看<a href="https://sleele.com/2020/05/09/wordpressjsdelivr-%E4%BC%AA%E5%85%A8%E7%AB%99cdn/">WordPress+jsDelivr开启伪全站CDN</a>这篇博文来了解，里面的教程非常详细。</p><p>不过值得一提的是，写这篇博客的博主，最后也还是迁回了国内…</p><p>在选择具体方案前，使用这个<a href="https://tool.chinaz.com/speedcom/">国内网站测速对比</a>工具，可以对加速的cdn有较为初步的判断。</p><p><img src="https://s2.loli.net/2022/10/06/BiAGtVln5K7oUWc.png" alt="Snipaste_2022-10-06_22-46-42"></p><p>不过测试结果也是仅供参考，实际两种方案都尝试以后，也并没有感觉到更丝滑了多少… 甚至如Jetpack据说并没有国内的cdn，因此如果贸然套上，有可能还造成了减速的效果…</p><p>以上便是我个人关于图片格式、加载的优化方案了，如果对博文有不明白的地方或是持有更好的见解，欢迎在评论区里留言。</p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul><li><a href="https://limbopro.com/archives/1959.html">3个网页性能（速度&#x2F;TTFB）优化工具（SEO）及6个网站测速工具 </a></li><li><a href="https://sleele.com/2020/05/09/wordpressjsdelivr-%E4%BC%AA%E5%85%A8%E7%AB%99cdn/">WordPress+jsDelivr开启伪全站CDN</a></li></ul>]]></content>
     
@@ -96,8 +96,8 @@
   
   <entry>
     <title>检测网站状况汇总</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/check-website-situation/"/>
+    <url>/posts/check-website-situation/</url>
     
     <content type="html"><![CDATA[<h2 id="网站测速"><a href="#网站测速" class="headerlink" title="网站测速"></a>网站测速</h2><h3 id="站长测速"><a href="#站长测速" class="headerlink" title="站长测速"></a>站长测速</h3><p>可以大致了解各个区域打开你网站的速度：<a href="https://tool.chinaz.com/speedtest">chinaz</a></p><h3 id="IT-Dog"><a href="#IT-Dog" class="headerlink" title="IT Dog"></a>IT Dog</h3><p>同类型网站，貌似他们测试的服务器比较多，可以参考着看看。 <a href="https://www.itdog.cn/">itdog</a></p><h3 id="被墙检测"><a href="#被墙检测" class="headerlink" title="被墙检测"></a>被墙检测</h3><p>可以检测你的网站是否被墙，当然，这有时候真的很玄学：<a href="https://www.checkgfw.com/">checkgfw</a></p><h3 id="域名归属"><a href="#域名归属" class="headerlink" title="域名归属"></a>域名归属</h3><p>这里可以查看某个1·域名的各种信息，例如续期情况，归属之类的 <a href="https://ip.sb/">ip.sb</a></p>]]></content>
     
@@ -134,8 +134,8 @@
   
   <entry>
     <title>简易获取Steam余额</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/steam-balance/"/>
+    <url>/posts/steam-balance/</url>
     
     <content type="html"><![CDATA[<p>在Steam上，游戏厂商在各地区定价有高有低，所以实际上，你可以跑去低价区去买游戏（例如土耳其），然后共享给国区的自己，部分游戏售价甚至仅为国区的十分之一。</p><p>以下教程简单记录了如何较为方便地获取Steam土区余额。</p><p><img src="https://s2.loli.net/2022/10/25/kSYxCBP4hj1VUab.png" alt="具体流程"></p><h2 id="参考步骤"><a href="#参考步骤" class="headerlink" title="参考步骤"></a>参考步骤</h2><h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol><li>注册一个网易Buff账号</li><li>Steam绑定验证器<ol><li>已绑邮箱满七天的，再绑定手机令牌，只需要七天期。</li><li>未绑定过邮箱的，绑定手机令牌，需要十五天冷却期。</li></ol></li><li>开放Steam个人信息权限，具体查看这里👇<ol><li><a href="https://buff.163.com/help#before_trade">交易前的准备工作</a></li></ol></li></ol><h3 id="网易buff"><a href="#网易buff" class="headerlink" title="网易buff"></a>网易buff</h3><p>一般正常倒余额，差率大概在0.8折左右，也就是说100R的现金，最后能获得125R等额的对应地区货币。</p><p>在此基础上，有人开发了两个实时对比插件 👇</p><ol><li><a href="https://greasyfork.org/zh-CN/scripts/35597-%E9%A5%B0%E5%93%81%E6%AF%94%E4%BE%8B%E8%AE%A1%E7%AE%97%E8%84%9A%E6%9C%AC">饰品比例计算脚本</a></li><li><a href="https://greasyfork.org/zh-CN/scripts/410137-%E7%BD%91%E6%98%93buff%E4%BB%B7%E6%A0%BC%E6%AF%94%E4%BE%8B-%E6%89%BE%E6%8C%82%E5%88%80-%E6%8F%92%E4%BB%B6">网易buff比例计算</a></li></ol><p>图中所框选即为交易比率，<strong>0.85</strong> 代表着最终所获余额八五折的差价。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/card.png"></p><p>通常来说，在比率较为合理的情况下，选择交易人数越多的，越不容易翻车。</p><p>如果买了那种几千的饰品，而成交量长期为零的，那就要做好砸在手里做传家宝的准备。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/Ak-47.png"><br>在网页确定下单后，网易Buff会要求你去手机端提交报价，注意时长只有五分钟，如果多次不报价，可能导致账号被限制使用。</p><p>正常来说，长则数小时，短则几分钟，对方同意报价之后，饰品将直接入库你的Steam。</p><h3 id="Steam-售卖"><a href="#Steam-售卖" class="headerlink" title="Steam 售卖"></a>Steam 售卖</h3><p>来到Steam，如果已完成上述交易流程，你会发现Steam右上角有新信件提示，多了一件库存中的新物品，就是我们之前在网易Buff求购的饰品。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/gift.png"></p><p>选择对应饰品，点击出售即可，具体售价可以点击查看交易市场 了解平均的正常交易售价（有人急着获取余额，会压低价格甩卖）<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/list.png"></p><p>不过Steam需要抽成交额14%左右，所以建议新手计算一下买入与最后实际所得比例，是否与你在网易Buff上看到的比率一致。</p><p>之后等待有人来买，交易完成后就可以获得对应余额了。</p>]]></content>
     
@@ -155,8 +155,8 @@
   
   <entry>
     <title>2022 人间难忘张丽君</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/renjianshi/"/>
+    <url>/posts/renjianshi/</url>
     
     <content type="html"><![CDATA[<p>先前观看《人生第一次》时，在生老病死一集弹幕评论多次提及《人间世》。</p><p>于是我怀揣着溯源的想法，去观看了这部纪录片。</p><p>《人间世》是一部以医疗为主题的纪录片，片中也多次呈现了医患双方互信、谅解、猜疑、矛盾等多种复杂关系。</p><p>虽然笔者观看过的纪录片寥寥可数，但也大致明白纪录二字，意味着纵然拍摄者参杂再多情感，呈现在镜头前的，往往只能是无动于衷。但在这里，摄影师们却无法让双手止住颤抖，微颤的画面伴着病人的采访，记录下了人间世最真实的写照。</p><p><strong>26岁</strong>，妈妈、患癌、死亡。</p><p>本应毫不相干的四个词，就这样被26岁的患癌妈妈张丽君联系了起来。</p><p>这是人间世的第九集。</p><p><strong>26岁</strong>，正值芳年。有些人研究生刚刚毕业，就如王小波所言正是一生的黄金时代。本应与死亡隔着一座山。</p><p><strong>26岁</strong>，身为妈妈 ，育子侍夫本是平常不过的人生旅途，在张丽君这里成了遥不可及的奢望。</p><p>我无从、不敢、不忍揣度当生命将作风中残烛时，还要故作坚强鼓励丈夫，为襁褓的孩子拍下十八年生日祝福的张丽君，应有多大的勇气。<br><img src="https://s2.loli.net/2022/09/22/gOSRepa26bGWtTv.png"></p><br><blockquote><p>偶尔治愈，常常帮助，总是安慰。</p></blockquote><p>这是特鲁多医生的墓志铭，也是大多数医生的信条。他们脱去战袍后，只是平凡不过的普通人。他们往往无法为生命的逝去留步太久，因为他们清楚明白，前方还有更多病人需要被拯救。</p><p>自观看《人间世》后，每当遭得无妄之灾，我都不经回想——这个如此令人埋汰的今日，却是一位26岁患癌妈妈热爱却无可到达的明天。</p><p>这位妈妈，叫张丽君。</p>]]></content>
     
@@ -164,9 +164,9 @@
     
     <tags>
       
-      <tag>所诉浮生</tag>
-      
       <tag>影音书摘</tag>
+      
+      <tag>所诉浮生</tag>
       
     </tags>
     
@@ -176,8 +176,8 @@
   
   <entry>
     <title>文本配音方案</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/recommend-dubbing-scheme/"/>
+    <url>/posts/recommend-dubbing-scheme/</url>
     
     <content type="html"><![CDATA[<p>如果你有需要配音的使用场景，但自己录音又存在声音不好听、收音效果差、步骤繁琐易出错等难题，不妨试试下文所提的Ai配音吧。</p><h2 id="Azure-认知服务"><a href="#Azure-认知服务" class="headerlink" title="Azure 认知服务"></a>Azure 认知服务</h2><p>认知服务使每个开发人员和数据科学家都能接触到 AI。借助领先模型，可以解锁各种用例。只需进行 API 调用，即可将查看、收听、朗读、搜索、理解和加速高级决策的功能嵌入到应用中。让所有技能级别的开发人员和数据科学家都能够轻松地向其应用添加 AI 功能。</p><p>简而言之，这里使用他们旗下的AI语音合成方案，作为配音的工具。</p><h2 id="具体使用限制"><a href="#具体使用限制" class="headerlink" title="具体使用限制"></a>具体使用限制</h2><p>学生教育优惠账号每月享有50万字的免费额度，单篇限幅3000字符，正常足够使用。不少国内的配音软件都是调用微软接口来使用的。不过，使用尽量规避投递国外平台，例如Youtube。</p><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><p>一个可以通过Github学生认证的教育邮箱。</p><h2 id="开通步骤"><a href="#开通步骤" class="headerlink" title="开通步骤"></a>开通步骤</h2><ol><li>首先，你需要使用上述的学生教育邮箱，向Github申请学生认证，之后用该学生凭证去申请微软的教育工具包。具体开通流程可以参考这篇帖子：<a href="https://zbttl-github-io.vercel.app/github-xue-sheng-bao-he-azure-yang-mao/?highlight=azure" title="github 学生包和 azure 羊毛">github 学生包和 azure 羊毛</a></li><li>之后用相关的微软账号登录 <a href="https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices">创建语音服务 - Microsoft Azure</a> ，继续完成以下步骤<ol><li>创建语音服务 ：区域就近选择日本，定价层选择Free F0即可<img src="https://s2.loli.net/2022/08/18/zPExvZ1XAqHn3Yo.png" alt="定价.png"></li><li>登录 <a href="https://speech.microsoft.com/portal" title="Speech Studio - Microsoft Azure">Speech Studio - Microsoft Azure</a> ，首次使用会让你选择资源名，选取上文创建好的语音服务资源即可。然后选择有声内容创作<img src="https://s2.loli.net/2022/08/18/C1d3GWsXvPrY7op.png"></li><li>创建文本文件，之后在页面中输入你需要音频的相关文本即可。<img src="https://s2.loli.net/2022/08/18/Onkr1Qi6y5p83dL.png"></li><li>根据使用场景的需求不同，你可以选取不同的讲述人，对其音量、语调、风格、停顿单独修改，使其更加贴近真人朗读的效果。<br><img src="https://s2.loli.net/2022/08/18/aADKLx7oJRgbSGH.png"></li></ol></li></ol><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>最后可以实现类似相近人声的机器朗读，效果差强人意，50w的免费额度也足够低频使用，作为暂行方案还是不错的。</p>]]></content>
     
@@ -195,8 +195,8 @@
   
   <entry>
     <title>人生第一次</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/the-first-in-life/"/>
+    <url>/posts/the-first-in-life/</url>
     
     <content type="html"><![CDATA[<p>《人生第一次》纪录片以人生的不同阶段来分集，从春和景明的新生期冀到迟暮之年的生死相依。</p><p>在片中，你能看到身居深山的留守儿童不砸玻璃，学着写诗；有驻扎边疆的钢铁男儿挥洒热泪，无怨无悔；能看到勇排非议的残疾情侣重返社会，百折不摧；能看到风烛残年的空巢老人睹物思人，一往情深。</p><p><img src="https://s2.loli.net/2022/08/17/Cpcrshfoav6ZzLR.jpg"></p><p>这部人文纪录片里，记录了现今人们的生活百态，他们尝尽苦辣酸甜，生活滚烫而又平淡。<br>片中总体基调乐观向上，用最平常的情感，述说着千面万般的人生初见，不安而勇敢，这样的纪录片，值得一看。</p><p>最后值得一提的是，笔者也很喜欢他们每集的片尾曲，那就用它来结尾吧，同样推荐给你。</p><center><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=90% height=86 src="//music.163.com/outchain/player?type=2&id=1350658589&auto=0&height=66"></iframe></center><p><img src="https://s2.loli.net/2022/08/17/vbI37TfoH4MVOh8.png"></p>]]></content>
     
@@ -204,9 +204,9 @@
     
     <tags>
       
-      <tag>影音书摘</tag>
-      
       <tag>所述浮生</tag>
+      
+      <tag>影音书摘</tag>
       
     </tags>
     
@@ -216,8 +216,8 @@
   
   <entry>
     <title>写作小助手</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/wantsay-helper/"/>
+    <url>/posts/wantsay-helper/</url>
     
     <content type="html"><![CDATA[<p>不知读者是否有像我一样，时常如鲠在喉，却因词不达意无从说起。而针对这一情况，清华大学自然语言处理实验室开发了一款用户模糊描述词意，凭借深度学习算法匹配相似词汇的工具———<a href="https://wantwords.net/">万词王</a>。</p><p>虽然，文章的好坏优劣不能单由辞藻优美与否评判，但适当的修饰能使文章锦上添花，而贴切的用词往往能更好地拉近与读者的距离。<br><img src="https://s2.loli.net/2022/07/29/SYb3jOmrgqDWaGn.png"></p><p>通过多版本的迭代，在查找词汇的同时还可以通过词性、字数、韵脚、词形进行筛选，可以说是覆盖了大部分的用词需求。</p><p>而根据类似的需求，他们团队在近日又推出了一款更为重磅的利器——<a href="https://wantquotes.net/">据意查句</a>。（至少，这次不用为谐音梗扣钱了）</p><p>据意查句可以通过模糊的描述来匹配用户想表达的句子，其中包含的类别不仅是文学、诗歌，甚至还可以匹配动漫、影视剧、综艺。这意味着仅作为垂直搜索工具，它也足够好用。以下是笔者测试的两张示例图：</p><p><img src="https://s2.loli.net/2022/07/29/4hAotpZU2HrxPKb.png"></p><p><img src="https://s2.loli.net/2022/07/29/zseXYaTCFhr89WM.png"></p><p>从搜索结果而言还算差强人意，并且团队也表示会不断优化算法增强匹配程度。</p><p>综上所言，这两款码文利器推荐给大家~</p>]]></content>
     
@@ -235,8 +235,8 @@
   
   <entry>
     <title>今夕月明</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/moon-tonight/"/>
+    <url>/posts/moon-tonight/</url>
     
     <content type="html"><![CDATA[<p>不知不觉，返回小镇已有一年。</p><p>游历在外的景色日渐模糊，久居故里的厌倦一再侵袭。</p><p>每有烦心之事，常是孤身一人徘徊广场，独赏明月，随后往事逐页翻卷，固望月抒情之事，千古如一。</p><p>皓月当空，时代的喧嚣得以暂抛眼后，晚风的微凉重新扑面而至，至于其余的琐事，无关风月。</p><p>只是良辰常有，美景时故，但少闲人如吾一人。</p>]]></content>
     
@@ -254,8 +254,8 @@
   
   <entry>
     <title>泰拉瑞亚 私服搭建</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/terraria/"/>
+    <url>/posts/terraria/</url>
     
     <content type="html"><![CDATA[<p>自先前游玩Minecraft之后 ，笔者又顺藤摸瓜接触了Terraria，作为双胞胎沙盒游戏，Terraria同样支持玩家自行搭建服务器，方便多人随时游玩。</p><p>与MC相同的是，在Terraria世界中，没有强制的任务指引，玩家可以在游戏天马行空般发挥自己的想象力，只不过这次的世界是2D的。</p><p>本篇文章将简单记载如何搭建一个泰拉瑞亚私服。</p><h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><blockquote><p>《泰拉瑞亚》是一款2D沙盒模拟游戏，其游戏特色是在一个随机生成的2D世界裡探索、创造、建筑，并与各种生物战斗，其沙盒元素颇受好评。</p></blockquote><p>Terraria与MC同为沙盒游戏，虽然不如MC普及，但在沙盒游戏中同样广受好评。<br>由于Terraria官方提供了各端的服务器版本，玩家开盒即用，本期的笔记相较于上期Minecraft搭建较为简单。</p><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><ol><li>Terraria默认游戏内服务端口为<strong>7777</strong>，因此需要在服务器后台打开相应端口。</li><li>下载官方提供的服务端压缩包，下载链接见下方，选择对应版本即可，这里笔者选择    <a href="https://terraria.fandom.com/wiki/Server#Downloads">Terraria Server 1.4.3.6 </a>.</li></ol><h2 id="具体部署"><a href="#具体部署" class="headerlink" title="具体部署"></a>具体部署</h2><ol><li>解压上文下载的压缩包解压，重命名Linux端的文件，上传至服务器 </li><li>在文件夹内对应存放位置直接运行 <code>./TerrariaServer.bin.x86_64</code>  ，发现提示 <code>Permission denied</code> ，输入 <code>chmod -R 777 /&lt;当前根目录&gt;</code> 赋权，例如：<code>chmod -R 777 /root</code></li><li>由于需要服务器24小时运行Terraria，我们需要将其运行在Screen窗口中，以下是具体步骤<ol><li>安装screen ： <code>apt install screen</code></li><li>新建一个窗口：<code>screen -S &lt;窗口名&gt;</code></li></ol></li><li>在Screen窗口中运行 <code>./TerrariaServer.bin.x86_64</code> 即可</li></ol><h2 id="Terraria-世界参数设定"><a href="#Terraria-世界参数设定" class="headerlink" title="Terraria 世界参数设定"></a>Terraria 世界参数设定</h2><p>服务器搭建完后，可对要生成的世界进行设置，具体参数介绍如下。</p><ol><li>Choose size ： 选择世界大小，输入具体序列号即可</li><li>Choose difficulty ：选择难度，一般选择经典</li><li>Enter world name : 输入世界名称，随后连接服务器会显示</li><li>Enter Seed (Leave Blank For Random) :   输入世界种子，否则随机生成</li><li>Max players (press enter for 16)：选择最大连接人数</li><li>Server port (press enter for 7777) ：设置连接端口，默认为7777</li><li>Automatically forward port? (y&#x2F;n) ：自动转发端口，选是</li><li>Server password (press enter for none) ：是否设置密码</li><li>当看到 Server started 时，便可在客户端连接</li></ol><h2 id="用户端连接"><a href="#用户端连接" class="headerlink" title="用户端连接"></a>用户端连接</h2><ol><li><p>选择多人游戏，之后通过IP加入，输入服务器公网IP与端口即可</p><p> <img src="https://s2.loli.net/2022/10/26/DKtYF16W97dq3VM.webp"></p></li></ol><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>做为一款十年前诞生的游戏，泰拉瑞亚的成功除了优秀的游戏机制之外，也离不开创作团队十年来从未间断的迭代更新，也正因如此，该作获得了Steam21年”爱的付出“奖项。<br><img src="https://s2.loli.net/2022/10/26/kLrsQm7NKGwzgAB.png"></p><h2 id="相关连接"><a href="#相关连接" class="headerlink" title="相关连接"></a>相关连接</h2><ol><li><a href="https://terraria.wiki.gg/zh/wiki/Terraria_Wiki?variant=zh">Terraria 游戏维基百科</a>：你可以在这里找到一切游戏中遇到的难题</li><li>教程参考视频：<a href="https://www.bilibili.com/video/BV17A411G7cX">小白也能10分钟轻松开服</a></li></ol>]]></content>
     
@@ -275,8 +275,8 @@
   
   <entry>
     <title>空洞骑士</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/hollowknight/"/>
+    <url>/posts/hollowknight/</url>
     
     <content type="html"><![CDATA[<p>近日，笔者重拾两年前购入的空洞骑士(对于一个手残路痴玩家，属实不算友好)。<br>但本着对游戏的喜欢。（以及听闻续作丝之歌近日将出，硬着头皮玩了下去）</p><p>游戏本身十分出色，无论是从游戏世界观、配乐画风都无可挑剔。</p><p>作为极具代表的硬核游戏之一，它不会像《死亡细胞》一样告诉玩家“菜就多练练”，也不会像《只狼》一般“让全世界学会中文”。</p><p>有的仅是形单影只，犹如泪水之城淅淅沥沥的雨声，是独往内心的孤独，是无可与人言说的空洞。</p><center><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=90% height=86 src="//music.163.com/outchain/player?type=2&id=1309394512&auto=0&height=66"></iframe></center><p>主角本应是空无一物的容器，在玩家手中最终成为从未畏强欺弱、直面黑暗出身、背负全境过往的勇士。<br>愿你我的生活皆可如此。<br><img src="https://s2.loli.net/2022/01/03/teNZ2KiF7bL5Vzd.jpg"></p>]]></content>
     
@@ -296,8 +296,8 @@
   
   <entry>
     <title>小谈图床</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/picture-bed/"/>
+    <url>/posts/picture-bed/</url>
     
     <content type="html"><![CDATA[<h2 id="起因由来"><a href="#起因由来" class="headerlink" title="起因由来"></a>起因由来</h2><p>众所周知，对于笔者而言，能薅羊毛的总要去探一探头试试。</p><p>在接触了Markdown这种小白友好语言时，便难以自拔了。也正是在接触Markdown语言时，笔者知晓可以采用图床，来解决多平台发布时，图片繁杂处理的情况。当然，能够抠搜一点存储空间出来，更好不过了。</p><h2 id="图床介绍"><a href="#图床介绍" class="headerlink" title="图床介绍"></a>图床介绍</h2><p>简单来说，图床大致就是一个存图的地方，然后会生成一段链接，如果你在浏览器输入打开，就能看到对应图像了。</p><h3 id="图床要求"><a href="#图床要求" class="headerlink" title="图床要求"></a>图床要求</h3><p>市面上图床五花八门，但是在挑选图床上，显然要有所要求。<br>对于笔者而言，大致有如下标准：</p><ul><li>足够稳定 若用野鸡图床，三两天关门不干了，意味着数据也随人家跑路了。</li><li>价格合理 做为笔者个人自娱自乐，若是太贵便只是叹而观止了。</li><li>访问较快 图片加载速度对于平时访问网站体验而言，甚为重要。</li><li>空间较大 虽说一般市面上的图床轻度使用都足以，但本着一步到位的心态，还是希望上个好的。</li></ul><h3 id="图床选择"><a href="#图床选择" class="headerlink" title="图床选择"></a>图床选择</h3><p>那么根据以上几点标准，大致选出了一下几种方案：</p><h4 id="sm-ms-图床"><a href="#sm-ms-图床" class="headerlink" title="sm.ms 图床"></a>sm.ms 图床</h4><p>免费用户有5GB空间，但文件大小限制5MB，由于提供现成API，配置较为简单，但免费就意味着，随着用户增多，平台质量有待考量。</p><p><strong>2022年10月18日更新</strong>：SM关闭游客上传后，访问速度有所提升，不过现如今sm.ms域名已被封禁。</p><h4 id="GitHub-图床"><a href="#GitHub-图床" class="headerlink" title="GitHub 图床"></a>GitHub 图床</h4><p>本质上，GitHub能做图床一开始笔者也甚是意外，GitHub貌似在文件大小超过50MB时会发送邮件，但不影响使用。</p><h6 id="GitHub图床搭建"><a href="#GitHub图床搭建" class="headerlink" title="GitHub图床搭建"></a>GitHub图床搭建</h6><p>其实网上这类教程早已多如牛毛，这里仅简单记载作为作者自身备忘，具体可以参考<a href="https://zhuanlan.zhihu.com/p/353775844">该篇教程</a>。</p><ol><li>右上角创建一个<strong>公开</strong>仓库</li><li>Github个人设置选择<strong>Developer setting</strong>创建一个密钥，这里密钥最好单独记载一下，否则每次使用都得重新生成。</li><li>依次将仓库名、分支名main、上述生成的密钥Token填入Picgo即可。</li><li>可以设定<code>https://cdn.jsdelivr.net/gh</code> +仓库名的形式来提升访问速度。</li></ol><h4 id="七牛云"><a href="#七牛云" class="headerlink" title="七牛云"></a>七牛云</h4><p>七牛云提供的服务有很多，这也是笔者在摸索过程中，第一次接触到<strong>对象存储</strong>这一概念。</p><p>七牛云的优势在于免费用户有10GB的存储空间，听起来较为不错，但下载流量另算（也是每月10G免费），希望笔者这小小站能多嫖一段时间。</p><p>七牛云的配置最为繁琐，在注册时需要实名认证，不过所幸笔者是个正人君子。不搞一些奇怪的东西也就无所畏惧，话虽如此，在当天下午接到七牛云客服回访时，提桶跑路的想法依旧凌越而上。</p><p>在例行友好地表示了自己白嫖的用途后，笔者与对方同时会心一笑。虽说，对缓解彼此的尴尬貌似并无益处。</p><h4 id="图床配置"><a href="#图床配置" class="headerlink" title="图床配置"></a>图床配置</h4><p>虽说事后摸索也未觉有啥太难之处，但初始配置之时还是遇到了不少挫折。</p><h4 id="存储地区选择"><a href="#存储地区选择" class="headerlink" title="存储地区选择"></a>存储地区选择</h4><ol><li><p>由于笔者VPS地处国外，在配置对象存储时会有所限制，例如地区仅能选择海外，目前仅有北美和东南亚两个选择。</p></li><li><p>在配置域名时，由于笔者套了一层cf来解析dns，在<a href="https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name">CNAME配置</a>的时候竟不知要开启仅限DNS，由此多走了许多坑。</p></li></ol><p>虽不知其所以然，但能跑的程序不去再动是作为一只菜鸟的传统默契。<br>具体教程参考： <a href="https://www.bilibili.com/read/cv10067940">七牛云对象存储免费图床</a></p><h4 id="图形工具"><a href="#图形工具" class="headerlink" title="图形工具"></a>图形工具</h4><p>在配置完图床后，有时需要对图片再次处理，由此就需要图形化工具。</p><p>当然，PicGo在此方面可以说是佼佼者了，出色的图像预览模式很是友好。</p><p>但如果你和笔者一样有多端同步的操作，PicGo无法方便读取所有数据的话，就需要另寻办法了。<br>笔者在找到七牛云开发教程中找到<a href="https://developer.qiniu.com/kodo/5972/kodo-browser">Kodo Browser</a>这一工具，但貌似未能找到直接图像预览。（大致预览就要流量吧，也是一种取舍）</p><h3 id="配置Mweb"><a href="#配置Mweb" class="headerlink" title="配置Mweb"></a>配置Mweb</h3><p>其中配置Mweb开发者已在其官网列出了<a href="https://zh.mweb.im/how_to_use_qiniu_url.html">七牛云配置详细教程</a>，可惜的是，目前尚不直接支持GitHub图床，网上搜到该篇教程提供了一些思路，通过Vercel云端跑Node.js可以实现，或许日后心血来潮，笔者会再去折腾折腾。</p><h2 id="尾声已至"><a href="#尾声已至" class="headerlink" title="尾声已至"></a>尾声已至</h2><p>虽说，图床一定程度上提供了数据分享的便利，且选择较大平台很有可能人没了图还在的情况，但像笔者这种对数据控制有着浓烈的执念，还是是平日勤做备份吧。</p>]]></content>
     
@@ -315,8 +315,8 @@
   
   <entry>
     <title>心有猛虎</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/life-of-pi/"/>
+    <url>/posts/life-of-pi/</url>
     
     <content type="html"><![CDATA[<blockquote><p>我心里有猛虎，在细嗅着蔷薇，审视我的心灵吧，亲爱的朋友，你应战栗，因为那里才是你本来的面目。</p></blockquote><p>先前，笔者一直在看豆瓣250这一排行榜上的电影。</p><p>唯独跳过了两部电影，一部是《乱世佳人》，一部便是今日的主题——少年派的奇妙漂流。</p><p>电影本身开头并不艳丽。</p><p>至少起初笔者还多次揣摩一些镜头，毕竟得找寻一些理由来安慰自己，所谓:”这不愧是豆瓣Top250排名41的电影。”</p><p>当然，直到最后故事结尾，笔者也不知所以然，直到去参寻了他人的影评。</p><p>故事开头讲述少年名字由来，再到举家移民遭遇海难，主人公幸逃一难，最后与老虎只船共处了237天成功生还的故事。故事若到这，便和之前《多力特的奇幻冒险》一般，除了特效之外，并未有什么惊人之处，最多对主人公难以置信的求生信念感到叹服。</p><p>但直到故事结尾，主人公讲述了这个故事的另一个版本——此次漂流的现实版。当童话不再是童话，照应进现实，这部电影前面的种种反常理伏笔才逐渐清晰了起来。</p><p>原来老虎对应主人公的兽性，斑马对应一开始食素的中国船员，鬣狗对应凶神恶煞的厨师，而护住主人公的猩猩自然暗喻着母亲。</p><p>第二个故事是对于第一个故事的隐喻，它更为现实，也更符合常理来解释为何能存活下来。</p><p>只是往往，比起残酷的现实而言，笔者更如剧中最终调查报告的日本人一番，选择去相信不太真实的童话。</p><p>期间首个故事有一段插曲，少年漂浮到绿岛上，笔者原以为故事走向会如《鲁滨逊漂流记》，主人公荒岛求生，最终为人所救。</p><p>显然，导演要告诉我们的，是人生的另一个道理——小岛就如捕蝇草，白日赐予无尽的食物，晚上便全部收回。所谓生于忧患，死于安乐，若迷恋孤岛安于乐命，定如前人化为尸骨。</p><p>最后，直至获救之时，老虎帕克头也不回地走向丛林深处了。此处对应主人公未能于与身边亲人好好告别，也对应故事另个一版本的隐喻：“兽性总在危难之时席卷而来，又在安命之处悄然离开”，也许人兽两性注定相违，但他们各有意义，彼此相托。</p><p><img src="https://gcore.jsdelivr.net/gh/2019YKL/hexo-imag/2022/N1plLmaqoK3C7Ow.webp" alt="心有猛虎"></p><p>故事本身与<a href="https://movie.douban.com/subject/1296141/">《控方证人》</a>相似，结尾隐藏了众多巧妙之处，令人联想非常。无论选择相信命运，或是怀疑生活都有所获。</p><p>至此，该篇电影为何得以名居榜首，笔者已有答案。</p><p>“我心里有猛虎，在细嗅着蔷薇，审视我的心灵吧，亲爱的朋友，你应战栗，因为那里才是你本来的面目。”——西格夫里·萨松</p>]]></content>
     
@@ -334,8 +334,8 @@
   
   <entry>
     <title>渴望生活</title>
-    <link href="/posts/index/"/>
-    <url>/posts/index/</url>
+    <link href="/posts/desire-life/"/>
+    <url>/posts/desire-life/</url>
     
     <content type="html"><![CDATA[<h2><center>渴望生活</center></h2><center><center>渴望生活</center><center>渴望每一个半知若解的音符</center><br><center>渴望生活</center><center>渴望每一幅无从描绘的晚霞</center><br><center>渴望生活</center><center>渴望每一次不必言说的缄默</center><br><center>渴望生活</center><center>只是不知 为何渴望</center><center>只是不知 为何生活</center><br><center>... ...</center>]]></content>
     
