@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>钢琴家</title>
+    <link href="/posts/the-pianist/"/>
+    <url>/posts/the-pianist/</url>
+    
+    <content type="html"><![CDATA[<p><strong>有的电影多看一眼便是残忍。</strong></p><p>本次推荐的电影为<a href="https://movie.douban.com/subject/1296736/">《钢琴家》</a>，是一部反纳粹的人物传记类电影。</p><p>反纳粹的电影在豆瓣Top250上绝非孤例，相同题材的还有《美丽人生》、《辛德勒的名单》等等。</p><p>虽然，三部电影讲诉题材有所侧重，钢琴家不同于《辛》中演绎的人道主义英雄、也并非《美》重笔着墨亲情主题，他讲述的是当历史的车轮碾在一个小人物上，即使生存希望渺茫，主人公一刻也未曾放弃活下去的信念。</p><p><img src="https://s2.loli.net/2022/03/21/S93OcJ5edBD1CVQ.jpg"></p><p>而描写纳粹迫害犹太人的场面都殊途同归——场面凄厉至极，非残忍二字足以形容。这样的电影，多看一眼都令人窒息。</p><p>不同于《辛》、《美》二部电影，《钢琴家》的绝大多数片段都略显平淡，但本部影片并非着重刻画纳粹的残忍之处，而是描绘不同阵营人们的两面性，无论是波兰人还是犹太人、德国人。屠杀战场的德国军官，也会为钢琴放下屠刀，他卸下戎装回家可能仅是寻常不过的父亲而已。</p><p>将那样一个时代彻底变为炼狱的，大多数并非是十恶不赦的战犯，也不是民族狂热份子，而是一个个太平时期的黎民百姓。<br><img src="https://s2.loli.net/2022/03/21/GULjtJbphdsi28Q.jpg"></p><p>观看历史题材影片时，笔者总会先去查阅相关时代背景。不幸的是，看着影中主人公一家身处波兰，认为战争很快便会结束时，正为英法“宣布加入反战”德国丰宴一餐时，历史词条冰冷冷写着——这才刚刚开始。</p><p>如果说，历史尘埃落定，我们无力改变惨白的过去，那么唯一能做的，<strong>便是不要忘记</strong>。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>影音书摘</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hugo 搭建博客</title>
     <link href="/posts/hugo-build/"/>
     <url>/posts/hugo-build/</url>
@@ -204,9 +223,9 @@
     
     <tags>
       
-      <tag>所述浮生</tag>
-      
       <tag>影音书摘</tag>
+      
+      <tag>所述浮生</tag>
       
     </tags>
     
@@ -257,7 +276,7 @@
     <link href="/posts/terraria/"/>
     <url>/posts/terraria/</url>
     
-    <content type="html"><![CDATA[<p>自先前游玩Minecraft之后 ，笔者又顺藤摸瓜接触了Terraria，作为双胞胎沙盒游戏，Terraria同样支持玩家自行搭建服务器，方便多人随时游玩。</p><p>与MC相同的是，在Terraria世界中，没有强制的任务指引，玩家可以在游戏天马行空般发挥自己的想象力，只不过这次的世界是2D的。</p><p>本篇文章将简单记载如何搭建一个泰拉瑞亚私服。</p><h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><blockquote><p>《泰拉瑞亚》是一款2D沙盒模拟游戏，其游戏特色是在一个随机生成的2D世界裡探索、创造、建筑，并与各种生物战斗，其沙盒元素颇受好评。</p></blockquote><p>Terraria与MC同为沙盒游戏，虽然不如MC普及，但在沙盒游戏中同样广受好评。<br>由于Terraria官方提供了各端的服务器版本，玩家开盒即用，本期的笔记相较于上期Minecraft搭建较为简单。</p><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><ol><li>Terraria默认游戏内服务端口为<strong>7777</strong>，因此需要在服务器后台打开相应端口。</li><li>下载官方提供的服务端压缩包，下载链接见下方，选择对应版本即可，这里笔者选择    <a href="https://terraria.fandom.com/wiki/Server#Downloads">Terraria Server 1.4.3.6 </a>.</li></ol><h2 id="具体部署"><a href="#具体部署" class="headerlink" title="具体部署"></a>具体部署</h2><ol><li>解压上文下载的压缩包解压，重命名Linux端的文件，上传至服务器 </li><li>在文件夹内对应存放位置直接运行 <code>./TerrariaServer.bin.x86_64</code>  ，发现提示 <code>Permission denied</code> ，输入 <code>chmod -R 777 /&lt;当前根目录&gt;</code> 赋权，例如：<code>chmod -R 777 /root</code></li><li>由于需要服务器24小时运行Terraria，我们需要将其运行在Screen窗口中，以下是具体步骤<ol><li>安装screen ： <code>apt install screen</code></li><li>新建一个窗口：<code>screen -S &lt;窗口名&gt;</code></li></ol></li><li>在Screen窗口中运行 <code>./TerrariaServer.bin.x86_64</code> 即可</li></ol><h2 id="Terraria-世界参数设定"><a href="#Terraria-世界参数设定" class="headerlink" title="Terraria 世界参数设定"></a>Terraria 世界参数设定</h2><p>服务器搭建完后，可对要生成的世界进行设置，具体参数介绍如下。</p><ol><li>Choose size ： 选择世界大小，输入具体序列号即可</li><li>Choose difficulty ：选择难度，一般选择经典</li><li>Enter world name : 输入世界名称，随后连接服务器会显示</li><li>Enter Seed (Leave Blank For Random) :   输入世界种子，否则随机生成</li><li>Max players (press enter for 16)：选择最大连接人数</li><li>Server port (press enter for 7777) ：设置连接端口，默认为7777</li><li>Automatically forward port? (y&#x2F;n) ：自动转发端口，选是</li><li>Server password (press enter for none) ：是否设置密码</li><li>当看到 Server started 时，便可在客户端连接</li></ol><h2 id="用户端连接"><a href="#用户端连接" class="headerlink" title="用户端连接"></a>用户端连接</h2><ol><li><p>选择多人游戏，之后通过IP加入，输入服务器公网IP与端口即可</p><p> <img src="https://s2.loli.net/2022/10/26/DKtYF16W97dq3VM.webp"></p></li></ol><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>做为一款十年前诞生的游戏，泰拉瑞亚的成功除了优秀的游戏机制之外，也离不开创作团队十年来从未间断的迭代更新，也正因如此，该作获得了Steam21年”爱的付出“奖项。<br><img src="https://s2.loli.net/2022/10/26/kLrsQm7NKGwzgAB.png"></p><h2 id="相关连接"><a href="#相关连接" class="headerlink" title="相关连接"></a>相关连接</h2><ol><li><a href="https://terraria.wiki.gg/zh/wiki/Terraria_Wiki?variant=zh">Terraria 游戏维基百科</a>：你可以在这里找到一切游戏中遇到的难题</li><li>教程参考视频：<a href="https://www.bilibili.com/video/BV17A411G7cX">小白也能10分钟轻松开服</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>自先前游玩Minecraft之后 ，笔者又顺藤摸瓜接触了Terraria，作为双胞胎沙盒游戏，Terraria同样支持玩家自行搭建服务器，方便多人随时游玩。</p><p>与MC相同的是，在Terraria世界中，没有强制的任务指引，玩家可以在游戏天马行空般发挥自己的想象力，只不过这次的世界是2D的。</p><p>本篇文章将简单记载如何搭建一个泰拉瑞亚私服。</p><h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><blockquote><p>《泰拉瑞亚》是一款2D沙盒模拟游戏，其游戏特色是在一个随机生成的2D世界裡探索、创造、建筑，并与各种生物战斗，其沙盒元素颇受好评。</p></blockquote><p>Terraria与MC同为沙盒游戏，虽然不如MC普及，但在沙盒游戏中同样广受好评。<br>由于Terraria官方提供了各端的服务器版本，玩家开盒即用，本期的笔记相较于上期Minecraft搭建较为简单。</p><h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><ol><li>Terraria默认游戏内服务端口为<strong>7777</strong>，因此需要在服务器后台打开相应端口。</li><li>下载官方提供的服务端压缩包，下载链接见下方，选择对应版本即可，这里笔者选择    <a href="https://terraria.fandom.com/wiki/Server#Downloads">Terraria Server 1.4.3.6 </a>.</li></ol><h2 id="具体部署"><a href="#具体部署" class="headerlink" title="具体部署"></a>具体部署</h2><ol><li>解压上文下载的压缩包解压，重命名Linux端的文件，上传至服务器 </li><li>在文件夹内对应存放位置直接运行 <code>./TerrariaServer.bin.x86_64</code>  ，发现提示 <code>Permission denied</code> ，输入 <code>chmod -R 777 /&lt;当前根目录&gt;</code> 赋权，例如：<code>chmod -R 777 /root</code></li><li>由于需要服务器24小时运行Terraria，我们需要将其运行在Screen窗口中，以下是具体步骤<ol><li>安装screen ： <code>apt install screen</code></li><li>新建一个窗口：<code>screen -S &lt;窗口名&gt;</code></li></ol></li><li>在Screen窗口中运行 <code>./TerrariaServer.bin.x86_64</code> 即可</li></ol><h2 id="Terraria-世界参数设定"><a href="#Terraria-世界参数设定" class="headerlink" title="Terraria 世界参数设定"></a>Terraria 世界参数设定</h2><p>服务器搭建完后，可对要生成的世界进行设置，具体参数介绍如下。</p><ol><li>Choose size ： 选择世界大小，输入具体序列号即可</li><li>Choose difficulty ：选择难度，一般选择经典</li><li>Enter world name : 输入世界名称，随后连接服务器会显示</li><li>Enter Seed (Leave Blank For Random) :   输入世界种子，否则随机生成</li><li>Max players (press enter for 16)：选择最大连接人数</li><li>Server port (press enter for 7777) ：设置连接端口，默认为7777</li><li>Automatically forward port? (y&#x2F;n) ：自动转发端口，选是</li><li>Server password (press enter for none) ：是否设置密码</li><li>当看到 Server started 时，便可在客户端连接</li></ol><h2 id="用户端连接"><a href="#用户端连接" class="headerlink" title="用户端连接"></a>用户端连接</h2><ol><li><p>选择多人游戏，之后通过IP加入，输入服务器公网IP与端口即可</p><p> <img src="https://s2.loli.net/2022/10/26/DKtYF16W97dq3VM.webp"></p></li></ol><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>做为一款十年前诞生的游戏，泰拉瑞亚的成功除了优秀的游戏机制之外，也离不开创作团队十年来从未间断的迭代更新，也正因如此，该作获得了Steam21年”爱的付出“奖项。<br><img src="https://s2.loli.net/2022/10/26/kLrsQm7NKGwzgAB.png"></p><h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ol><li><a href="https://terraria.wiki.gg/zh/wiki/Terraria_Wiki?variant=zh">Terraria 游戏维基百科</a>：你可以在这里找到一切游戏中遇到的难题</li><li>教程参考视频：<a href="https://www.bilibili.com/video/BV17A411G7cX">小白也能10分钟轻松开服</a></li></ol>]]></content>
     
     
     
@@ -285,6 +304,25 @@
     <tags>
       
       <tag>所述浮生</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>骄阳似我</title>
+    <link href="/posts/good-will-hunting/"/>
+    <url>/posts/good-will-hunting/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>人生应有这样一段豁然开朗的时光。</p></blockquote><p>本次电影讲述的是一个自幼蒙受非待的天才孤儿Will，如何受他人开导重拾天赋的故事。</p><p>虽然，作为观众难有主角这般经历，但心灵导师Sean开导Will的许多话语值得细品。</p><p>以下片段便节选自影中，是笔者深为触动的一番话：</p><blockquote><p>如果我们谈到爱，你可以会给我背十四行诗。但你不会知道，当你看着你心爱的伴侣非常脆弱的时候，感受是什么。你本以为上帝在你手中放了一个Anger，这种爱可以超越一切，超越癌症！你不知道为了照顾身患癌症的妻子，在医院里两个月寸步不离是什么感觉。你不会知道什么是真正的“失去”，因为这只有在你爱一件东西胜过爱你自己的时候，你才能体会到。你从来不敢爱任何人，对吗？</p></blockquote><p><img src="https://s2.loli.net/2022/03/28/yPJhMHoGYX6qb4B.jpg"></p><blockquote><p>看着你，我并没有看到一个聪明的、自信的男人；我只看到了一个狂妄的、内心恐惧的、懒惰的男孩。威尔，你很天才，没人能否定这一切，甚至没有人会了解你。但是你却因为看到一幅画，就对我的生活妄加评判。</p></blockquote><blockquote><p>你是个孤儿，对吧？难道我会因为读过《雾都孤儿》这本书，就会知道你的生活有多艰辛？<br>你的感受是什么？你是谁？这可能吗？我不可能像你去读我写过的书来了解我；除非你愿意敞开你自己，愿意和我交流，不然我无法知道“你是谁”。你不愿意说，是不是？你或许已经被自己可能表露真实的自己给吓到了？</p></blockquote><p>世间诸多事物并无法从书中引申，不深了解便肆意评判他人的举止是很愚蠢的。畅所欲言往往不难，而学会缄默却并非易事。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>影音书摘</tag>
       
     </tags>
     
