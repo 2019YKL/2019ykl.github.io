@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Git学习笔记</title>
+    <link href="/posts/learngit/"/>
+    <url>/posts/learngit/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Win-常用命令"><a href="#Win-常用命令" class="headerlink" title="Win 常用命令"></a>Win 常用命令</h2><ol><li>创建一个空文件： <code>type nul &gt; [Filename]</code></li><li>创建一个文件夹：<code>mkdir [Filename]</code></li><li>查看当前文件内容：<code>type [Filename]</code></li><li>删除一个文件：<code>del [Filename]</code></li><li>查看当前目录下的文件：<code>dir /b</code></li></ol><h2 id="Git-常用命令"><a href="#Git-常用命令" class="headerlink" title="Git 常用命令"></a>Git 常用命令</h2><p><img src="https://s2.loli.net/2022/10/29/fP6k1wJOiho7X2Y.png"></p><ol><li>创建一个空仓库：<code>git init</code></li><li>添加文件到暂存区：<code>git add [Filename]</code></li><li>将当前目录所有文件添加到暂存区：<code>git add .</code></li><li>提交暂存区文件到当前分支：<code>git commit -m &quot;describe&quot;</code></li><li>回退上一版本：<code>git reset --hard HEAD^</code>，Win环境下，为防止<code>^</code>被转义，需要<code>HEAD^</code>添加引号，即<code>&quot;HEAD^&quot;</code>, 或者写成这样的一种形式：<code>git reset --hard HEAD~</code></li><li>回退任意版本：<code>git reset --hard commit版本号</code></li><li>查看当前仓库情况： <code>git status</code></li><li>查看Git日志：<code>git log</code></li><li>查看当前分支:<code>git branch</code></li></ol><h2 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h2><ol><li><p>添加远程仓库到Github上：</p> <figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crystal"><span class="hljs-variable">$ </span>git remote add origin git<span class="hljs-variable">@github</span>.<span class="hljs-symbol">com:</span>xxxx/xxx.git<br></code></pre></td></tr></table></figure></li><li><p>第一次推送，关联远程与本地Master分支</p><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs maxima">$ git <span class="hljs-built_in">push</span> -u <span class="hljs-built_in">origin</span> master<br></code></pre></td></tr></table></figure></li><li><p>之后推送</p><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs maxima">$ git <span class="hljs-built_in">push</span> <span class="hljs-built_in">origin</span> master<br></code></pre></td></tr></table></figure></li><li><p>查看当前关联远程库</p><figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crystal"><span class="hljs-variable">$ </span>git remote -v<br></code></pre></td></tr></table></figure></li><li><p>从Github推送整个仓库</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">$ git <span class="hljs-keyword">clone</span>  <span class="hljs-title">git</span>@github.com:xxxx/xxxx.git<br></code></pre></td></tr></table></figure></li><li><p>从Github取回更新本地文件</p><figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crystal"><span class="hljs-variable">$ </span>git pull<br></code></pre></td></tr></table></figure><p>这里发现虽然命令提示<code>Already up to date.</code> 但实际并未获取到文件，因为本地库处于其他分支中，可以使用以下命令：</p><figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs gams"><span class="hljs-symbol">$</span> git fetch --<span class="hljs-keyword">all</span>  <br><span class="hljs-symbol">$</span> git reset --hard origin/master <br><span class="hljs-symbol">$</span> git pull<br></code></pre></td></tr></table></figure></li></ol><h2 id="分支操控"><a href="#分支操控" class="headerlink" title="分支操控"></a>分支操控</h2><p>你可以通过不同分支完成不一样的任务，最后完成时再合并即可。<br><img src="https://s2.loli.net/2022/10/29/uQqgCI6nbWSlDpy.png"></p><ol><li>查看分支 <figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crystal"><span class="hljs-variable">$ </span>git branch<br></code></pre></td></tr></table></figure></li><li>创建一个新的<code>dev</code>分支 <figure class="highlight llvm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs llvm">$ git <span class="hljs-keyword">switch</span> -<span class="hljs-keyword">c</span> dev <br></code></pre></td></tr></table></figure></li><li>转换到<code>master</code>分支<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs powershell"><span class="hljs-variable">$</span> git <span class="hljs-keyword">switch</span> master<br></code></pre></td></tr></table></figure></li><li>合并分支 <figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs fortran">$ git <span class="hljs-built_in">merge</span> &lt;<span class="hljs-keyword">name</span>&gt;<br></code></pre></td></tr></table></figure></li><li>删除分支 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs xml">$ git branch -d <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span><br></code></pre></td></tr></table></figure></li></ol><h2 id="标签管理"><a href="#标签管理" class="headerlink" title="标签管理"></a>标签管理</h2><ol><li>创建一个新的标签 <figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">$ git <span class="hljs-keyword">tag</span> <span class="hljs-title">&quot;&quot; commit</span><br></code></pre></td></tr></table></figure></li><li>删除一个标签 <figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">$ git <span class="hljs-keyword">tag</span> <span class="hljs-title">-d</span> <span class="hljs-string">&quot;tag name&quot;</span><br></code></pre></td></tr></table></figure></li></ol><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ol><li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站 (liaoxuefeng.com)</a></li><li><a href="https://blog.csdn.net/ffscript/article/details/74450821">删除本地文件后 Git从远程仓库重新获取</a></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工具学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>钢琴家</title>
     <link href="/posts/the-pianist/"/>
     <url>/posts/the-pianist/</url>
@@ -66,11 +91,11 @@
     
     <tags>
       
+      <tag>git</tag>
+      
       <tag>博客</tag>
       
       <tag>Hexo</tag>
-      
-      <tag>git</tag>
       
     </tags>
     
@@ -486,7 +511,7 @@
     <link href="/posts/desire-life/"/>
     <url>/posts/desire-life/</url>
     
-    <content type="html"><![CDATA[<h2><center>渴望生活</center></h2><center><center>渴望生活</center><center>渴望每一个半知若解的音符</center><br><center>渴望生活</center><center>渴望每一幅无从描绘的晚霞</center><br><center>渴望生活</center><center>渴望每一次不必言说的缄默</center><br><center>渴望生活</center><center>只是不知 为何渴望</center><center>只是不知 为何生活</center><br><center>... ...</center>]]></content>
+    <content type="html"><![CDATA[<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h2><center>渴望生活</center></h2><center><center>渴望生活</center><center>渴望每一个半知若解的音符</center><br><center>渴望生活</center><center>渴望每一幅无从描绘的晚霞</center><br><center>渴望生活</center><center>渴望每一次不必言说的缄默</center><br><center>渴望生活</center><center>只是不知 为何渴望</center><center>只是不知 为何生活</center><br><center>... ...</center>]]></content>
     
     
     <categories>
@@ -511,7 +536,7 @@
     <link href="/posts/half-dandelion/"/>
     <url>/posts/half-dandelion/</url>
     
-    <content type="html"><![CDATA[<center>我切下半截 蒲公英种子</center><br><center>半截栽在我向往的高山</center><center>去飘荡远方</center><br><center>半截栽在我扎根的故乡</center><center>去落地为安</center><br><center>半截没能活出 自己的样子</center><center>究其毕生 四季流浪</center><br><center>半截没能活出 自己的样子</center><center>究其毕生 朝暮惆怅</center><br><center>... ...</center>]]></content>
+    <content type="html"><![CDATA[<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><center>我切下半截 蒲公英种子</center><br><center>半截栽在我向往的高山</center><center>去飘荡远方</center><br><center>半截栽在我扎根的故乡</center><center>去落地为安</center><br><center>半截没能活出 自己的样子</center><center>究其毕生 四季流浪</center><br><center>半截没能活出 自己的样子</center><center>究其毕生 朝暮惆怅</center><br><center>... ...</center>]]></content>
     
     
     <categories>
