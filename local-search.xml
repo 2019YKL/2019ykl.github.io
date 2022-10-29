@@ -436,6 +436,25 @@
   
   
   <entry>
+    <title>去月球</title>
+    <link href="/posts/to-the-moon/"/>
+    <url>/posts/to-the-moon/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p><strong>我爱你，甚至愿意放弃我自己</strong></p></blockquote><blockquote><p><strong>我爱你，即使早已忘了我自己</strong></p></blockquote><p>如果有什么游戏能让玩家不禁落泪，那么《去月球》这部作品当之无愧。</p><p><img src="https://s2.loli.net/2022/03/11/aOCpXqoy5PY3BWK.png"></p><p>即使2022年3A大作早已屡见不鲜，一款几乎谈不上任何操作体验、洋溢上世纪90年代的《仙剑奇侠传》画质的RPG游戏，仍凭出色的剧情与配乐斩获了Steam四万的好评。</p><p>游戏本身流程很短，正常仅需四小时便能通关，却斩获了多项年度剧情奖。游戏剧情采用蒙太奇的手法，将各种记忆片段埋下若干伏笔穿插，抛出多个疑点留给玩家解构。</p><p>配乐《To the Moon》，在游戏中多次奏响，体会不尽相同。整曲仅用两个音符来演绎，却述说了爱与生离死别、彷若慢慢述说着天人相隔的孤独感。</p><center><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=90% height=86 src="//music.163.com/outchain/player?type=2&id=1645112&auto=0&height=66"></iframe></center><p><strong>月圆难长，人事无常。</strong></p><p>若当垂垂老矣，得知可以回到过往，你最想弥补什么遗憾？</p><hr><h2 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h2><ol><li><a href="https://freebirdgames.com/">Home | Freebird Games</a> </li><li><a href="https://zh.wikipedia.org/wiki/%E5%8E%BB%E6%9C%88%E7%90%83">去月球 - 维基百科</a></li><li><a href="https://store.steampowered.com/app/206440/To_the_Moon/">Steam  - To the Moon</a></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏世界</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>爱在日落黄昏前</title>
     <link href="/posts/before-sunset/"/>
     <url>/posts/before-sunset/</url>
@@ -468,6 +487,33 @@
       
     </categories>
     
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>搭建自用导航网站</title>
+    <link href="/posts/self-webstack/"/>
+    <url>/posts/self-webstack/</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>虽然，笔者已通过Raindrop等工具实现不同平台书签同步，但拥有一个方便自己随处访问的导航网站的执念挥之不去，最终在网上找到方案如下：</p><h2 id="方案选择"><a href="#方案选择" class="headerlink" title="方案选择"></a>方案选择</h2><ol><li><p>Notion仿导航网站：通过Fruition部署在CF，全局渲染Notion页面实现，但效果差强人意，缺乏动画、自定义的空间较为有限，简略效果如下：<br><img src="https://s2.loli.net/2022/03/11/tlOwSbVomW9dJP7.png"></p></li><li><p><a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStack</a>：该项目在Github标星3.1K，界面设计美观，搭建的方案较多，网络上可查找的教程也较为详细，具有后台数据管理也是优势之一。</p></li></ol><h3 id="搭建说明"><a href="#搭建说明" class="headerlink" title="搭建说明"></a>搭建说明</h3><p><strong>笔者这里主要参考教程</strong>：<a href="https://blog.dengyb.com/archives/78/">Typecho主题WebStack，我是如何搭建自己的导航站（一 搭建） - 半醉残影 (dengyb.com)</a></p><p>本方案依赖于<a href="http://typecho.org/">Typecho</a>，本质上也是一种博客框架，区别于WordPress，具有占用空间小，功能完整，支持原生Markdown的优点。</p><p>教程本身已经十分详尽，笔者单独遇到的一些Bug在下文细说。</p><h3 id="Bug解决"><a href="#Bug解决" class="headerlink" title="Bug解决"></a>Bug解决</h3><ol><li><p>解决访问404 Not Found nginx：在宝塔网站设置中选择伪静态-typecho即可</p><p> <img src="https://s2.loli.net/2022/10/29/tJcQBmRzgaxos9A.png"></p></li><li><p>解决PHP7.4带来的报错：宝塔软件商店下载PHP7.1版本，同样在网站设置当中选择PHP版本，切换为PHP7.1即可。当然方案不止一个，亦可修改主题源代码，读者有兴趣可以自行查找。</p></li></ol><p>以上参考<a href="https://wuchao.net/?p=94">Typecho转移遇到的一些坑 – WuChao’s Blog</a></p><h3 id="配置说明"><a href="#配置说明" class="headerlink" title="配置说明"></a>配置说明</h3><p>成功搭建typecho后，便可在控制台-外观-设置外观中详细设置网站外观，步骤简单，这里不再阐述。<br>可参考：<a href="https://www.zmki.cn/5366.html">typecho 导航主题Webstack 钻芒博客二开美化版 </a></p><h3 id="添加logo"><a href="#添加logo" class="headerlink" title="添加logo"></a>添加logo</h3><p>由于typecho自身并不带网站logo，如有需要可准备一张1:1的ico图片文件，并将其上传到Typecho主题目录下</p><ul><li>上传目录：&#x2F;usr&#x2F;themes&#x2F;你的主题名字&#x2F;<br>并在head.php文件中添加一段代码调用即可  <figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs php">&lt;link rel=<span class="hljs-string">&quot;shortcut icon&quot;</span> href=<span class="hljs-string">&quot;/usr/themes/WebStack/favicon.ico&quot;</span> type=<span class="hljs-string">&quot;image/x-icon&quot;</span> /&gt;<br></code></pre></td></tr></table></figure></li></ul><p>参考教程：<a href="https://www.xinshouzhanzhang.com/typechofavicon.html">Typecho浏览器图标favicon.ico添加方法</a></p><h3 id="网站收录"><a href="#网站收录" class="headerlink" title="网站收录"></a>网站收录</h3><p>收集目标网站需要提供图标链接，以下介绍一些图标获取的方案</p><h4 id="一般的获取方式"><a href="#一般的获取方式" class="headerlink" title="一般的获取方式"></a>一般的获取方式</h4><ol><li>在目标网站网址添加favicon.ico字段，如 <a href="https://hostloc.com/favicon.ico">https://hostloc.com/favicon.ico</a> 即可。</li></ol><p>一些无法直接添加favicon.ico字段获取图标的网站，也可通过F12查找icon元素获取图标链接，参考：<a href="https://www.jianshu.com/p/829fcdd9de85">怎么获取网页logo图标的URL链接</a></p><h4 id="无法通过上诉方案获取，但网页带有logo"><a href="#无法通过上诉方案获取，但网页带有logo" class="headerlink" title="无法通过上诉方案获取，但网页带有logo"></a>无法通过上诉方案获取，但网页带有logo</h4><p>笔者这里采用了这款插件<a href="https://chrome.google.com/webstore/detail/imageassistant-batch-imag/dbjbempljhcmhlfpfacalomonjpalpko">图片助手(ImageAssistant) 批量图片下载器 </a>来获取网页全部图片，找到icon元素后保存至本地，最后上传图床获取调用链接即可。</p><p><img src="https://s2.loli.net/2022/03/11/UAEtsjwR3Krm6vc.png"></p><p><strong>图床搭建参考</strong>：<a href="https://jk2333.cf/posts/picture-bed/">小谈图床</a></p><h3 id="网站没有logo"><a href="#网站没有logo" class="headerlink" title="网站没有logo"></a>网站没有logo</h3><p>有些目标网站本身没有logo，为了导航网站整体美观，笔者这里采用添加近似图标代替。<br>图标获取网站：<a href="https://icons8.com/">Free Icons, Clipart Illustrations, Photos, and Music (icons8.com)</a></p><ol><li><p>英文字母搜寻相关关键词</p><p> <img src="https://s2.loli.net/2022/03/11/5tmEpBrxcFj8dkY.png"></p></li><li><p>找到embed html 按键，复制其图标链接调用</p><p> <img src="https://s2.loli.net/2022/03/11/E9sbma1v8y7gK3W.png"></p></li><li><p>插入链接，查看显示效果</p><p> <img src="https://s2.loli.net/2022/03/11/QNIP39EVrMp7Hn1.png"></p></li></ol><h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>至此，网站搭建基本完工，教程受笔者自身能力所限不尽完美，如果纰漏瑕疵之处烦请读者指正。</p><p>您可在这里查看笔者的导航网站演示：<a href="https://to.jk2333.com/19ab0437944e49e6ad272ec88bc50cc8">JK导航 (jk2333.com)</a></p><p>另，在笔者看来，导航站正如一座座灯塔，指引着网路迷途之人。</p><p>最后，推荐几个不错的导航网站：</p><ol><li><a href="https://adzhp.net/">爱达杂货铺 | 收集那些有用的东西</a></li><li><a href="https://ailongmiao.com/seo/">SEO运营 - 龙喵网址导航</a></li><li><a href="http://sandunppt.com/">三顿PPT网址导航 - PPT设计导航 </a></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工具学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>导航</tag>
+      
+    </tags>
     
   </entry>
   
@@ -562,6 +608,31 @@
     <tags>
       
       <tag>诗歌</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>昨日世界</title>
+    <link href="/posts/Die-Welt-von-Gestern/"/>
+    <url>/posts/Die-Welt-von-Gestern/</url>
+    
+    <content type="html"><![CDATA[<h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><p>《昨日世界》为茨威格所著，记录了从第一次世界大战直至第二次世界大战时动荡的欧洲社会。<br>这本书为自传体文学作品，书中大多是以第一人称，作者自身经历来描写的。</p><p>作者身为奥地利犹太裔作家，在那样一个动乱不安的时代下，注定只能居无定所，四处流亡。<br>虽然，最后他几经辗转抵达了巴西，却仍旧出于“精神家园欧洲”的毁灭，最终选择服用镇定剂结束自己的一生。</p><p>这位著有<a href="https://book.douban.com/subject/27037087/">《断头王后》</a>、<a href="https://book.douban.com/subject/27615361/">《昨日世界》</a>、<a href="https://book.douban.com/subject/27037087/">《人类群星闪耀时》</a>、<a href="https://book.douban.com/subject/1159939/">《一个陌生女子的来信》</a>等作品的文学巨匠，如同一颗划过人类文学界的耀眼明星，早早消亡了。</p><p>每当时局不安时，我都会不经想起作者所描写的昨日世界。</p><p>然而越是反复研读此书，却亦能体会他说描写的昨日世界，今日正以同种方式复演着。</p><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="https://s2.loli.net/2022/10/30/yKkhwWSXMofeFCz.webp"></div><div class="group-image-wrap"><img src="https://s2.loli.net/2022/10/30/XGK5rjQwa7DSdmF.webp"></div><div class="group-image-wrap"><img src="https://s2.loli.net/2022/10/30/IMwlSCGjg2JL9rN.webp"></div></div><div class="group-image-row"><div class="group-image-wrap"><img src="https://s2.loli.net/2022/10/30/IMwlSCGjg2JL9rN.webp"></div><div class="group-image-wrap"><img src="https://s2.loli.net/2022/10/30/71PZfuL9cUI3nGm.webp"></div><div class="group-image-wrap"><img src="https://s2.loli.net/2022/10/30/2jE6A5FniDuHUYp.webp"></div></div></div><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="https://s2.loli.net/2022/10/30/pOuY54cRdjFbkHE.webp"></div><div class="group-image-wrap"><img src="https://s2.loli.net/2022/10/30/2NT4J5aSWnQUoHG.webp"></div></div><div class="group-image-row"><div class="group-image-wrap"><img src="https://s2.loli.net/2022/10/30/3YKWIo2bheg5XMc.webp"></div></div></div>]]></content>
+    
+    
+    <categories>
+      
+      <category>影音书摘</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>茨威格</tag>
       
     </tags>
     
