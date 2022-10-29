@@ -455,6 +455,25 @@
   
   
   <entry>
+    <title>用Steam启动Epic游戏</title>
+    <link href="/posts/use-steam-start-up-epic/"/>
+    <url>/posts/use-steam-start-up-epic/</url>
+    
+    <content type="html"><![CDATA[<h2 id="写在前言"><a href="#写在前言" class="headerlink" title="写在前言"></a>写在前言</h2><p>前些时日，Epic连送了十五款游戏，其中包含古墓丽影三部大作，且十美元的套娃券属实不错，曾经的孔E己已然化身E宝。</p><p>但Epic平台除了启动游戏，其余功能可谓是一无所有了，甚至连成就系统也是最近新添，更不要说截图、创意工坊、社区交流了。</p><p>显然，嫌弃Epic平台的简陋，并非笔者一人，逛了逛最大同性交友站Github后，发现已有大佬研究出了曲线救国方案，下面笔者将展开介绍。</p><h2 id="Heroic"><a href="#Heroic" class="headerlink" title="Heroic"></a>Heroic</h2><p>本篇博文主角为legendary，heroic相较legendary仅是多了GUI界面，但对于笔者这种小白而言，确实比较友好。</p><p>项目地址：<a href="http://github.com/Heroic-Games-Launcher/HeroicGamesLauncher">Heroic</a></p><p>软件一开始需要在左侧选项栏获取Sid复制粘贴登录Epic，这里需关闭代理否则无法登录。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/JKimges@main/imges/image-20220113202457640.png" alt="image-20220113202457640"></p><p>登录后记得在设置当中选择软件默认安装路径，方便同步检测已在Epic下载的游戏。<br>之后便可运行legendary执行下一步操作。</p><h2 id="legendary"><a href="#legendary" class="headerlink" title="legendary"></a>legendary</h2><p>legendary相当于Epic启动器青春版，仅有7.6MB，大约是Epic的百分之一</p><p>下载地址附于文末，或者你也可以直接访问项目地址：<a href="http://github.com/derrod/legendary">legendary</a></p><p><img src="https://cdn.jsdelivr.net/gh/2019YKL/JKimges@main/imges/image-20220113203149143.png" alt="image-20220113203149143"></p><p>打开本机终端跳转legendary所在位置，同样需要关掉代理再执行<code>legendary auth</code>，前面通过Heroic成功登录过Epic后，这里应该会显示<code>Stored credentials are still valid</code>.</p><p>输入<code>legendary list-games</code>查找需要添加游戏的对应名称，这里以古墓丽影为例，它的对应名称便是图中长长的这一串了。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/JKimges@main/imges/image-20220113203806105.png" alt="image-20220113203806105"></p><p>将App name对应数值复制下来，后面我们将会用上。</p><h2 id="Steam添加游戏"><a href="#Steam添加游戏" class="headerlink" title="Steam添加游戏"></a>Steam添加游戏</h2><ol><li><p>打开Steam添加游戏-添加非Steam游戏。</p><p> <img src="https://s2.loli.net/2022/03/11/fO75JzyKCwgNhtP.png"></p></li><li><p>找到legendary.exe并添加。</p></li><li><p>在启动选项中，以launch+App name的形式填入。</p><p> <img src="https://cdn.jsdelivr.net/gh/2019YKL/JKimges@main/imges/image-20220113204258569.png"></p></li></ol><p>至此，已可以启动游戏了，可以看到Steam的F12截图亦正常使用~</p><p><img src="https://s2.loli.net/2022/03/11/zFeplyarvjYwQXs.png" alt="Snipaste_2022-01-13_20-45-00"></p><h2 id="锦上添花"><a href="#锦上添花" class="headerlink" title="锦上添花"></a>锦上添花</h2><p>当然，单纯多了一个真香F12截图远远不够，虽无法做到Steam游戏的原生体验，但稍作美化还是可以的。</p><p>这里推荐一个游戏icon、海报、艺术作品(海报)获取的网站：<a href="https://www.steamgriddb.com/">Home - SteamGridDB</a></p><p>最终实现的效果大致如此：</p><p><img src="https://s2.loli.net/2022/03/11/S6uIWMrxF7H5oCg.png"></p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>虽然，这样的办法归根结底有种掩耳盗铃的幽默，但白嫖就要有自行车能骑至上的觉悟。<br>😂 希望E宝的平台体验早日跟上吧。</p><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://zhuanlan.zhihu.com/p/432846372">（教程）如何用Steam完美启动Epic上的荒野大镖客（其他游戏同理)</a></p><h2 id="E宝落泪工具包"><a href="#E宝落泪工具包" class="headerlink" title="E宝落泪工具包"></a>E宝落泪工具包</h2><p>下载地址：<a href="https://pan.susuifa.com/s/MzYSD">苏苏友情赞助网盘</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏世界</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>空洞骑士</title>
     <link href="/posts/hollowknight/"/>
     <url>/posts/hollowknight/</url>
