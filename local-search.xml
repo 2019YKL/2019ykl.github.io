@@ -187,7 +187,7 @@
     <link href="/posts/steam-balance/"/>
     <url>/posts/steam-balance/</url>
     
-    <content type="html"><![CDATA[<p>在Steam上，游戏厂商在各地区定价有高有低，所以实际上，你可以跑去低价区去买游戏（例如土耳其），然后共享给国区的自己，部分游戏售价甚至仅为国区的十分之一。</p><p>以下教程简单记录了如何较为方便地获取Steam土区余额。</p><p><img src="https://s2.loli.net/2022/10/25/kSYxCBP4hj1VUab.png" alt="具体流程"></p><h2 id="参考步骤"><a href="#参考步骤" class="headerlink" title="参考步骤"></a>参考步骤</h2><h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol><li>注册一个网易Buff账号</li><li>Steam绑定验证器<ol><li>已绑邮箱满七天的，再绑定手机令牌，只需要七天期。</li><li>未绑定过邮箱的，绑定手机令牌，需要十五天冷却期。</li></ol></li><li>开放Steam个人信息权限，具体查看这里👇<ol><li><a href="https://buff.163.com/help#before_trade">交易前的准备工作</a></li></ol></li></ol><h3 id="网易buff"><a href="#网易buff" class="headerlink" title="网易buff"></a>网易buff</h3><p>一般正常倒余额，差率大概在0.8折左右，也就是说100R的现金，最后能获得125R等额的对应地区货币。</p><p>在此基础上，有人开发了两个实时对比插件 👇</p><ol><li><a href="https://greasyfork.org/zh-CN/scripts/35597-%E9%A5%B0%E5%93%81%E6%AF%94%E4%BE%8B%E8%AE%A1%E7%AE%97%E8%84%9A%E6%9C%AC">饰品比例计算脚本</a></li><li><a href="https://greasyfork.org/zh-CN/scripts/410137-%E7%BD%91%E6%98%93buff%E4%BB%B7%E6%A0%BC%E6%AF%94%E4%BE%8B-%E6%89%BE%E6%8C%82%E5%88%80-%E6%8F%92%E4%BB%B6">网易buff比例计算</a></li></ol><p>图中所框选即为交易比率，<strong>0.85</strong> 代表着最终所获余额八五折的差价。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/card.png"></p><p>通常来说，在比率较为合理的情况下，选择交易人数越多的，越不容易翻车。</p><p>如果买了那种几千的饰品，而成交量长期为零的，那就要做好砸在手里做传家宝的准备。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/Ak-47.png"><br>在网页确定下单后，网易Buff会要求你去手机端提交报价，注意时长只有五分钟，如果多次不报价，可能导致账号被限制使用。</p><p>正常来说，长则数小时，短则几分钟，对方同意报价之后，饰品将直接入库你的Steam。</p><h3 id="Steam-售卖"><a href="#Steam-售卖" class="headerlink" title="Steam 售卖"></a>Steam 售卖</h3><p>来到Steam，如果已完成上述交易流程，你会发现Steam右上角有新信件提示，多了一件库存中的新物品，就是我们之前在网易Buff求购的饰品。<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/gift.png"></p><p>选择对应饰品，点击出售即可，具体售价可以点击查看交易市场 了解平均的正常交易售价（有人急着获取余额，会压低价格甩卖）<br><img src="https://cdn.jsdelivr.net/gh/2019YKL/hexo-imag/2022/list.png"></p><p>不过Steam需要抽成交额14%左右，所以建议新手计算一下买入与最后实际所得比例，是否与你在网易Buff上看到的比率一致。</p><p>之后等待有人来买，交易完成后就可以获得对应余额了。</p>]]></content>
+    <content type="html"><![CDATA[<p>在Steam上，游戏厂商在各地区定价有高有低，所以实际上，你可以跑去低价区去买游戏（例如土耳其），然后共享给国区的自己，部分游戏售价甚至仅为国区的十分之一。</p><p>以下教程简单记录了如何较为方便地获取Steam土区余额。</p><p><img src="https://s2.loli.net/2022/10/25/kSYxCBP4hj1VUab.png" alt="具体流程"></p><h2 id="参考步骤"><a href="#参考步骤" class="headerlink" title="参考步骤"></a>参考步骤</h2><h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol><li>注册一个网易Buff账号</li><li>Steam绑定验证器<ol><li>已绑邮箱满七天的，再绑定手机令牌，只需要七天期。</li><li>未绑定过邮箱的，绑定手机令牌，需要十五天冷却期。</li></ol></li><li>开放Steam个人信息权限，具体查看这里👇<ol><li><a href="https://buff.163.com/help#before_trade">交易前的准备工作</a></li></ol></li></ol><h3 id="网易buff"><a href="#网易buff" class="headerlink" title="网易buff"></a>网易buff</h3><p>一般正常倒余额，差率大概在0.8折左右，也就是说100R的现金，最后能获得125R等额的对应地区货币。</p><p>在此基础上，有人开发了两个实时对比插件 👇</p><ol><li><a href="https://greasyfork.org/zh-CN/scripts/35597-%E9%A5%B0%E5%93%81%E6%AF%94%E4%BE%8B%E8%AE%A1%E7%AE%97%E8%84%9A%E6%9C%AC">饰品比例计算脚本</a></li><li><a href="https://greasyfork.org/zh-CN/scripts/410137-%E7%BD%91%E6%98%93buff%E4%BB%B7%E6%A0%BC%E6%AF%94%E4%BE%8B-%E6%89%BE%E6%8C%82%E5%88%80-%E6%8F%92%E4%BB%B6">网易buff比例计算</a></li></ol><p>图中所框选即为交易比率，<strong>0.85</strong> 代表着最终所获余额八五折的差价。<br><img src="https://s2.loli.net/2022/11/02/1UiRfZLojQSATat.png"></p><p>通常来说，在比率较为合理的情况下，选择交易人数越多的，越不容易翻车。</p><p>如果买了那种几千的饰品，而成交量长期为零的，那就要做好砸在手里做传家宝的准备。<br><img src="https://s2.loli.net/2022/11/02/n6mZha4NO8rUtI9.png"><br>在网页确定下单后，网易Buff会要求你去手机端提交报价，注意时长只有五分钟，如果多次不报价，可能导致账号被限制使用。</p><p>正常来说，长则数小时，短则几分钟，对方同意报价之后，饰品将直接入库你的Steam。</p><h3 id="Steam-售卖"><a href="#Steam-售卖" class="headerlink" title="Steam 售卖"></a>Steam 售卖</h3><p>来到Steam，如果已完成上述交易流程，你会发现Steam右上角有新信件提示，多了一件库存中的新物品，就是我们之前在网易Buff求购的饰品。<br><img src="https://s2.loli.net/2022/11/02/sYvROrNTeLByJ7S.png"></p><p>选择对应饰品，点击出售即可，具体售价可以点击查看交易市场 了解平均的正常交易售价（有人急着获取余额，会压低价格甩卖）<br><img src="https://s2.loli.net/2022/11/02/aZw9PpXyvlIQLok.png"></p><p>不过Steam需要抽成交额14%左右，所以建议新手计算一下买入与最后实际所得比例，是否与你在网易Buff上看到的比率一致。</p><p>之后等待有人来买，交易完成后就可以获得对应余额了。</p>]]></content>
     
     
     <categories>
@@ -698,6 +698,25 @@
       <tag>诗歌</tag>
       
     </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>再见 吾友</title>
+    <link href="/posts/goodbye-my-friend/"/>
+    <url>/posts/goodbye-my-friend/</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我高中时，曾有一只母猫怀了身孕，初见我便一副自来熟，声声撒娇、连蹭卖乖，我见面相着实可怜，便收养了。</p><p>之后它在家中产下四仔，便又没了踪迹，按理说既为母猫，不应如此绝情，只是后来亦不曾见过它，大致遭了不测。</p><p>其中四仔花色各异，两只早早夭折，一只半年后不见踪迹，由于生性并不亲人，也未过多留意。</p><p>仅存的那只猫咪，头上以橘点缀，席一身白，于是我将它唤作“大白”。</p><p>“大白”生性憨厚老实、毫不挑食，两年相处未曾一次呲牙露爪，平日安卷沙发一角，未见人影便待门旁。</p><p>而后我去了大学，虽再不舍也只得寒暑相见，每次假期得归，它都早早相迎。</p><p>直至一日归家却未再见它的踪影。</p><p>随后在楼顶一侧向阳处再见吾友。</p><p>此后家中过客虽有，而无一得名。</p><p align="right"><strong> 2022-11-03</strong></p><hr><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="https://s2.loli.net/2022/11/02/ZMUB1Ib4JNrPdkw.webp"></div><div class="group-image-wrap"><img src="https://s2.loli.net/2022/11/02/qQlKL8UkXZGVxr5.webp"></div><div class="group-image-wrap"><img src="https://s2.loli.net/2022/11/02/z1qFe7UfWMCd3JZ.webp"></div></div></div><hr><blockquote><center><p>我情愿你了无踪迹</p><p>我情愿你另寻他主</p><p>我也不愿 你孤独地</p><p>倒在角落 窝倦而去</p><p>哪怕注定你</p><p>只能活在我记忆里</p><p>可否像从前那般温柔走来</p><p>再唤一声只你我懂的言语</p><p>我依旧笑意盈盈 略带顽皮</p><p>我看你吃完这顿晚餐</p><p>你再徐徐离去</p><p>纵然我</p><p>向来做不好你的主人 </p></center><p align="right"><strong> 2018-01-25</strong></p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>所述浮生</category>
+      
+    </categories>
+    
     
   </entry>
   
