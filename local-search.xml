@@ -404,6 +404,25 @@
   
   
   <entry>
+    <title>我的世界 私服搭建</title>
+    <link href="/posts/minecraft/"/>
+    <url>/posts/minecraft/</url>
+    
+    <content type="html"><![CDATA[<h2 id="linux-直接部署"><a href="#linux-直接部署" class="headerlink" title="linux 直接部署"></a>linux 直接部署</h2><h3 id="系统要求"><a href="#系统要求" class="headerlink" title="系统要求"></a>系统要求</h3><p>系统版本：ubuntu 18.04</p><p>配置：2h2g以上</p><p>带宽：5M</p><h3 id="环境搭建依赖"><a href="#环境搭建依赖" class="headerlink" title="环境搭建依赖"></a>环境搭建依赖</h3><p>Minecraft1.18.1+ 要求 java17及以上</p><h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h3><h4 id="开放端口"><a href="#开放端口" class="headerlink" title="开放端口"></a>开放端口</h4><ol><li>打开服务器端口 <strong>25565</strong>（笔者搭建机为腾讯云）</li></ol><h4 id="环境依赖安装"><a href="#环境依赖安装" class="headerlink" title="环境依赖安装"></a>环境依赖安装</h4><ol start="2"><li>安装 java 17：<code>sudo apt-get install openjdk-17-jdk</code></li><li>查看是否安装成功 输入 <code>java -version</code></li></ol><h4 id="安装mc安装包"><a href="#安装mc安装包" class="headerlink" title="安装mc安装包"></a>安装mc安装包</h4><p>安装对应<strong>Minecraft安装包 这里版本为1.18.2</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">wget https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar<br></code></pre></td></tr></table></figure><h4 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h4><p>输入<code>sudo java -Xms200m -Xmx300m -jar server.jar nogui</code>启动服务，提示报错如下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash">[03:53:30] [Server thread/INFO]: Starting minecraft server version 1.12.2<br>[03:53:30] [Server thread/INFO]: Loading properties<br>[03:53:30] [Server thread/WARN]: server.properties does not exist<br>[03:53:30] [Server thread/INFO]: Generating new properties file<br>[03:53:30] [Server thread/WARN]: Failed to load eula.txt<br>[03:53:30] [Server thread/INFO]: You need to agree to the EULA <span class="hljs-keyword">in</span> order to run the server. Go to eula.txt <span class="hljs-keyword">for</span> more info.<br>[03:53:30] [Server thread/INFO]: Stopping server<br>[03:53:30] [Server Shutdown Thread/INFO]: Stopping server<br></code></pre></td></tr></table></figure><p>修改<strong>eula</strong> <code>vi eula.txt</code> 打开eula.txt文件，将flase改为true</p><ol><li>按住 <strong>i</strong> 进入编辑模式</li><li>按ESC 退出编辑，输入 <code>:wq!</code> 保存退出</li><li>修改正版验证：打开文件夹中的<code>server.properties</code> 将文件中的<code>online-mode</code>选项改为<code>false</code></li><li>重启</li><li>输入 <code>sudo java -Xms1000m -Xmx3584m -jar server.jar nogui</code> 启动服务，具体参数说明如下<ol><li>-xms 为最小运行内存</li><li>nogui 不开启图形界面</li><li>-xmx 为最大运行内存</li></ol></li><li>正常运行输出如下<br><img src="https://s2.loli.net/2022/11/06/RqvUyjEzpN6IdDt.png"></li></ol><h3 id="后台运行"><a href="#后台运行" class="headerlink" title="后台运行"></a>后台运行</h3><p>因断开SSH连接后，MC服务器会当即断开，所以通过Screen实现后台运行，具体操作如下：</p><ol><li>安装screen，用于让minecraft在服务器后台运行，输入命令：<code>sudo apt-get install screen</code></li><li>创建名为mc的session:<code>screen -S mc</code> </li><li>启动服务器:<code>sudo java -Xms1000m -Xmx3584m -jar server.jar nogui</code></li></ol><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ol><li><a href="https://yyqx.online/posts/%E5%9C%A8ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E6%90%AD%E5%BB%BAminecraft/">Ubuntu搭建minecraft服务器 - 草祭の博客 (yyqx.online)</a></li><li><a href="https://cloud.tencent.com/developer/article/1847362">搭建属于自己minecraft服务器 - 云+社区 - 腾讯云 (tencent.com)</a></li><li><a href="https://www.zhihu.com/column/p/44975640">一步一步地搭建Minecraft服务器（一） - 知乎 (zhihu.com)</a></li><li><a href="https://zhuanlan.zhihu.com/p/44990418">一步一步地搭建Minecraft服务器（二） - 知乎 (zhihu.com)</a></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏世界</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>骄阳似我</title>
     <link href="/posts/good-will-hunting/"/>
     <url>/posts/good-will-hunting/</url>
