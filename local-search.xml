@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>2022 年度工具推荐</title>
+    <link href="/posts/2022-Tool%20recommendations/"/>
+    <url>/posts/2022-Tool%20recommendations/</url>
+    
+    <content type="html"><![CDATA[<p>2022年尾声将至，简单说说这一年自己最中意的三个产品吧~</p><h2 id="Notion"><a href="#Notion" class="headerlink" title="Notion"></a>Notion</h2><p>前后接触<a href="https://www.notion.so/">Notion</a>已有两年，但我个人一度搁置了这个强大的笔记软件。<br>原因很简单：它的数据导出支持很糟糕，稍有复杂的笔记页，即使Notion自身导出再导入，都无法做到复原相同的格式。</p><p>而重新使用的理由也很简单，虽然数据导出方面依旧很糟糕，但Notion已提供了较为开放的Api；并增加了越来越多文件、平台预览支持；在与其他工具联动方面，它做到了足够出色。</p><p>最近还增添了Notion AI方便用户输出相关内容，如果你也有兴趣，可以点击这里简单了解：<a href="https://www.notion.so/product/ai">Notion AI</a></p><p><img src="https://pic.imgdb.cn/item/639ad2edb1fccdcd36482a0c.png" alt="image-639ad2edb1fccdcd36482a0c"></p><h2 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a>Obsidian</h2><p>若没记错，前年是双链笔记大火元年，然而，当时的我并未能领悟双链的用法，将毫不相关的日记硬生关联，这也导致了那时的关系族谱变成了一团乱麻，加上当时PC与IOS跨设备同步方案限制过多，还曾出现笔记丢失的情况，一度劝退了我。</p><p>而经过两年后，出于对文字输出的需求下，我重新上手了<a href="https://obsidian.md/">Obsidian</a>。<br>现如今同步方案已有类似<a href="https://github.com/remotely-save/remotely-save">Remotely Save</a>这样的第三方插件支持、并增添了文件快照。<br>版本控制方面也有了<a href="https://github.com/remotely-save/remotely-save">Obsidian Git</a>这样的插件。</p><p>目前Obsidian Canvas已在测试当中。现在它成为了我的主力笔记软件，相信它之后会有更好的表现。<br><img src="https://pic.imgdb.cn/item/639acfaab1fccdcd36430898.png" alt="image-639acfaab1fccdcd36430898"></p><h2 id="SimpRead"><a href="#SimpRead" class="headerlink" title="SimpRead"></a>SimpRead</h2><p><a href="http://ksria.com/simpread/">简悦</a>是一款很神奇的产品。如果真让我形容，它就像是一把管理知识的瑞士军刀。</p><p>在同类产品都竞相争夺对用户数据，动辄就是微信扫码、手机验证、实名绑定三连，你很难想象简悦选择逆流而上，坚持<strong>买断制、用户数据本地化</strong>。</p><p>只要你愿意了解，你会发现它支持保存网摘到主流的笔记软件，并提供了丰富的导出格式，这一点天生适合与Obsidian协同。<br><img src="https://pic.imgdb.cn/item/639ac967b1fccdcd363723ad.png" alt="image-639ac967b1fccdcd363723ad"></p><p>当然，如果想要完全了解简悦，这确实需要一定的时间以及相关的技术知识储备。</p><p>但这就像上文提及的Obsidian、Notion这样的产品一样，作为一款功能强大的工具产品，<strong>上手的最好方式是从需求出发，你不必一开始就要求自己对它精通，你只需要简单想想自己现阶段需要的是什么。</strong></p><p>👉例如，我希望保存网页到Notion当中，方便二次梳理</p><p>✅ 你只需要做到——在简悦中绑定Notion，并选择对应的Database，之后便可使用简悦一键保存到Notion。</p><p>就剪藏效果而言，大多数时候比官方自带的剪藏插件还要好。</p><p>👉例如，我需要将文稿保存到Obsidian，方便构建自己的知识库。</p><p>✅ 你只需要使用作者为我们安排好的<a href="https://github.com/Kenshin/simpread-configs/blob/main/obsidian%40little/Getting%20Started.md">Obsidian库</a>，真正开箱即用。</p><p><strong>明确需求再去使用简悦，就一点也不难了。</strong> </p><p>作者还贴心为每一种方案提供了详尽的教程，方便小白快速上手。</p><p>例如，你可以参照这里快速了解上述两个例子的配置方案👇</p><ol><li><a href="https://www.yuque.com/kenshin/simpread/ewaflu">Notion简易配置教程</a></li><li><a href="https://www.yuque.com/kenshin/simpread/xkuecp">Obsidian开箱即用教程</a></li></ol><p>简悦既可以是你排除干扰的阅读插件、可以是你处理信息枢纽中心，也可以是你知识汇总的终点站，而无论选择哪一种，数据始终掌握在你手上。</p><p>喜欢简悦的原因还有一点，在探索简悦的过程中，我了解到更多类似的知识类产品，例如<a href="http://ksria.com/simpread/docs/#/%E8%87%AA%E5%8A%A8%E5%8C%96?id=hypothesis">Hypothes.is</a>、 <a href="http://ksria.com/simpread/docs/#/%E8%87%AA%E5%8A%A8%E5%8C%96?id=Readwise">Readwise.io</a>、<a href="https://obsidian.md/">Obsidian</a>. 并且开始试着学习、总结大佬们的系统化知识处理流，<strong>单从这方面而言，简悦早已值回票价</strong>。</p><p>以上推荐的三款产品都较为深远影响了我对知识处理的方式与认知。<br><img src="https://pic.imgdb.cn/item/639ad6a3b1fccdcd364eb012.png" alt="image-639ad6a3b1fccdcd364eb012"></p><p>2022，这三款产品，推荐给你。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工具学习</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Markdown 简单应用</title>
     <link href="/posts/markdown/"/>
     <url>/posts/markdown/</url>
