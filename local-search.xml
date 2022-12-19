@@ -141,11 +141,11 @@
     
     <tags>
       
-      <tag>git</tag>
-      
       <tag>博客</tag>
       
       <tag>Hexo</tag>
+      
+      <tag>git</tag>
       
     </tags>
     
@@ -486,7 +486,7 @@
   
   
   <entry>
-    <title>软件横评</title>
+    <title>密码管理 软件横评</title>
     <link href="/posts/Password-software-recommendation/"/>
     <url>/posts/Password-software-recommendation/</url>
     
