@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://blog.2077.com/sitemap.xml
