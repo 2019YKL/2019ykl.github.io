@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on ExampleSite</title>
-    <link>https://blog.2077.com/posts/</link>
+    <link>https://blog.jk2077.com/posts/</link>
     <description>Recent content in Posts on ExampleSite</description>
     <image>
       <title>ExampleSite</title>
-      <url>https://blog.2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Mar 2023 19:21:12 +0800</lastBuildDate><atom:link href="https://blog.2077.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 19:21:12 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Neww Post</title>
-      <link>https://blog.2077.com/posts/neww-post/</link>
+      <link>https://blog.jk2077.com/posts/neww-post/</link>
       <pubDate>Sat, 04 Mar 2023 19:21:12 +0800</pubDate>
       
-      <guid>https://blog.2077.com/posts/neww-post/</guid>
+      <guid>https://blog.jk2077.com/posts/neww-post/</guid>
       <description>what fuck hugo fuck fuck fuck fuck</description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://blog.2077.com/posts/test/</link>
+      <link>https://blog.jk2077.com/posts/test/</link>
       <pubDate>Sat, 04 Mar 2023 19:06:11 +0800</pubDate>
       
-      <guid>https://blog.2077.com/posts/test/</guid>
+      <guid>https://blog.jk2077.com/posts/test/</guid>
       <description>这依旧是一篇测试文章，可恶..</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://blog.2077.com/posts/my-first-post/</link>
+      <link>https://blog.jk2077.com/posts/my-first-post/</link>
       <pubDate>Sat, 04 Mar 2023 16:30:52 +0800</pubDate>
       
-      <guid>https://blog.2077.com/posts/my-first-post/</guid>
+      <guid>https://blog.jk2077.com/posts/my-first-post/</guid>
       <description>这是我的第一篇Paper-mod文章。</description>
     </item>
     
