@@ -26,11 +26,22 @@
       <pubDate>Sat, 04 Mar 2023 19:06:11 +0800</pubDate>
       
       <guid>https://blog.jk2077.com/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>环境配置 博主本人目前使用的系统是Window11，如果希望使用Hugo，需要先下载对应的编译器
+      <description>环境配置 博主本人目前使用的系统是Window11，如希望使用Hugo，需要先下载对应的编译器
 编译器地址：Release v0.111.1 · gohugoio/hugo (github.com)
 下载完后需要配置环境路径，可以参考这里：教你四步配置Hugo环境_hugo配置环境
 完成上述配置后，可以在CMD中输入以下命令验证是否配置成功
-hugo version 创建网站 </description>
+hugo version 创建网站 创建一个新的站点，这里我命名为Blog,Hugo默认配置文件后缀为toml,这里PaperMod设置了参数，使用yml方案。
+hugo new site Blog -f yml 主题配置 Hugo社区主题较为丰富，这里我选择了PaperMod主题，也是本博客所使用的主题。
+参考他们主题安装方案地址：Installation · adityatelange/hugo-PaperMod Wiki (github.com)
+这里选择第二种安装方案，使用submodule来安装，便于后续主题更新。
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically) 之后在config.yml中修改字段theme:PaperMod即可。
+Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hugo-PaperMod/config.yml at exampleSite · adityatelange/hugo-PaperMod (github.com)
+直接将它复制到你的config.yml即可。
+绑定域名 如需绑定自己的域名，将config.yml中的baseURL修改为自己的域名，例如https://blog.jk2077.com/,路径最后的/注意不要忽略。
+之后Github Page中添加自定义域名，域名商添加CNAME解析即可。
+生成文章 输入命令如下
+hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录posts之下。
+本地调试 如果希望本地预览，可以输入命令</description>
     </item>
     
     <item>
