@@ -10,14 +10,14 @@
       <link>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Mar 2023 19:06:11 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 11:06:11 +0000</lastBuildDate><atom:link href="https://blog.jk2077.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用Hugo搭建博客</title>
       <link>https://blog.jk2077.com/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Sat, 04 Mar 2023 19:06:11 +0800</pubDate>
+      <pubDate>Sat, 04 Mar 2023 11:06:11 +0000</pubDate>
       
       <guid>https://blog.jk2077.com/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>环境配置 博主本人目前使用的系统是Window11，如希望使用Hugo，需要先下载对应的编译器
+      <description>环境配置 博主本人目前使用的系统为Window11，如希望使用Hugo，需要先下载对应的编译器
 编译器地址：Release v0.111.1 · gohugoio/hugo (github.com)
 下载完后需要配置环境路径，可以参考这里：教你四步配置Hugo环境_hugo配置环境
 完成上述配置后，可以在CMD中输入以下命令验证是否配置成功
@@ -31,8 +31,7 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
 绑定域名 如需绑定自己的域名，将config.yml中的baseURL修改为自己的域名，例如https://blog.jk2077.com/,路径最后的/注意不要忽略。
 之后Github Page中添加自定义域名，域名商添加CNAME解析即可。
 生成文章 输入命令如下
-hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录posts之下。
-本地调试 如果希望本地预览，可以输入命令</description>
+hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录posts之下。</description>
     </item>
     
   </channel>

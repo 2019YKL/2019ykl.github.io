@@ -9,6 +9,16 @@
       <url>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blog.jk2077.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 04 Mar 2023 11:06:11 +0000</lastBuildDate><atom:link href="https://blog.jk2077.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1</title>
+      <link>https://blog.jk2077.com/categories/1/</link>
+      <pubDate>Sat, 04 Mar 2023 11:06:11 +0000</pubDate>
+      
+      <guid>https://blog.jk2077.com/categories/1/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
