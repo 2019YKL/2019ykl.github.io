@@ -10,16 +10,7 @@
       <link>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Mar 2023 19:21:12 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Neww Post</title>
-      <link>https://blog.jk2077.com/posts/neww-post/</link>
-      <pubDate>Sat, 04 Mar 2023 19:21:12 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/neww-post/</guid>
-      <description>what fuck hugo fuck fuck fuck fuck</description>
-    </item>
-    
+    <lastBuildDate>Sat, 04 Mar 2023 19:06:11 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用Hugo搭建博客</title>
       <link>https://blog.jk2077.com/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
@@ -42,15 +33,6 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
 生成文章 输入命令如下
 hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录posts之下。
 本地调试 如果希望本地预览，可以输入命令</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://blog.jk2077.com/posts/my-first-post/</link>
-      <pubDate>Sat, 04 Mar 2023 16:30:52 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/my-first-post/</guid>
-      <description>这是我的第一篇Paper-mod文章。</description>
     </item>
     
   </channel>
