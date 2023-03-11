@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.jk2077.com/</loc>
+    <lastmod>2023-03-11T14:03:26+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/</loc>
+    <lastmod>2023-03-11T14:03:26+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/tags/</loc>
+    <lastmod>2023-03-11T14:03:26+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/tags/test/</loc>
+    <lastmod>2023-03-11T14:03:26+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/test/</loc>
+    <lastmod>2023-03-11T14:03:26+08:00</lastmod>
+  </url><url>
     <loc>https://blog.jk2077.com/log/</loc>
     <lastmod>2023-03-11T10:04:53+08:00</lastmod>
   </url><url>
@@ -9,12 +24,6 @@
     <lastmod>2023-03-11T10:03:18+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/categories/</loc>
-    <lastmod>2023-03-11T09:42:54+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/</loc>
-    <lastmod>2023-03-11T09:42:54+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/posts/</loc>
     <lastmod>2023-03-11T09:42:54+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/categories/%E6%B8%B8%E6%88%8F%E4%B8%96%E7%95%8C/</loc>
@@ -45,7 +54,5 @@
     <lastmod>2018-01-15T13:24:42+23:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/search/</loc>
-  </url><url>
-    <loc>https://blog.jk2077.com/tags/</loc>
   </url>
 </urlset>
