@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>游戏世界 on JK Blog</title>
+    <link>https://blog.jk2077.com/categories/%E6%B8%B8%E6%88%8F%E4%B8%96%E7%95%8C/</link>
+    <description>Recent content in 游戏世界 on JK Blog</description>
+    <image>
+      <title>JK Blog</title>
+      <url>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 11 Mar 2023 09:42:54 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/categories/%E6%B8%B8%E6%88%8F%E4%B8%96%E7%95%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>空洞骑士</title>
+      <link>https://blog.jk2077.com/posts/hollow-knight/</link>
+      <pubDate>Sat, 11 Mar 2023 09:42:54 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/hollow-knight/</guid>
+      <description>没有为苦难哭泣的声音</description>
+    </item>
+    
+    <item>
+      <title>To the Moon</title>
+      <link>https://blog.jk2077.com/posts/to-the-moon/</link>
+      <pubDate>Fri, 10 Mar 2023 12:46:55 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/to-the-moon/</guid>
+      <description>我爱你，甚至愿意放弃我自己</description>
+    </item>
+    
+  </channel>
+</rss>

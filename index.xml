@@ -10,7 +10,34 @@
       <link>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Mar 2023 13:14:16 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 09:42:54 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Log</title>
+      <link>https://blog.jk2077.com/log/</link>
+      <pubDate>Sat, 11 Mar 2023 10:04:53 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/log/</guid>
+      <description>2023-03-11 原博客转至hexo子域名，正式搬迁网站为Hugo框架 创建About、Log单独页 </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.jk2077.com/about/</link>
+      <pubDate>Sat, 11 Mar 2023 10:03:18 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>空洞骑士</title>
+      <link>https://blog.jk2077.com/posts/hollow-knight/</link>
+      <pubDate>Sat, 11 Mar 2023 09:42:54 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/hollow-knight/</guid>
+      <description>没有为苦难哭泣的声音</description>
+    </item>
+    
     <item>
       <title>你不要担心</title>
       <link>https://blog.jk2077.com/posts/dont-worry/</link>
@@ -63,15 +90,6 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
 之后Github Page中添加自定义域名，域名商添加CNAME解析即可。
 生成文章 输入命令如下
 hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录posts之下。</description>
-    </item>
-    
-    <item>
-      <title>空洞骑士</title>
-      <link>https://blog.jk2077.com/posts/%E7%A9%BA%E6%B4%9E%E9%AA%91%E5%A3%AB/</link>
-      <pubDate>Sat, 04 Dec 2021 11:06:11 +0000</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/%E7%A9%BA%E6%B4%9E%E9%AA%91%E5%A3%AB/</guid>
-      <description>没有为苦难哭泣的声音</description>
     </item>
     
     <item>
