@@ -48,12 +48,12 @@
 
 // Memos Start
 var memo = {
-    host: 'https://memo.wananaiko.com/',
-    limit: '10',
+    host: 'https://memo.jk2077.com/',
+    limit: '15',
     creatorId: '1',
     domId: '#memos',
-    username: 'wananaiko',
-    name: 'Aiko'
+    username: 'JK2333',
+    name: 'JK'
 }
 if (typeof (memos) !== "undefined") {
     for (var key in memos) {
