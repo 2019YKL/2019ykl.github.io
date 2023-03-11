@@ -295,7 +295,7 @@ function updateHTMl(e) {
       i +
       "</div>" +
       "</div>" +
-      '<div class="memo-header"><span>Aiko&nbsp;发布于&nbsp;</span><span class="date">' +
+      '<div class="memo-header"><span>JK&nbsp;发布于&nbsp;</span><span class="date">' +
       Lately.format(1e3 * e[a].updatedTs) +
       "</span></div>" +
       "</div>";
