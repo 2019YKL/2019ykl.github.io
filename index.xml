@@ -31,10 +31,10 @@
     
     <item>
       <title>使用Hugo搭建博客</title>
-      <link>https://blog.jk2077.com/posts/use-hugo-to-build-blog/</link>
+      <link>https://blog.jk2077.com/posts/code/use-hugo-to-build-blog/</link>
       <pubDate>Sun, 12 Mar 2023 08:53:58 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/use-hugo-to-build-blog/</guid>
+      <guid>https://blog.jk2077.com/posts/code/use-hugo-to-build-blog/</guid>
       <description>环境配置 博主本人目前使用的系统为Window11，如希望使用Hugo，需要先下载对应的编译器
 编译器地址：Release v0.111.1 · gohugoio/hugo (github.com)
 下载完后需要配置环境路径，可以参考这里：教你四步配置Hugo环境_hugo配置环境
