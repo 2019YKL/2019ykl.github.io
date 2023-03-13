@@ -6,17 +6,26 @@
     <description>Recent content on JK Blog</description>
     <image>
       <title>JK Blog</title>
-      <url>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.jk2077.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://pic.imgdb.cn/item/63f0cd6bf144a0100726565d.png</url>
+      <link>https://pic.imgdb.cn/item/63f0cd6bf144a0100726565d.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 13 Mar 2023 13:37:21 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Friend</title>
+      <link>https://blog.jk2077.com/friend/</link>
+      <pubDate>Mon, 13 Mar 2023 15:22:41 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/friend/</guid>
+      <description> Sulv&amp;#39;s Blog 一个记录技术、阅读、生活的博客 </description>
+    </item>
+    
+    <item>
       <title>工具无法成就</title>
-      <link>https://blog.jk2077.com/posts/2023-03-13-%E5%B7%A5%E5%85%B7%E6%97%A0%E6%B3%95%E6%88%90%E5%B0%B1/</link>
+      <link>https://blog.jk2077.com/posts/tools-cant-make-me-better/</link>
       <pubDate>Mon, 13 Mar 2023 13:37:21 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/2023-03-13-%E5%B7%A5%E5%85%B7%E6%97%A0%E6%B3%95%E6%88%90%E5%B0%B1/</guid>
+      <guid>https://blog.jk2077.com/posts/tools-cant-make-me-better/</guid>
       <description>如无必要 勿增实体</description>
     </item>
     
@@ -49,7 +58,7 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
       <pubDate>Sat, 11 Mar 2023 10:04:53 +0800</pubDate>
       
       <guid>https://blog.jk2077.com/log/</guid>
-      <description></description>
+      <description>2023-03-10 更换博客模板至Hugo-Paper-Mod主题 为网站添加评论区 上线Memos单页 移动设备导航栏自适应 2023-03-13 更新网站图标 添加归档页 增加友情链接页面 </description>
     </item>
     
     <item>
@@ -62,34 +71,12 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
     </item>
     
     <item>
-      <title>空洞骑士</title>
-      <link>https://blog.jk2077.com/posts/hollow-knight/</link>
-      <pubDate>Sat, 11 Mar 2023 09:42:54 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/hollow-knight/</guid>
-      <description>没有为苦难哭泣的声音</description>
-    </item>
-    
-    <item>
-      <title>你不要担心</title>
-      <link>https://blog.jk2077.com/posts/dont-worry/</link>
-      <pubDate>Fri, 10 Mar 2023 13:14:16 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/dont-worry/</guid>
-      <description>告知这世间 你定会寻找新的梦想</description>
-    </item>
-    
-    <item>
       <title>今昔月明</title>
       <link>https://blog.jk2077.com/posts/moon-tonight/</link>
       <pubDate>Fri, 10 Mar 2023 12:53:13 +0800</pubDate>
       
       <guid>https://blog.jk2077.com/posts/moon-tonight/</guid>
-      <description>不知不觉，返回小镇已有一年。
-游历在外的景色日渐模糊，久居故里的厌倦一再侵袭。
-每有烦心之事，常是孤身一人徘徊广场，独赏明月，随后往事逐页翻卷，固望月抒情之事，千古如一。
-皓月当空，时代的喧嚣得以暂抛眼后，晚风的微凉重新扑面而至，至于其余的琐事，无关风月。
-只是良辰常有，美景时故，但少闲人如吾一人。</description>
+      <description>何处无月 但少闲人</description>
     </item>
     
     <item>
@@ -99,6 +86,24 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
       
       <guid>https://blog.jk2077.com/posts/to-the-moon/</guid>
       <description>我爱你，甚至愿意放弃我自己</description>
+    </item>
+    
+    <item>
+      <title>空洞骑士</title>
+      <link>https://blog.jk2077.com/posts/hollow-knight/</link>
+      <pubDate>Mon, 03 Jan 2022 09:42:54 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/hollow-knight/</guid>
+      <description>没有为苦难哭泣的声音</description>
+    </item>
+    
+    <item>
+      <title>你不要担心</title>
+      <link>https://blog.jk2077.com/posts/dont-worry/</link>
+      <pubDate>Fri, 26 Nov 2021 13:14:16 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/dont-worry/</guid>
+      <description>告知这世间 你定会寻找新的梦想</description>
     </item>
     
     <item>
@@ -130,6 +135,7 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
 向来做不好你的主人
 2018-01-25</description>
     </item>
+    
     
     
   </channel>
