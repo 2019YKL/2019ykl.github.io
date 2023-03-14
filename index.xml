@@ -22,19 +22,19 @@
     
     <item>
       <title>工具无法成就</title>
-      <link>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/tools-cant-make-me-better/</link>
+      <link>https://blog.jk2077.com/posts/life/tools-cant-make-me-better/</link>
       <pubDate>Mon, 13 Mar 2023 13:37:21 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/tools-cant-make-me-better/</guid>
+      <guid>https://blog.jk2077.com/posts/life/tools-cant-make-me-better/</guid>
       <description>如无必要 勿增实体</description>
     </item>
     
     <item>
       <title>使用Hugo搭建博客</title>
-      <link>https://blog.jk2077.com/posts/%E7%BC%96%E7%A8%8B/use-hugo-to-build-blog/</link>
+      <link>https://blog.jk2077.com/posts/code/use-hugo-to-build-blog/</link>
       <pubDate>Sun, 12 Mar 2023 08:53:58 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/%E7%BC%96%E7%A8%8B/use-hugo-to-build-blog/</guid>
+      <guid>https://blog.jk2077.com/posts/code/use-hugo-to-build-blog/</guid>
       <description>环境配置 博主本人目前使用的系统为Window11，如希望使用Hugo，需要先下载对应的编译器
 编译器地址：Release v0.111.1 · gohugoio/hugo (github.com)
 下载完后需要配置环境路径，可以参考这里：教你四步配置Hugo环境_hugo配置环境
@@ -72,65 +72,56 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
     
     <item>
       <title>To the Moon</title>
-      <link>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/to-the-moon/</link>
+      <link>https://blog.jk2077.com/posts/life/to-the-moon/</link>
       <pubDate>Fri, 10 Mar 2023 12:46:55 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/to-the-moon/</guid>
+      <guid>https://blog.jk2077.com/posts/life/to-the-moon/</guid>
       <description>我爱你，甚至愿意放弃我自己</description>
     </item>
     
     <item>
       <title>今夕月明</title>
-      <link>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/moon-tonight/</link>
+      <link>https://blog.jk2077.com/posts/life/moon-tonight/</link>
       <pubDate>Wed, 13 Jul 2022 12:53:13 +2000</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/moon-tonight/</guid>
+      <guid>https://blog.jk2077.com/posts/life/moon-tonight/</guid>
       <description>何处无月 但少闲人</description>
     </item>
     
     <item>
       <title>空洞骑士</title>
-      <link>https://blog.jk2077.com/posts/%E6%B8%B8%E6%88%8F/hollow-knight/</link>
+      <link>https://blog.jk2077.com/posts/game/hollow-knight/</link>
       <pubDate>Mon, 03 Jan 2022 09:42:54 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/%E6%B8%B8%E6%88%8F/hollow-knight/</guid>
+      <guid>https://blog.jk2077.com/posts/game/hollow-knight/</guid>
       <description>没有为苦难哭泣的声音</description>
     </item>
     
     <item>
       <title>你不要担心</title>
-      <link>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/dont-worry/</link>
+      <link>https://blog.jk2077.com/posts/life/dont-worry/</link>
       <pubDate>Fri, 26 Nov 2021 13:14:16 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/dont-worry/</guid>
+      <guid>https://blog.jk2077.com/posts/life/dont-worry/</guid>
       <description>告知这世间 你定会寻找新的梦想</description>
     </item>
     
     <item>
       <title>半截蒲公英</title>
-      <link>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/half-dandelion/</link>
+      <link>https://blog.jk2077.com/posts/life/half-dandelion/</link>
       <pubDate>Sun, 21 Feb 2021 09:00:57 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/half-dandelion/</guid>
+      <guid>https://blog.jk2077.com/posts/life/half-dandelion/</guid>
       <description>半截远方 半截故乡</description>
     </item>
     
     <item>
       <title>再见 吾友</title>
-      <link>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/goodbye-my-friend/</link>
+      <link>https://blog.jk2077.com/posts/life/goodbye-my-friend/</link>
       <pubDate>Mon, 15 Jan 2018 13:24:42 +2300</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/%E7%94%9F%E6%B4%BB/goodbye-my-friend/</guid>
+      <guid>https://blog.jk2077.com/posts/life/goodbye-my-friend/</guid>
       <description>自你离开 世界如白</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://blog.jk2077.com/posts/%E6%9C%AA%E5%91%BD%E5%90%8D/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/%E6%9C%AA%E5%91%BD%E5%90%8D/</guid>
-      <description></description>
     </item>
     
     
