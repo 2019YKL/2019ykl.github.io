@@ -10,7 +10,17 @@
       <link>https://pic.imgdb.cn/item/63f0cd6bf144a0100726565d.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Mar 2023 13:37:21 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 15 Mar 2023 10:25:27 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>平生见闻集（第2期）</title>
+      <link>https://blog.jk2077.com/posts/weekly-02/</link>
+      <pubDate>Wed, 15 Mar 2023 10:25:27 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/weekly-02/</guid>
+      <description>浪潮之下</description>
+    </item>
+    
     <item>
       <title>Friend</title>
       <link>https://blog.jk2077.com/friend/</link>
@@ -77,6 +87,15 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
       
       <guid>https://blog.jk2077.com/posts/life/to-the-moon/</guid>
       <description>我爱你，甚至愿意放弃我自己</description>
+    </item>
+    
+    <item>
+      <title>平生见闻集（第1期）</title>
+      <link>https://blog.jk2077.com/posts/weekly-01/</link>
+      <pubDate>Fri, 24 Feb 2023 11:00:19 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/weekly-01/</guid>
+      <description>接受一个不太完美的开始</description>
     </item>
     
     <item>

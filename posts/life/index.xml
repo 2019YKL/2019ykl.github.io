@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>所述浮生 on JK Blog</title>
-    <link>https://blog.jk2077.com/categories/%E6%89%80%E8%BF%B0%E6%B5%AE%E7%94%9F/</link>
-    <description>Recent content in 所述浮生 on JK Blog</description>
+    <title>平生所历 on JK Blog</title>
+    <link>https://blog.jk2077.com/posts/life/</link>
+    <description>Recent content in 平生所历 on JK Blog</description>
     <image>
       <title>JK Blog</title>
       <url>https://pic.imgdb.cn/item/63f0cd6bf144a0100726565d.png</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 13 Mar 2023 13:37:21 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/categories/%E6%89%80%E8%BF%B0%E6%B5%AE%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Mar 2023 13:37:21 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/posts/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>工具无法成就</title>
       <link>https://blog.jk2077.com/posts/life/tools-cant-make-me-better/</link>
@@ -19,6 +19,15 @@
       
       <guid>https://blog.jk2077.com/posts/life/tools-cant-make-me-better/</guid>
       <description>如无必要 勿增实体</description>
+    </item>
+    
+    <item>
+      <title>To the Moon</title>
+      <link>https://blog.jk2077.com/posts/life/to-the-moon/</link>
+      <pubDate>Fri, 10 Mar 2023 12:46:55 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/life/to-the-moon/</guid>
+      <description>我爱你，甚至愿意放弃我自己</description>
     </item>
     
     <item>

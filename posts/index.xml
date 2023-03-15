@@ -10,14 +10,15 @@
       <link>https://pic.imgdb.cn/item/63f0cd6bf144a0100726565d.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Mar 2023 13:37:21 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 15 Mar 2023 10:25:27 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>工具无法成就</title>
-      <link>https://blog.jk2077.com/posts/life/tools-cant-make-me-better/</link>
-      <pubDate>Mon, 13 Mar 2023 13:37:21 +0800</pubDate>
+      <title>平生见闻集（第2期）</title>
+      <link>https://blog.jk2077.com/posts/weekly-02/</link>
+      <pubDate>Wed, 15 Mar 2023 10:25:27 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/life/tools-cant-make-me-better/</guid>
-      <description>如无必要 勿增实体</description>
+      <guid>https://blog.jk2077.com/posts/weekly-02/</guid>
+      <description>浪潮之下</description>
     </item>
     
     <item>
@@ -44,21 +45,12 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
     </item>
     
     <item>
-      <title>To the Moon</title>
-      <link>https://blog.jk2077.com/posts/life/to-the-moon/</link>
-      <pubDate>Fri, 10 Mar 2023 12:46:55 +0800</pubDate>
+      <title>平生见闻集（第1期）</title>
+      <link>https://blog.jk2077.com/posts/weekly-01/</link>
+      <pubDate>Fri, 24 Feb 2023 11:00:19 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/life/to-the-moon/</guid>
-      <description>我爱你，甚至愿意放弃我自己</description>
-    </item>
-    
-    <item>
-      <title>今夕月明</title>
-      <link>https://blog.jk2077.com/posts/life/moon-tonight/</link>
-      <pubDate>Wed, 13 Jul 2022 12:53:13 +2000</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/life/moon-tonight/</guid>
-      <description>何处无月 但少闲人</description>
+      <guid>https://blog.jk2077.com/posts/weekly-01/</guid>
+      <description>接受一个不太完美的开始</description>
     </item>
     
     <item>
@@ -68,33 +60,6 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
       
       <guid>https://blog.jk2077.com/posts/game/hollow-knight/</guid>
       <description>没有为苦难哭泣的声音</description>
-    </item>
-    
-    <item>
-      <title>你不要担心</title>
-      <link>https://blog.jk2077.com/posts/life/dont-worry/</link>
-      <pubDate>Fri, 26 Nov 2021 13:14:16 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/life/dont-worry/</guid>
-      <description>告知这世间 你定会寻找新的梦想</description>
-    </item>
-    
-    <item>
-      <title>半截蒲公英</title>
-      <link>https://blog.jk2077.com/posts/life/half-dandelion/</link>
-      <pubDate>Sun, 21 Feb 2021 09:00:57 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/life/half-dandelion/</guid>
-      <description>半截远方 半截故乡</description>
-    </item>
-    
-    <item>
-      <title>再见 吾友</title>
-      <link>https://blog.jk2077.com/posts/life/goodbye-my-friend/</link>
-      <pubDate>Mon, 15 Jan 2018 13:24:42 +2300</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/life/goodbye-my-friend/</guid>
-      <description>自你离开 世界如白</description>
     </item>
     
   </channel>
