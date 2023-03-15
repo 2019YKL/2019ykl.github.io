@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>平生见闻集 on JK Blog</title>
-    <link>https://blog.jk2077.com/categories/%E5%B9%B3%E7%94%9F%E8%A7%81%E9%97%BB%E9%9B%86/</link>
+    <link>https://blog.jk2077.com/weekly/</link>
     <description>Recent content in 平生见闻集 on JK Blog</description>
     <image>
       <title>JK Blog</title>
@@ -11,22 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Mar 2023 10:25:27 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/categories/%E5%B9%B3%E7%94%9F%E8%A7%81%E9%97%BB%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Mar 2023 10:25:27 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/weekly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>平生见闻集（第2期）</title>
-      <link>https://blog.jk2077.com/posts/weekly-02/</link>
+      <link>https://blog.jk2077.com/weekly/weekly-02/</link>
       <pubDate>Wed, 15 Mar 2023 10:25:27 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/weekly-02/</guid>
+      <guid>https://blog.jk2077.com/weekly/weekly-02/</guid>
       <description>浪潮之下</description>
     </item>
     
     <item>
       <title>平生见闻集（第1期）</title>
-      <link>https://blog.jk2077.com/posts/weekly-01/</link>
+      <link>https://blog.jk2077.com/weekly/weekly-01/</link>
       <pubDate>Fri, 24 Feb 2023 11:00:19 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/weekly-01/</guid>
+      <guid>https://blog.jk2077.com/weekly/weekly-01/</guid>
       <description>接受一个不太完美的开始</description>
     </item>
     

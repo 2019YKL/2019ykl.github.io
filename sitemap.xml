@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.jk2077.com/categories/</loc>
-    <lastmod>2023-03-15T10:25:27+08:00</lastmod>
-  </url><url>
     <loc>https://blog.jk2077.com/</loc>
     <lastmod>2023-03-15T10:25:27+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jk2077.com/posts/</loc>
+    <loc>https://blog.jk2077.com/weekly/</loc>
     <lastmod>2023-03-15T10:25:27+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jk2077.com/categories/%E5%B9%B3%E7%94%9F%E8%A7%81%E9%97%BB%E9%9B%86/</loc>
-    <lastmod>2023-03-15T10:25:27+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/posts/weekly-02/</loc>
+    <loc>https://blog.jk2077.com/weekly/weekly-02/</loc>
     <lastmod>2023-03-15T10:25:27+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/friend/</loc>
     <lastmod>2023-03-13T15:22:41+08:00</lastmod>
   </url><url>
+    <loc>https://blog.jk2077.com/categories/</loc>
+    <lastmod>2023-03-13T13:37:21+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/</loc>
+    <lastmod>2023-03-13T13:37:21+08:00</lastmod>
+  </url><url>
     <loc>https://blog.jk2077.com/posts/life/tools-cant-make-me-better/</loc>
     <lastmod>2023-03-13T13:37:21+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jk2077.com/posts/life/</loc>
+    <loc>https://blog.jk2077.com/categories/%E6%89%80%E8%BF%B0%E6%B5%AE%E7%94%9F/</loc>
     <lastmod>2023-03-13T13:37:21+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jk2077.com/categories/%E6%89%80%E8%BF%B0%E6%B5%AE%E7%94%9F/</loc>
+    <loc>https://blog.jk2077.com/posts/life/</loc>
     <lastmod>2023-03-13T13:37:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/tags/hugo/</loc>
@@ -35,10 +35,13 @@
     <loc>https://blog.jk2077.com/tags/</loc>
     <lastmod>2023-03-12T08:53:58+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jk2077.com/posts/code/use-hugo-to-build-blog/</loc>
+    <loc>https://blog.jk2077.com/posts/tech/use-hugo-to-build-blog/</loc>
     <lastmod>2023-03-12T08:53:58+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2023-03-12T08:53:58+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/tech/</loc>
     <lastmod>2023-03-12T08:53:58+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/log/</loc>
@@ -47,17 +50,20 @@
     <loc>https://blog.jk2077.com/about/</loc>
     <lastmod>2023-03-11T10:03:18+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jk2077.com/posts/life/to-the-moon/</loc>
-    <lastmod>2023-03-10T12:46:55+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/categories/%E6%B8%B8%E6%88%8F%E4%B8%96%E7%95%8C/</loc>
-    <lastmod>2023-03-10T12:46:55+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/posts/weekly-01/</loc>
+    <loc>https://blog.jk2077.com/weekly/weekly-01/</loc>
     <lastmod>2023-02-24T11:00:19+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/posts/life/moon-tonight/</loc>
     <lastmod>2022-07-13T12:53:13+20:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/game/to-the-moon/</loc>
+    <lastmod>2022-03-10T12:46:55+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/categories/%E6%B8%B8%E6%88%8F%E4%B8%96%E7%95%8C/</loc>
+    <lastmod>2022-03-10T12:46:55+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/game/</loc>
+    <lastmod>2022-03-10T12:46:55+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/posts/game/hollow-knight/</loc>
     <lastmod>2022-01-03T09:42:54+08:00</lastmod>

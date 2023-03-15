@@ -14,10 +14,10 @@
     <lastBuildDate>Wed, 15 Mar 2023 10:25:27 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>平生见闻集（第2期）</title>
-      <link>https://blog.jk2077.com/posts/weekly-02/</link>
+      <link>https://blog.jk2077.com/weekly/weekly-02/</link>
       <pubDate>Wed, 15 Mar 2023 10:25:27 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/weekly-02/</guid>
+      <guid>https://blog.jk2077.com/weekly/weekly-02/</guid>
       <description>浪潮之下</description>
     </item>
     
@@ -41,25 +41,26 @@
     
     <item>
       <title>使用Hugo搭建博客</title>
-      <link>https://blog.jk2077.com/posts/code/use-hugo-to-build-blog/</link>
+      <link>https://blog.jk2077.com/posts/tech/use-hugo-to-build-blog/</link>
       <pubDate>Sun, 12 Mar 2023 08:53:58 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/code/use-hugo-to-build-blog/</guid>
+      <guid>https://blog.jk2077.com/posts/tech/use-hugo-to-build-blog/</guid>
       <description>环境配置 博主本人目前使用的系统为Window11，如希望使用Hugo，需要先下载对应的编译器
 编译器地址：Release v0.111.1 · gohugoio/hugo (github.com)
 下载完后需要配置环境路径，可以参考这里：教你四步配置Hugo环境_hugo配置环境
 完成上述配置后，可以在CMD中输入以下命令验证是否配置成功
-1 hugo version 创建网站 创建一个新的站点，这里我命名为Blog,Hugo默认配置文件后缀为toml,这里PaperMod设置了参数，使用yml方案。
-1 hugo new site Blog -f yml 主题配置 Hugo社区主题较为丰富，这里我选择了PaperMod主题，也是本博客所使用的主题。
+hugo version 创建网站 创建一个新的站点，这里我命名为Blog,Hugo默认配置文件后缀为toml,这里PaperMod设置了参数，使用yml方案。
+hugo new site Blog -f yml 主题配置 Hugo社区主题较为丰富，这里我选择了PaperMod主题，也是本博客所使用的主题。
 参考他们主题安装方案地址：Installation · adityatelange/hugo-PaperMod Wiki (github.com)
 这里选择第二种安装方案，使用submodule来安装，便于后续主题更新。
-1 2 git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically) 之后在config.yml中修改字段theme:PaperMod即可。
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically) 之后在config.yml中修改字段theme:PaperMod即可。
 Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hugo-PaperMod/config.yml at exampleSite · adityatelange/hugo-PaperMod (github.com)
 直接将它复制到你的config.yml即可。
 绑定域名 如需绑定自己的域名，将config.yml中的baseURL修改为自己的域名，例如https://blog.jk2077.com/,路径最后的/注意不要忽略。
 之后Github Page中添加自定义域名，域名商添加CNAME解析即可。
 生成文章 输入命令如下
-1 hugo new posts/first-post.</description>
+hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录posts之下。
+本地调试 如果希望本地预览，可以输入命令</description>
     </item>
     
     <item>
@@ -68,7 +69,7 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
       <pubDate>Sat, 11 Mar 2023 10:04:53 +0800</pubDate>
       
       <guid>https://blog.jk2077.com/log/</guid>
-      <description>2023-03-10 更换博客模板至Hugo-Paper-Mod主题 为网站添加评论区 上线Memos单页 移动设备导航栏自适应 2023-03-13 更新网站图标 添加归档页 增加友情链接页面 </description>
+      <description>2023-03-10 更换博客模板至Hugo-Paper-Mod主题 为网站添加评论区 上线Memos单页 移动设备导航栏自适应 2023-03-13 更新网站图标 添加归档页 增加友情链接页面 所述浮生 日期: 2023-03-13 </description>
     </item>
     
     <item>
@@ -81,20 +82,11 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
     </item>
     
     <item>
-      <title>To the Moon</title>
-      <link>https://blog.jk2077.com/posts/life/to-the-moon/</link>
-      <pubDate>Fri, 10 Mar 2023 12:46:55 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/life/to-the-moon/</guid>
-      <description>我爱你，甚至愿意放弃我自己</description>
-    </item>
-    
-    <item>
       <title>平生见闻集（第1期）</title>
-      <link>https://blog.jk2077.com/posts/weekly-01/</link>
+      <link>https://blog.jk2077.com/weekly/weekly-01/</link>
       <pubDate>Fri, 24 Feb 2023 11:00:19 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/weekly-01/</guid>
+      <guid>https://blog.jk2077.com/weekly/weekly-01/</guid>
       <description>接受一个不太完美的开始</description>
     </item>
     
@@ -105,6 +97,15 @@ Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hu
       
       <guid>https://blog.jk2077.com/posts/life/moon-tonight/</guid>
       <description>何处无月 但少闲人</description>
+    </item>
+    
+    <item>
+      <title>去月球</title>
+      <link>https://blog.jk2077.com/posts/game/to-the-moon/</link>
+      <pubDate>Thu, 10 Mar 2022 12:46:55 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/game/to-the-moon/</guid>
+      <description>亲爱的 月球上见</description>
     </item>
     
     <item>
