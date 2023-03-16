@@ -54,22 +54,7 @@
       <pubDate>Sun, 12 Mar 2023 08:53:58 +0800</pubDate>
       
       <guid>https://blog.jk2077.com/posts/tech/use-hugo-to-build-blog/</guid>
-      <description>环境配置 博主本人目前使用的系统为Window11，如希望使用Hugo，需要先下载对应的编译器
-编译器地址：Release v0.111.1 · gohugoio/hugo (github.com)
-下载完后需要配置环境路径，可以参考这里：教你四步配置Hugo环境_hugo配置环境
-完成上述配置后，可以在CMD中输入以下命令验证是否配置成功
-hugo version 创建网站 创建一个新的站点，这里我命名为Blog,Hugo默认配置文件后缀为toml,这里PaperMod设置了参数，使用yml方案。
-hugo new site Blog -f yml 主题配置 Hugo社区主题较为丰富，这里我选择了PaperMod主题，也是本博客所使用的主题。
-参考他们主题安装方案地址：Installation · adityatelange/hugo-PaperMod Wiki (github.com)
-这里选择第二种安装方案，使用submodule来安装，便于后续主题更新。
-git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically) 之后在config.yml中修改字段theme:PaperMod即可。
-Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hugo-PaperMod/config.yml at exampleSite · adityatelange/hugo-PaperMod (github.com)
-直接将它复制到你的config.yml即可。
-绑定域名 如需绑定自己的域名，将config.yml中的baseURL修改为自己的域名，例如https://blog.jk2077.com/,路径最后的/注意不要忽略。
-之后Github Page中添加自定义域名，域名商添加CNAME解析即可。
-生成文章 输入命令如下
-hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录posts之下。
-本地调试 如果希望本地预览，可以输入命令</description>
+      <description>懒为第一生产力</description>
     </item>
     
     <item>
@@ -78,7 +63,8 @@ hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录pos
       <pubDate>Sat, 11 Mar 2023 10:04:53 +0800</pubDate>
       
       <guid>https://blog.jk2077.com/log/</guid>
-      <description>2023-03-10 更换博客模板至Hugo-Paper-Mod主题 为网站添加评论区 上线Memos单页 移动设备导航栏自适应 2023-03-13 更新网站图标 添加归档页 增加友情链接页面 所述浮生 日期: 2023-03-13 </description>
+      <description>2023-03-10 更换博客模板至Hugo-Paper-Mod主题 为网站添加评论区 上线Memos单页 移动设备导航栏自适应 2023-03-13 更新网站图标 添加归档页 增加友情链接页面 2023-03-16
+更新所有已有博文 </description>
     </item>
     
     <item>
@@ -100,12 +86,129 @@ hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录pos
     </item>
     
     <item>
+      <title>小谈图床</title>
+      <link>https://blog.jk2077.com/posts/tech/picture-bed/</link>
+      <pubDate>Thu, 29 Dec 2022 15:04:16 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/picture-bed/</guid>
+      <description>选择很多 选择很少</description>
+    </item>
+    
+    <item>
+      <title>博客图片 优化方案</title>
+      <link>https://blog.jk2077.com/posts/image-optimization/</link>
+      <pubDate>Mon, 17 Oct 2022 16:47:05 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/image-optimization/</guid>
+      <description>优化图片 加载更快</description>
+    </item>
+    
+    <item>
+      <title>网站检测</title>
+      <link>https://blog.jk2077.com/posts/tech/check-website-situation/</link>
+      <pubDate>Sun, 16 Oct 2022 16:43:08 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/check-website-situation/</guid>
+      <description>网站情况 一目了然</description>
+    </item>
+    
+    <item>
+      <title>又见 2077赛博朋克</title>
+      <link>https://blog.jk2077.com/posts/art/movie/cyberpunk-edgerunners/</link>
+      <pubDate>Mon, 03 Oct 2022 14:50:17 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/movie/cyberpunk-edgerunners/</guid>
+      <description>看呐 妈妈 我就站在荒坂塔的顶端</description>
+    </item>
+    
+    <item>
+      <title>人生难忘张丽君</title>
+      <link>https://blog.jk2077.com/posts/art/movie/renjianshi/</link>
+      <pubDate>Thu, 22 Sep 2022 14:45:57 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/movie/renjianshi/</guid>
+      <description>偶尔治愈，常常帮助，总是安慰。</description>
+    </item>
+    
+    <item>
+      <title>文本配音方案</title>
+      <link>https://blog.jk2077.com/posts/tech/recommend-dubbing-scheme/</link>
+      <pubDate>Thu, 18 Aug 2022 16:36:25 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/recommend-dubbing-scheme/</guid>
+      <description>配音这个难题 不如交给AI来处理</description>
+    </item>
+    
+    <item>
+      <title>人生第一次</title>
+      <link>https://blog.jk2077.com/posts/art/movie/the-first-in-life/</link>
+      <pubDate>Wed, 17 Aug 2022 14:39:33 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/movie/the-first-in-life/</guid>
+      <description>人生初见 春和景明</description>
+    </item>
+    
+    <item>
+      <title>写作小助手</title>
+      <link>https://blog.jk2077.com/posts/tech/writing-helper/</link>
+      <pubDate>Fri, 29 Jul 2022 16:32:56 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/writing-helper/</guid>
+      <description>写作卡词 码文必备</description>
+    </item>
+    
+    <item>
       <title>今夕月明</title>
       <link>https://blog.jk2077.com/posts/life/moon-tonight/</link>
       <pubDate>Wed, 13 Jul 2022 12:53:13 +2000</pubDate>
       
       <guid>https://blog.jk2077.com/posts/life/moon-tonight/</guid>
       <description>何处无月 但少闲人</description>
+    </item>
+    
+    <item>
+      <title>泰拉瑞亚 私服搭建</title>
+      <link>https://blog.jk2077.com/posts/game/terraria-build/</link>
+      <pubDate>Thu, 30 Jun 2022 16:27:57 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/game/terraria-build/</guid>
+      <description>我们的旅途 刚刚开始</description>
+    </item>
+    
+    <item>
+      <title>年少的梦</title>
+      <link>https://blog.jk2077.com/posts/life/young-boy-dream/</link>
+      <pubDate>Thu, 23 Jun 2022 15:51:55 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/life/young-boy-dream/</guid>
+      <description>欲买桂花同载酒，终不似，少年游</description>
+    </item>
+    
+    <item>
+      <title>骄阳似我</title>
+      <link>https://blog.jk2077.com/posts/art/movie/good-wiil-hunting/</link>
+      <pubDate>Mon, 28 Mar 2022 14:34:04 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/movie/good-wiil-hunting/</guid>
+      <description>孩子 那不是你的错</description>
+    </item>
+    
+    <item>
+      <title>密码管理 软件横评</title>
+      <link>https://blog.jk2077.com/posts/tech/password-tool-recommend/</link>
+      <pubDate>Sun, 27 Mar 2022 15:25:42 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/password-tool-recommend/</guid>
+      <description>开源即为信仰</description>
+    </item>
+    
+    <item>
+      <title>钢琴家</title>
+      <link>https://blog.jk2077.com/posts/art/movie/the-pianist/</link>
+      <pubDate>Sat, 12 Mar 2022 14:29:32 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/movie/the-pianist/</guid>
+      <description>有些电影 多看一眼便是残忍</description>
     </item>
     
     <item>
@@ -118,12 +221,66 @@ hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录pos
     </item>
     
     <item>
+      <title>爱在黄昏日落前</title>
+      <link>https://blog.jk2077.com/posts/art/movie/before-sunset/</link>
+      <pubDate>Mon, 28 Feb 2022 14:18:56 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/movie/before-sunset/</guid>
+      <description>浪漫于我 并非易事</description>
+    </item>
+    
+    <item>
+      <title>搏击俱乐部</title>
+      <link>https://blog.jk2077.com/posts/art/movie/fight-club/</link>
+      <pubDate>Mon, 14 Feb 2022 14:09:04 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/movie/fight-club/</guid>
+      <description>垂垂老矣之时，何以告慰平生？</description>
+    </item>
+    
+    <item>
+      <title>2021 我的年度歌单推荐</title>
+      <link>https://blog.jk2077.com/posts/art/music/2021-music-recommend/</link>
+      <pubDate>Sun, 30 Jan 2022 11:00:38 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/music/2021-music-recommend/</guid>
+      <description>推荐歌曲 一首便好</description>
+    </item>
+    
+    <item>
+      <title>使用Steam启动Epic游戏</title>
+      <link>https://blog.jk2077.com/posts/game/use-steam-start-up-epic/</link>
+      <pubDate>Thu, 13 Jan 2022 15:19:16 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/game/use-steam-start-up-epic/</guid>
+      <description>E宝加油 G胖你好</description>
+    </item>
+    
+    <item>
+      <title>搭建自用导航</title>
+      <link>https://blog.jk2077.com/posts/tech/self-webstack/</link>
+      <pubDate>Wed, 12 Jan 2022 15:10:23 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/self-webstack/</guid>
+      <description>自建导航 快速寻址</description>
+    </item>
+    
+    <item>
       <title>空洞骑士</title>
       <link>https://blog.jk2077.com/posts/game/hollow-knight/</link>
       <pubDate>Mon, 03 Jan 2022 09:42:54 +0800</pubDate>
       
       <guid>https://blog.jk2077.com/posts/game/hollow-knight/</guid>
       <description>没有为苦难哭泣的声音</description>
+    </item>
+    
+    <item>
+      <title>心有猛虎</title>
+      <link>https://blog.jk2077.com/posts/art/movie/life-of-pi/</link>
+      <pubDate>Mon, 13 Dec 2021 19:21:37 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/movie/life-of-pi/</guid>
+      <description>我心有猛虎 细嗅蔷薇</description>
     </item>
     
     <item>

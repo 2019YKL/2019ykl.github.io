@@ -18,22 +18,61 @@
       <pubDate>Sun, 12 Mar 2023 08:53:58 +0800</pubDate>
       
       <guid>https://blog.jk2077.com/posts/tech/use-hugo-to-build-blog/</guid>
-      <description>环境配置 博主本人目前使用的系统为Window11，如希望使用Hugo，需要先下载对应的编译器
-编译器地址：Release v0.111.1 · gohugoio/hugo (github.com)
-下载完后需要配置环境路径，可以参考这里：教你四步配置Hugo环境_hugo配置环境
-完成上述配置后，可以在CMD中输入以下命令验证是否配置成功
-hugo version 创建网站 创建一个新的站点，这里我命名为Blog,Hugo默认配置文件后缀为toml,这里PaperMod设置了参数，使用yml方案。
-hugo new site Blog -f yml 主题配置 Hugo社区主题较为丰富，这里我选择了PaperMod主题，也是本博客所使用的主题。
-参考他们主题安装方案地址：Installation · adityatelange/hugo-PaperMod Wiki (github.com)
-这里选择第二种安装方案，使用submodule来安装，便于后续主题更新。
-git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically) 之后在config.yml中修改字段theme:PaperMod即可。
-Hugo主题一般会提供范例配置文件，PaperMod的范例文件参考：hugo-PaperMod/config.yml at exampleSite · adityatelange/hugo-PaperMod (github.com)
-直接将它复制到你的config.yml即可。
-绑定域名 如需绑定自己的域名，将config.yml中的baseURL修改为自己的域名，例如https://blog.jk2077.com/,路径最后的/注意不要忽略。
-之后Github Page中添加自定义域名，域名商添加CNAME解析即可。
-生成文章 输入命令如下
-hugo new posts/first-post.md 第一篇文章便生成了，文章位于目录posts之下。
-本地调试 如果希望本地预览，可以输入命令</description>
+      <description>懒为第一生产力</description>
+    </item>
+    
+    <item>
+      <title>小谈图床</title>
+      <link>https://blog.jk2077.com/posts/tech/picture-bed/</link>
+      <pubDate>Thu, 29 Dec 2022 15:04:16 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/picture-bed/</guid>
+      <description>选择很多 选择很少</description>
+    </item>
+    
+    <item>
+      <title>网站检测</title>
+      <link>https://blog.jk2077.com/posts/tech/check-website-situation/</link>
+      <pubDate>Sun, 16 Oct 2022 16:43:08 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/check-website-situation/</guid>
+      <description>网站情况 一目了然</description>
+    </item>
+    
+    <item>
+      <title>文本配音方案</title>
+      <link>https://blog.jk2077.com/posts/tech/recommend-dubbing-scheme/</link>
+      <pubDate>Thu, 18 Aug 2022 16:36:25 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/recommend-dubbing-scheme/</guid>
+      <description>配音这个难题 不如交给AI来处理</description>
+    </item>
+    
+    <item>
+      <title>写作小助手</title>
+      <link>https://blog.jk2077.com/posts/tech/writing-helper/</link>
+      <pubDate>Fri, 29 Jul 2022 16:32:56 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/writing-helper/</guid>
+      <description>写作卡词 码文必备</description>
+    </item>
+    
+    <item>
+      <title>密码管理 软件横评</title>
+      <link>https://blog.jk2077.com/posts/tech/password-tool-recommend/</link>
+      <pubDate>Sun, 27 Mar 2022 15:25:42 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/password-tool-recommend/</guid>
+      <description>开源即为信仰</description>
+    </item>
+    
+    <item>
+      <title>搭建自用导航</title>
+      <link>https://blog.jk2077.com/posts/tech/self-webstack/</link>
+      <pubDate>Wed, 12 Jan 2022 15:10:23 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/self-webstack/</guid>
+      <description>自建导航 快速寻址</description>
     </item>
     
   </channel>
