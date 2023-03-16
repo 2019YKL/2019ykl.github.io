@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Mar 2023 08:53:58 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 21:05:06 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexo分布式部署</title>
+      <link>https://blog.jk2077.com/posts/tech/hexo-distributed-deployment/</link>
+      <pubDate>Thu, 16 Mar 2023 21:05:06 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/hexo-distributed-deployment/</guid>
+      <description>分布部署 访问更快</description>
+    </item>
+    
     <item>
       <title>使用Hugo搭建博客</title>
       <link>https://blog.jk2077.com/posts/tech/use-hugo-to-build-blog/</link>
@@ -28,6 +37,42 @@
       
       <guid>https://blog.jk2077.com/posts/tech/picture-bed/</guid>
       <description>选择很多 选择很少</description>
+    </item>
+    
+    <item>
+      <title>2022年度工具推荐</title>
+      <link>https://blog.jk2077.com/posts/tech/2022-tool-recommend/</link>
+      <pubDate>Mon, 19 Dec 2022 20:50:28 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/2022-tool-recommend/</guid>
+      <description>产品皆活物 用者无机心</description>
+    </item>
+    
+    <item>
+      <title>markdown简单应用</title>
+      <link>https://blog.jk2077.com/posts/tech/markdown-application/</link>
+      <pubDate>Mon, 07 Nov 2022 20:57:50 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/markdown-application/</guid>
+      <description>轻量语言 简单排版</description>
+    </item>
+    
+    <item>
+      <title>Git 学习笔记</title>
+      <link>https://blog.jk2077.com/posts/tech/learn-git/</link>
+      <pubDate>Sat, 29 Oct 2022 21:29:04 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/learn-git/</guid>
+      <description>版本管理 好用快捷</description>
+    </item>
+    
+    <item>
+      <title>Hexo 学习笔记</title>
+      <link>https://blog.jk2077.com/posts/tech/hexo-note/</link>
+      <pubDate>Wed, 19 Oct 2022 21:57:29 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/hexo-note/</guid>
+      <description>Hello Hexo</description>
     </item>
     
     <item>

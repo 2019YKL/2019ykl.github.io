@@ -5,8 +5,23 @@
     <loc>https://blog.jk2077.com/posts/life/desire-life/</loc>
     <lastmod>2021-10-24T10:58:34+08:00</lastmod>
   </url><url>
+    <loc>https://blog.jk2077.com/categories/</loc>
+    <lastmod>2023-03-16T21:05:06+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/tech/hexo-distributed-deployment/</loc>
+    <lastmod>2023-03-16T21:05:06+08:00</lastmod>
+  </url><url>
     <loc>https://blog.jk2077.com/</loc>
-    <lastmod>2023-03-15T10:25:27+08:00</lastmod>
+    <lastmod>2023-03-16T21:05:06+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/</loc>
+    <lastmod>2023-03-16T21:05:06+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2023-03-16T21:05:06+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/tech/</loc>
+    <lastmod>2023-03-16T21:05:06+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/weekly/</loc>
     <lastmod>2023-03-15T10:25:27+08:00</lastmod>
@@ -16,12 +31,6 @@
   </url><url>
     <loc>https://blog.jk2077.com/friend/</loc>
     <lastmod>2023-03-13T15:22:41+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/categories/</loc>
-    <lastmod>2023-03-13T13:37:21+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/posts/</loc>
-    <lastmod>2023-03-13T13:37:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/posts/life/tools-cant-make-me-better/</loc>
     <lastmod>2023-03-13T13:37:21+08:00</lastmod>
@@ -41,12 +50,6 @@
     <loc>https://blog.jk2077.com/posts/tech/use-hugo-to-build-blog/</loc>
     <lastmod>2023-03-12T08:53:58+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jk2077.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-03-12T08:53:58+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/posts/tech/</loc>
-    <lastmod>2023-03-12T08:53:58+08:00</lastmod>
-  </url><url>
     <loc>https://blog.jk2077.com/log/</loc>
     <lastmod>2023-03-11T10:04:53+08:00</lastmod>
   </url><url>
@@ -61,6 +64,18 @@
   </url><url>
     <loc>https://blog.jk2077.com/posts/tech/picture-bed/</loc>
     <lastmod>2022-12-29T15:04:16+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/tech/2022-tool-recommend/</loc>
+    <lastmod>2022-12-19T20:50:28+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/tech/markdown-application/</loc>
+    <lastmod>2022-11-07T20:57:50+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/tech/learn-git/</loc>
+    <lastmod>2022-10-29T21:29:04+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/tech/hexo-note/</loc>
+    <lastmod>2022-10-19T21:57:29+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/posts/tech/image-optimization/</loc>
     <lastmod>2022-10-17T16:47:05+08:00</lastmod>
