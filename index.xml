@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Mar 2023 21:05:06 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Mar 2023 22:31:23 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>渴望生活</title>
       <link>https://blog.jk2077.com/posts/life/desire-life/</link>
@@ -22,30 +22,12 @@
     </item>
     
     <item>
-      <title>Hexo分布式部署</title>
-      <link>https://blog.jk2077.com/posts/tech/hexo-distributed-deployment/</link>
-      <pubDate>Thu, 16 Mar 2023 21:05:06 +0800</pubDate>
+      <title>平生见闻集 （第3期）</title>
+      <link>https://blog.jk2077.com/weekly/weekly-03/</link>
+      <pubDate>Mon, 13 Mar 2023 22:31:23 +0800</pubDate>
       
-      <guid>https://blog.jk2077.com/posts/tech/hexo-distributed-deployment/</guid>
-      <description>分布部署 访问更快</description>
-    </item>
-    
-    <item>
-      <title>平生见闻集（第2期）</title>
-      <link>https://blog.jk2077.com/weekly/weekly-02/</link>
-      <pubDate>Wed, 15 Mar 2023 10:25:27 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/weekly/weekly-02/</guid>
-      <description>浪潮之下</description>
-    </item>
-    
-    <item>
-      <title>Friend</title>
-      <link>https://blog.jk2077.com/friend/</link>
-      <pubDate>Mon, 13 Mar 2023 15:22:41 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/friend/</guid>
-      <description> Sulv&amp;#39;s Blog 一个记录技术、阅读、生活的博客 </description>
+      <guid>https://blog.jk2077.com/weekly/weekly-03/</guid>
+      <description>勇者终成恶龙</description>
     </item>
     
     <item>
@@ -73,7 +55,7 @@
       
       <guid>https://blog.jk2077.com/log/</guid>
       <description>2023-03-10 更换博客模板至Hugo-Paper-Mod主题 为网站添加评论区 上线Memos单页 移动设备导航栏自适应 2023-03-13 更新网站图标 添加归档页 增加友情链接页面 2023-03-16
-更新所有已有博文 </description>
+同步Hexo目前所有已有博文 更新相关社交图标 </description>
     </item>
     
     <item>
@@ -83,6 +65,15 @@
       
       <guid>https://blog.jk2077.com/about/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>平生见闻集（第2期）</title>
+      <link>https://blog.jk2077.com/weekly/weekly-02/</link>
+      <pubDate>Mon, 06 Mar 2023 10:25:27 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/weekly/weekly-02/</guid>
+      <description>浪潮之下</description>
     </item>
     
     <item>
@@ -110,6 +101,15 @@
       
       <guid>https://blog.jk2077.com/posts/tech/2022-tool-recommend/</guid>
       <description>产品皆活物 用者无机心</description>
+    </item>
+    
+    <item>
+      <title>Hexo分布式部署</title>
+      <link>https://blog.jk2077.com/posts/tech/hexo-distributed-deployment/</link>
+      <pubDate>Fri, 25 Nov 2022 21:05:06 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/hexo-distributed-deployment/</guid>
+      <description>分布部署 访问更快</description>
     </item>
     
     <item>
