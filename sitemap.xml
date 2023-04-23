@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.jk2077.com/categories/</loc>
-    <lastmod>2023-04-09T23:04:26+08:00</lastmod>
+    <lastmod>2023-04-21T16:36:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/tech/gpt4-power-beyond-imagination/</loc>
+    <lastmod>2023-04-21T16:36:36+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/</loc>
-    <lastmod>2023-04-09T23:04:26+08:00</lastmod>
+    <lastmod>2023-04-21T16:36:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/</loc>
+    <lastmod>2023-04-21T16:36:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2023-04-21T16:36:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/tech/</loc>
+    <lastmod>2023-04-21T16:36:36+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/categories/%E5%B9%B3%E7%94%9F%E8%A7%81%E9%97%BB%E9%9B%86/</loc>
     <lastmod>2023-04-09T23:04:26+08:00</lastmod>
@@ -21,9 +33,6 @@
     <lastmod>2023-04-03T00:05:36+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/posts/life/fading-daffodils/</loc>
-    <lastmod>2023-03-29T22:45:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/posts/</loc>
     <lastmod>2023-03-29T22:45:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/categories/%E6%89%80%E8%BF%B0%E6%B5%AE%E7%94%9F/</loc>
@@ -56,14 +65,8 @@
     <loc>https://blog.jk2077.com/posts/tech/use-hugo-to-build-blog/</loc>
     <lastmod>2023-03-12T08:53:58+08:00</lastmod>
   </url><url>
-    <loc>https://blog.jk2077.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-03-12T08:53:58+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/posts/tech/</loc>
-    <lastmod>2023-03-12T08:53:58+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/log/</loc>
-    <lastmod>2023-03-11T10:04:53+08:00</lastmod>
+    <loc>https://blog.jk2077.com/photo/</loc>
+    <lastmod>2023-03-11T10:03:18+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/about/</loc>
     <lastmod>2023-03-11T10:03:18+08:00</lastmod>
