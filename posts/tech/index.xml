@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Mar 2023 08:53:58 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 16:18:48 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian 页面美化</title>
+      <link>https://blog.jk2077.com/posts/tech/obsidian-beautify-/</link>
+      <pubDate>Mon, 01 May 2023 16:18:48 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/obsidian-beautify-/</guid>
+      <description>愿你繁华看尽 归来仍是原生 🤣</description>
+    </item>
+    
     <item>
       <title>使用Hugo搭建博客</title>
       <link>https://blog.jk2077.com/posts/tech/use-hugo-to-build-blog/</link>
