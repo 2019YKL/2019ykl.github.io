@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 01 Dec 2023 00:00:01 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Mar 2024 23:22:42 +2300</lastBuildDate><atom:link href="https://blog.jk2077.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>走向共和</title>
+      <link>https://blog.jk2077.com/posts/art/movie/for-the-sake-of-the-republic/</link>
+      <pubDate>Tue, 05 Mar 2024 23:22:42 +2300</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/art/movie/for-the-sake-of-the-republic/</guid>
+      <description>看中国再造共和</description>
+    </item>
+    
     <item>
       <title>博客 · 两年</title>
       <link>https://blog.jk2077.com/posts/life/blog-two-year/</link>
@@ -490,15 +499,6 @@
     </item>
     
     
-    
-    <item>
-      <title>走向共和</title>
-      <link>https://blog.jk2077.com/posts/for-the-sake-of-the-republic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/for-the-sake-of-the-republic/</guid>
-      <description>看中国再造共和</description>
-    </item>
     
   </channel>
 </rss>
