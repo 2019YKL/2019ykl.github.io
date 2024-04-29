@@ -31,24 +31,6 @@
     </item>
     
     <item>
-      <title>泰拉瑞亚 私服搭建</title>
-      <link>https://blog.jk2077.com/posts/game/terraria-build/</link>
-      <pubDate>Thu, 30 Jun 2022 16:27:57 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/game/terraria-build/</guid>
-      <description>我们的旅途 刚刚开始</description>
-    </item>
-    
-    <item>
-      <title>我的世界 私服搭建</title>
-      <link>https://blog.jk2077.com/posts/game/minecraft/</link>
-      <pubDate>Sat, 30 Apr 2022 15:43:58 +0800</pubDate>
-      
-      <guid>https://blog.jk2077.com/posts/game/minecraft/</guid>
-      <description>无垠世界 天地为家</description>
-    </item>
-    
-    <item>
       <title>去月球</title>
       <link>https://blog.jk2077.com/posts/game/to-the-moon/</link>
       <pubDate>Thu, 10 Mar 2022 12:46:55 +0800</pubDate>
@@ -73,6 +55,24 @@
       
       <guid>https://blog.jk2077.com/posts/game/hollow-knight/</guid>
       <description>没有为苦难哭泣的声音</description>
+    </item>
+    
+    <item>
+      <title>我的世界私服搭建</title>
+      <link>https://blog.jk2077.com/posts/game/minecraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/game/minecraft/</guid>
+      <description>无垠世界天地为家</description>
+    </item>
+    
+    <item>
+      <title>泰拉瑞亚私服搭建</title>
+      <link>https://blog.jk2077.com/posts/game/terraria-build/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/game/terraria-build/</guid>
+      <description>我们的旅途刚刚开始</description>
     </item>
     
   </channel>

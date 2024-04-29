@@ -2,11 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.jk2077.com/weekly/weekly-10/</loc>
+    <lastmod>2024-04-29T10:50:20+08:00</lastmod>
+  </url><url>
     <loc>https://blog.jk2077.com/categories/</loc>
-    <lastmod>2024-04-01T22:55:08+08:00</lastmod>
+    <lastmod>2024-04-29T10:50:20+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/</loc>
-    <lastmod>2024-04-01T22:55:08+08:00</lastmod>
+    <lastmod>2024-04-29T10:50:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/categories/%E5%B9%B3%E7%94%9F%E8%A7%81%E9%97%BB%E9%9B%86/</loc>
+    <lastmod>2024-04-29T10:50:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.jk2077.com/weekly/</loc>
+    <lastmod>2024-04-29T10:50:20+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/posts/</loc>
     <lastmod>2024-04-01T22:55:08+08:00</lastmod>
@@ -73,12 +82,6 @@
   </url><url>
     <loc>https://blog.jk2077.com/posts/life/%E5%B0%8F%E5%9F%8E%E4%B8%80%E5%A4%9C/</loc>
     <lastmod>2023-07-20T23:34:37+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/categories/%E5%B9%B3%E7%94%9F%E8%A7%81%E9%97%BB%E9%9B%86/</loc>
-    <lastmod>2023-05-17T10:42:37+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/weekly/</loc>
-    <lastmod>2023-05-17T10:42:37+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/weekly/weekly-09/</loc>
     <lastmod>2023-05-17T10:42:37+08:00</lastmod>
@@ -170,14 +173,8 @@
     <loc>https://blog.jk2077.com/posts/life/moon-tonight/</loc>
     <lastmod>2022-07-13T12:53:13+20:00</lastmod>
   </url><url>
-    <loc>https://blog.jk2077.com/posts/game/terraria-build/</loc>
-    <lastmod>2022-06-30T16:27:57+08:00</lastmod>
-  </url><url>
     <loc>https://blog.jk2077.com/posts/life/young-boy-dream/</loc>
     <lastmod>2022-06-23T15:51:55+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.jk2077.com/posts/game/minecraft/</loc>
-    <lastmod>2022-04-30T15:43:58+08:00</lastmod>
   </url><url>
     <loc>https://blog.jk2077.com/posts/art/movie/good-wiil-hunting/</loc>
     <lastmod>2022-03-28T14:34:04+08:00</lastmod>
@@ -241,5 +238,9 @@
     <loc>https://blog.jk2077.com/memos/</loc>
   </url><url>
     <loc>https://blog.jk2077.com/search/</loc>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/game/minecraft/</loc>
+  </url><url>
+    <loc>https://blog.jk2077.com/posts/game/terraria-build/</loc>
   </url>
 </urlset>
