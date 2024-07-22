@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Apr 2024 22:55:08 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2024 23:41:16 +0800</lastBuildDate><atom:link href="https://blog.jk2077.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PDF解析工具比对横评</title>
+      <link>https://blog.jk2077.com/posts/tech/pdf-parsing-tools-comparison/</link>
+      <pubDate>Sat, 20 Jul 2024 23:41:16 +0800</pubDate>
+      
+      <guid>https://blog.jk2077.com/posts/tech/pdf-parsing-tools-comparison/</guid>
+      <description>巧AI难为数据之拉</description>
+    </item>
+    
     <item>
       <title>认领一只赛博羊驼</title>
       <link>https://blog.jk2077.com/posts/tech/deploy-ai-model-yourself/</link>
